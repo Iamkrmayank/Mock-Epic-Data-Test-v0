@@ -1,0 +1,116 @@
+{
+  "resourceType": "string",
+  "type": "string",
+  "total": "number",
+  "link": {
+    "relation": "string",
+    "url": "string"
+  },
+  "entry": {
+    "link": {
+      "relation": "string",
+      "url": "string"
+    },
+    "fullUrl": "string",
+    "resource": {
+      "resourceType": "string",
+      "id": "string",
+      "clinicalStatus": {
+        "coding": {
+          "system": "string",
+          "version": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "verificationStatus": {
+        "coding": {
+          "system": "string",
+          "version": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "category": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "code": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "subject": {
+        "reference": "string",
+        "display": "string"
+      },
+      "onsetDateTime": "string",
+      "recordedDate": "string",
+      "note": {
+        "extension": {
+          "valueString": "string",
+          "url": "string",
+          "valueCodeableConcept": {
+            "coding": {
+              "system": "string",
+              "code": "string",
+              "display": "string"
+            },
+            "text": "string"
+          }
+        },
+        "authorReference": {
+          "reference": "string",
+          "display": "string"
+        },
+        "time": "string",
+        "text": "string"
+      },
+      "encounter": {
+        "identifier": {
+          "use": "string",
+          "system": "string",
+          "value": "string"
+        },
+        "display": "string",
+        "extension": {
+          "valueIdentifier": {
+            "use": "string",
+            "system": "string",
+            "value": "string"
+          },
+          "url": "string"
+        }
+      },
+      "recorder": {
+        "reference": "string",
+        "display": "string"
+      },
+      "issue": {
+        "severity": "string",
+        "code": "string",
+        "details": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        },
+        "diagnostics": "string"
+      }
+    },
+    "search": {
+      "mode": "string"
+    }
+  }
+}

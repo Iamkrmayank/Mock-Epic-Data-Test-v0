@@ -1,0 +1,31 @@
+{
+  "resourceType": "string",
+  "type": "string",
+  "total": "number",
+  "link": {
+    "relation": "string",
+    "url": "string"
+  },
+  "entry": {
+    "fullUrl": "string",
+    "resource": {
+      "resourceType": "string",
+      "issue": {
+        "severity": "string",
+        "code": "string",
+        "details": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        },
+        "diagnostics": "string"
+      }
+    },
+    "search": {
+      "mode": "string"
+    }
+  }
+}

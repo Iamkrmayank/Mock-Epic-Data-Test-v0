@@ -1,0 +1,76 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "fIidEgs9aUIFFBCsj1TnOXmmbOuEnhxY8XHSG-tyNFpo4",
+    "active": true,
+    "practitioner": {
+        "reference": "Practitioner/eXzZgWndjVuKaore80K8bLA3",
+        "display": "Practitioner Fhir, MD"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+                    "code": "14",
+                    "display": "Cardiologist"
+                },
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "106289002",
+                    "display": "Dentist (occupation)"
+                }
+            ],
+            "text": "Cardiologist"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+                    "code": "10",
+                    "display": "Cardiology"
+                }
+            ],
+            "text": "Cardiology"
+        },
+        {
+            "coding": [
+                {
+                    "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+                    "code": "11",
+                    "display": "Cardiac Surgery"
+                }
+            ],
+            "text": "Cardiac Surgery"
+        }
+    ],
+    "location": [
+        {
+            "reference": "Location/fN5r5RGGtyvRDgqZZ7ITj37N9MHsZtZrT.t1rBlZpiyI4"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+91 8974 512365",
+            "use": "work"
+        },
+        {
+            "system": "fax",
+            "value": "+91 9394 939494",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "fhir.practitioner@fhir.com",
+            "use": "work"
+        }
+    ],
+    "endpoint": [
+        {
+            "reference": "Endpoint/fkOK1jRjSpaKYqwl4ayJZPu6TEOgqFzahaUECIsZbyVA4",
+            "display": "Practitioner Fhir, MD"
+        }
+    ]
+}

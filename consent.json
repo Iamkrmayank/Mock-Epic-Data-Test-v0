@@ -1,0 +1,292 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 4,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent?patient=eYg3-1aJmCMq-umIIq2Njxw3&_count=20"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/e-GIKkpdUPCOpOx330CKyYQ3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/e-GIKkpdUPCOpOx330CKyYQ3",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "e-GIKkpdUPCOpOx330CKyYQ3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "724154"
+          }
+        ],
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "dateTime": "2010-12-26T02:33:07Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/e64OOR8Z.E5kiytg2xMtD0w3"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/e4ZQYtf2WclWRjbuKRNx8yA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/e4ZQYtf2WclWRjbuKRNx8yA3",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "e4ZQYtf2WclWRjbuKRNx8yA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "724158"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "10",
+              "display": "Advance Directives and Living Will"
+            }
+          ],
+          "text": "Advance Directives and Living Will"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "10",
+                "display": "Advance Directives and Living Will"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11341000146107"
+              }
+            ],
+            "text": "Advance Directives and Living Will"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "dateTime": "2010-12-26T02:33:07Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eDLf9AeEvr91HYJkBL-SsuA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eDLf9AeEvr91HYJkBL-SsuA3",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eDLf9AeEvr91HYJkBL-SsuA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "724159"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "11341000146107"
+              }
+            ],
+            "text": "Power of Attorney"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "dateTime": "2010-12-26T02:33:07Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eOuQJW-b0yjTrmBFGt1IzYg3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eOuQJW-b0yjTrmBFGt1IzYg3",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eOuQJW-b0yjTrmBFGt1IzYg3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "724160"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "12",
+              "display": "HIPAA Notice of Privacy"
+            }
+          ],
+          "text": "HIPAA Notice of Privacy"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "12",
+                "display": "HIPAA Notice of Privacy"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "dateTime": "2013-11-12T21:37:31Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

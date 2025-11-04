@@ -1,0 +1,752 @@
+[
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolec07fa834b280bd07a8e9",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract9ff21c6685ac6f379861",
+      "display": "John Smith, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLJ.EJ4jKEIQOkrtDXtBi10Q71hA1XcW9a"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-908-383-2664",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolea9c1c714d0e6b7f3a49d",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract044820dcf9fa5d694327",
+      "display": "Sarah Johnson, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-847-954-4618",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole9e093d77b73923861209",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract044820dcf9fa5d694327",
+      "display": "Sarah Johnson, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "11",
+            "display": "Internal Medicine"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "11",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-690-488-4122",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole2e13ec144621dffeeda2",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePracte081c3a378c55a1ac558",
+      "display": "Michael Williams, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLMX1C.CI3.dXRZv7qdYdk2r7xgHWPB6PRWJ"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-361-254-5603",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRoledc268bca34f2124c6d4c",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePracte6ce6756cfb188d428fd",
+      "display": "Emily Brown, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-749-559-6098",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole3e2c06c9bf30579e3689",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePracte6ce6756cfb188d428fd",
+      "display": "Emily Brown, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "11",
+            "display": "Internal Medicine"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "11",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-500-778-2984",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole33ce0aa0b7bc97c8cf2b",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract72d30a6e34f4bdc5ecf2",
+      "display": "David Jones, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLDpyOpxyB9JKmyLDUwMbqJfgLq.nbK894R"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-436-439-2505",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole1462dda8f9fdac06a89a",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePracta5d70a35ca95010a54df",
+      "display": "Maria Garcia, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-347-848-3162",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole65703cad5d94f418e502",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePracta5d70a35ca95010a54df",
+      "display": "Maria Garcia, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "11",
+            "display": "Internal Medicine"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "11",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-492-610-8234",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRoleeb1997d303977686780a",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract59edc79a1cf08d5aeb38",
+      "display": "Robert Miller, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLx.BTHRJJbykE0.E8.5clLCZFNV8S2QT6IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-474-262-9774",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolee3ddd19d5871f127a730",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract6c80fe1add36dbf2be84",
+      "display": "Jennifer Davis, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-226-507-4965",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolebb20fd92edf5b0195efc",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract6c80fe1add36dbf2be84",
+      "display": "Jennifer Davis, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "11",
+            "display": "Internal Medicine"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "11",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-852-961-9736",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolef64ebebf9252ad0b8973",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePract84edac9a25950aea6b85",
+      "display": "James Rodriguez, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLjua058LeDKK6jDHz2oCtIsjhvNK4p7M"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-644-679-7204",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRole632ea14c440eb02ac174",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePractc68430654dc29c7f9d8d",
+      "display": "Patricia Martinez, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "10",
+            "display": "Cardiologist"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Cardiologist"
+          }
+        ],
+        "text": "Cardiologist"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "10",
+            "display": "Cardiology"
+          }
+        ],
+        "text": "Cardiology"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-965-525-9189",
+        "use": "work"
+      }
+    ]
+  },
+  {
+    "resourceType": "PractitionerRole",
+    "id": "ePractRolee8f98824555dade45f16",
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/ePractc68430654dc29c7f9d8d",
+      "display": "Patricia Martinez, MD"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.836982.1040",
+            "code": "11",
+            "display": "Internal Medicine"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "106289002",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "specialty": [
+      {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.688867.4160",
+            "code": "11",
+            "display": "Internal Medicine"
+          }
+        ],
+        "text": "Internal Medicine"
+      }
+    ],
+    "location": [
+      {
+        "reference": "Location/eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+1-636-910-2915",
+        "use": "work"
+      }
+    ]
+  }
+]

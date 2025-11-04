@@ -1,0 +1,116 @@
+{
+  "resourceType": "string",
+  "id": "string",
+  "extension": {
+    "extension": {
+      "valueCodeableConcept": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "url": "string",
+      "valueDateTime": "string",
+      "valueReference": {
+        "reference": "string",
+        "display": "string"
+      }
+    },
+    "url": "string"
+  },
+  "identifier": {
+    "system": "string",
+    "value": "string"
+  },
+  "status": "string",
+  "docStatus": "string",
+  "type": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string",
+      "userSelected": "boolean"
+    },
+    "text": "string"
+  },
+  "category": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "subject": {
+    "reference": "string",
+    "display": "string"
+  },
+  "date": "string",
+  "author": {
+    "reference": "string",
+    "type": "string",
+    "display": "string"
+  },
+  "authenticator": {
+    "extension": {
+      "valueDateTime": "string",
+      "url": "string"
+    },
+    "reference": "string",
+    "type": "string",
+    "display": "string"
+  },
+  "custodian": {
+    "identifier": {
+      "system": "string",
+      "value": "string"
+    },
+    "display": "string"
+  },
+  "content": {
+    "attachment": {
+      "contentType": "string",
+      "url": "string"
+    },
+    "format": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    }
+  },
+  "context": {
+    "extension": {
+      "valueCodeableConcept": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "url": "string"
+    },
+    "encounter": {
+      "reference": "string",
+      "identifier": {
+        "use": "string",
+        "system": "string",
+        "value": "string"
+      },
+      "display": "string"
+    },
+    "period": {
+      "start": "string"
+    },
+    "practiceSetting": {
+      "coding": {
+        "system": "string",
+        "code": "string",
+        "display": "string"
+      },
+      "text": "string"
+    }
+  }
+}

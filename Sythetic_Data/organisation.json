@@ -1,0 +1,412 @@
+[
+  {
+    "resourceType": "Organization",
+    "id": "eLJ.EJ4jKEIQOkrtDXtBi10Q71hA1XcW9a",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "8676867254"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "210588617"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "774ea"
+      }
+    ],
+    "active": true,
+    "name": "Regional Medical Center",
+    "address": [
+      {
+        "text": "7776 Hospital Boulevard\\r\\nSan Antonio TX 78201\\r\\nUnited States of America",
+        "line": [
+          "7776 Hospital Boulevard"
+        ],
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78201",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "8793103917"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "352586460"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "aca01"
+      }
+    ],
+    "active": true,
+    "name": "Community Hospital",
+    "address": [
+      {
+        "text": "8192 Center Boulevard\\r\\nChicago IL 60601\\r\\nUnited States of America",
+        "line": [
+          "8192 Center Boulevard"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60601",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLMX1C.CI3.dXRZv7qdYdk2r7xgHWPB6PRWJ",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1077030428"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "543617828"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "4c8c8"
+      }
+    ],
+    "active": true,
+    "name": "General Health System",
+    "address": [
+      {
+        "text": "6554 Health Boulevard\\r\\nFort Worth TX 76101\\r\\nUnited States of America",
+        "line": [
+          "6554 Health Boulevard"
+        ],
+        "city": "Fort Worth",
+        "state": "TX",
+        "postalCode": "76101",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0389153833"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "554573601"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "d4f08"
+      }
+    ],
+    "active": true,
+    "name": "Metropolitan Medical Center",
+    "address": [
+      {
+        "text": "1763 Medical Boulevard\\r\\nAustin TX 78701\\r\\nUnited States of America",
+        "line": [
+          "1763 Medical Boulevard"
+        ],
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78701",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLDpyOpxyB9JKmyLDUwMbqJfgLq.nbK894R",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "3668273416"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "312685300"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "4f820"
+      }
+    ],
+    "active": true,
+    "name": "Valley Hospital",
+    "address": [
+      {
+        "text": "5419 Hospital Boulevard\\r\\nPhoenix AZ 85001\\r\\nUnited States of America",
+        "line": [
+          "5419 Hospital Boulevard"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85001",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0059510927"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "548995908"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "159fc"
+      }
+    ],
+    "active": true,
+    "name": "Memorial Hospital",
+    "address": [
+      {
+        "text": "2720 Center Boulevard\\r\\nDenver CO 80201\\r\\nUnited States of America",
+        "line": [
+          "2720 Center Boulevard"
+        ],
+        "city": "Denver",
+        "state": "CO",
+        "postalCode": "80201",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLx.BTHRJJbykE0.E8.5clLCZFNV8S2QT6IN",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1325128866"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "005203374"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "4dfa4"
+      }
+    ],
+    "active": true,
+    "name": "City Medical Center",
+    "address": [
+      {
+        "text": "9266 Care Boulevard\\r\\nDallas TX 75201\\r\\nUnited States of America",
+        "line": [
+          "9266 Care Boulevard"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75201",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "6869359152"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "460488574"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "a1cfb"
+      }
+    ],
+    "active": true,
+    "name": "Riverside Hospital",
+    "address": [
+      {
+        "text": "7793 Hospital Boulevard\\r\\nSan Francisco CA 94101\\r\\nUnited States of America",
+        "line": [
+          "7793 Hospital Boulevard"
+        ],
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94101",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLjua058LeDKK6jDHz2oCtIsjhvNK4p7M",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0496889617"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "571702384"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "2c057"
+      }
+    ],
+    "active": true,
+    "name": "University Medical Center",
+    "address": [
+      {
+        "text": "2266 Center Boulevard\\r\\nColumbus OH 43201\\r\\nUnited States of America",
+        "line": [
+          "2266 Center Boulevard"
+        ],
+        "city": "Columbus",
+        "state": "OH",
+        "postalCode": "43201",
+        "country": "United States of America"
+      }
+    ]
+  },
+  {
+    "resourceType": "Organization",
+    "id": "eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1705425522"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "TAX"
+        },
+        "system": "urn:oid:2.16.840.1.113883.4.4",
+        "value": "478377741"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696570",
+        "value": "8bfd6"
+      }
+    ],
+    "active": true,
+    "name": "Central Hospital",
+    "address": [
+      {
+        "text": "1667 Health Boulevard\\r\\nIndianapolis IN 46201\\r\\nUnited States of America",
+        "line": [
+          "1667 Health Boulevard"
+        ],
+        "city": "Indianapolis",
+        "state": "IN",
+        "postalCode": "46201",
+        "country": "United States of America"
+      }
+    ]
+  }
+]

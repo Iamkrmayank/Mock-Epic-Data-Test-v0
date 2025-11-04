@@ -1,0 +1,277 @@
+{
+  "resourceType": "Patient",
+  "id": "eYg3-1aJmCMq-umIIq2Njxw3",
+  "data": {
+    "resourceType": "Patient",
+    "id": "eYg3-1aJmCMq-umIIq2Njxw3",
+    "extension": [
+      {
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+              "code": "female",
+              "display": "female"
+            }
+          ],
+          "text": "Female"
+        },
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+      },
+      {
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+              "code": "female",
+              "display": "female"
+            }
+          ]
+        },
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+      },
+      {
+        "extension": [
+          {
+            "valueCoding": {
+              "system": "urn:oid:2.16.840.1.113883.6.238",
+              "code": "2028-9",
+              "display": "Asian"
+            },
+            "url": "ombCategory"
+          },
+          {
+            "valueString": "Other Asian",
+            "url": "text"
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+      },
+      {
+        "extension": [
+          {
+            "valueString": "Unknown",
+            "url": "text"
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+      },
+      {
+        "valueCode": "248152002",
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+      },
+      {
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA29519-8",
+              "display": "she/her/her/hers/herself"
+            }
+          ]
+        },
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.688884.100",
+        "value": "FHRSDMN3FLQMLCZ"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0",
+        "value": "E3396"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+        "value": "Z5111"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TtdBQKkYpAP5sCWcz9f79zjAi.vjsA.aRxcXcNINdw1UB"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "eYg3-1aJmCMq-umIIq2Njxw3"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+        "value": "     Z5111"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+        "value": "203150"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110",
+        "value": "ANESTHESIAABBY"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.878082",
+        "value": "52"
+      },
+      {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.4.1",
+        "value": "566-51-9257"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "official",
+        "text": "Abby Anesthesia",
+        "family": "Anesthesia",
+        "given": [
+          "Abby"
+        ]
+      },
+      {
+        "use": "usual",
+        "text": "Abby Anesthesia",
+        "family": "Anesthesia",
+        "given": [
+          "Abby"
+        ]
+      }
+    ],
+    "gender": "female",
+    "birthDate": "1965-12-24",
+    "deceasedBoolean": false,
+    "address": [
+      {
+        "use": "home",
+        "text": "112 Anesthesia Drive\r\nLAKE BLUFF IL 60044\r\nUnited States of America",
+        "line": [
+          "112 Anesthesia Drive"
+        ],
+        "city": "LAKE BLUFF",
+        "district": "LAKE",
+        "state": "IL",
+        "postalCode": "60044",
+        "country": "US",
+        "period": {
+          "start": "2010-12-25"
+        }
+      }
+    ],
+    "maritalStatus": {
+      "text": "Married"
+    },
+    "contact": [
+      {
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.827665.1000",
+                "code": "17",
+                "display": "Spouse"
+              }
+            ],
+            "text": "Spouse"
+          }
+        ],
+        "name": {
+          "use": "usual",
+          "text": "Tom"
+        },
+        "address": {
+          "use": "home",
+          "text": "112 Anesthesia Drive\r\nLAKE BLUFF IL 60044\r\nUnited States of America",
+          "line": [
+            "112 Anesthesia Drive"
+          ],
+          "city": "LAKE BLUFF",
+          "district": "LAKE",
+          "state": "IL",
+          "postalCode": "60044",
+          "country": "US"
+        }
+      },
+      {
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                "code": "E",
+                "display": "Employer"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "608-271-9000",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "text": "1979 MILKY WAY\r\nVERONA WI 53593\r\nUnited States of America",
+          "line": [
+            "1979 MILKY WAY"
+          ],
+          "city": "VERONA",
+          "district": "DANE",
+          "state": "WI",
+          "postalCode": "53593",
+          "country": "US"
+        },
+        "organization": {
+          "display": "Ehs Generic Employer"
+        }
+      }
+    ],
+    "generalPractitioner": [
+      {
+        "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+        "type": "Practitioner",
+        "display": "Physician Champion, MD"
+      }
+    ],
+    "managingOrganization": {
+      "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+      "display": "Epic Hospital System"
+    }
+  },
+  "retrieved_at": "2025-11-01T11:07:04.109211+00:00"
+}

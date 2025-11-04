@@ -1,0 +1,5546 @@
+[
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefaf8dcae218b437671095",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-07-07T13:35:54Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "519120"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_519120"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "display": "Rodriguez, Mary"
+    },
+    "date": "2025-07-07T13:35:54Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-07-07T13:40:54Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary42663013034ab044a1b8"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinarye356399fc00225ae23b1"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc44a1b8",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-07-07T13:35:54Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef660c0075c86850a0d2f8",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2024-12-09T12:48:55Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "555307"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_555307"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "display": "Rodriguez, Mary"
+    },
+    "date": "2024-12-09T12:48:55Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2024-12-09T12:53:55Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary4304523b5ed80bf0dd2f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary93fda6770fcfca2a0e09"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncf0dd2f",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2024-12-09T12:48:55Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefacf5aa6254282cf9d7ab",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-09-05T14:00:16Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "560435"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_560435"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "display": "Wilson, Anthony"
+    },
+    "date": "2025-09-05T14:00:16Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-09-05T14:05:16Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary50b23cdbd9ec1367e2df"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary92c43bd23aba4592f512"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc67e2df",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-09-05T14:00:16Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef926754da91e115be9355",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-02-07T13:25:01Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "528063"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_528063"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "display": "Wilson, Anthony"
+    },
+    "date": "2025-02-07T13:25:01Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-02-07T13:30:01Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinarye28aa5f9b06d9fd2b664"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinarydee7a60a5bbcc6c9a820"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncd2b664",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-02-07T13:25:01Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef89de9cf1e8292704c969",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-05-08T10:10:28Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "562587"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_562587"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "date": "2025-05-08T10:10:28Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-05-08T10:15:28Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary3f4fcb034df47b893ff4"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary33c511c473fdb4e9c113"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc893ff4",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-05-08T10:10:28Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef82948ceac6ff6ec4d9b6",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-02-07T12:44:48Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "518890"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_518890"
+      }
+    ],
+    "status": "current",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "date": "2025-02-07T12:44:48Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-02-07T12:49:48Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryd75e33083849ca855b2c"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary60c078faa8de69f67d23"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc855b2c",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-02-07T12:44:48Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef962283220755d868d2af",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-06-07T13:10:02Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "525255"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_525255"
+      }
+    ],
+    "status": "current",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "date": "2025-06-07T13:10:02Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-06-07T13:15:02Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary994896287c62a75fb628"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryfba90c3c05ace04d8689"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc5fb628",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-06-07T13:10:02Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef5500a2615829f38a4e6a",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-08-06T13:28:07Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "553596"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_553596"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "imaging-report",
+            "display": "Imaging Report"
+          }
+        ],
+        "text": "Imaging Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "date": "2025-08-06T13:28:07Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-08-06T13:33:07Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryd48320a8c2d15c782d03"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary7681d3cdaf61681e2ca0"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc782d03",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-08-06T13:28:07Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef97a997591fca1f9aa0ee",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-10-05T10:18:16Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "528314"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_528314"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "date": "2025-10-05T10:18:16Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-10-05T10:23:16Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryc566e368d86e9a9b3fea"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary2baf75ed29459f6e239b"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc9b3fea",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-10-05T10:18:16Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocReff47cd4d1cf5524c2a3a7",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2024-11-09T08:04:32Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "540154"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_540154"
+      }
+    ],
+    "status": "current",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "date": "2024-11-09T08:04:32Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2024-11-09T08:09:32Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary33cab7088f9cdac48614"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary17ccf173963b5d17419f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncc48614",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2024-11-09T08:04:32Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef130f709289c8dc0a2b67",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T12:03:45Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "518929"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_518929"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "amended",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "date": "2025-03-09T12:03:45Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T12:08:45Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary9da37d25d349f15fa743"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary02908bef6dc1457f8157"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc5fa743",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T12:03:45Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocReff859002ecb627c691d22",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-07-07T12:23:57Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "515658"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_515658"
+      }
+    ],
+    "status": "current",
+    "docStatus": "amended",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "date": "2025-07-07T12:23:57Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-07-07T12:28:57Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary5000ab93033d2aad6d50"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary00620a3ab4685b9369f5"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncad6d50",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-07-07T12:23:57Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef10f43f47159400e7b9f1",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-05-08T15:10:19Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "524815"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_524815"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "date": "2025-05-08T15:10:19Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-05-08T15:15:19Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary3e031db0dd60ef0ab39f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary7bf115153a380b367056"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc0ab39f",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-05-08T15:10:19Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocReff9d43410c32dfff524fd",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T14:38:18Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "512138"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_512138"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "amended",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "5",
+          "display": "Consultation Note"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11488-4",
+          "display": "Consult note",
+          "userSelected": true
+        }
+      ],
+      "text": "Consultation Note"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "date": "2025-03-09T14:38:18Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T14:43:18Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryf4cac2168b2f6ad10531"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary650f8cb6cbe53c5a099f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncd10531",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T14:38:18Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefdac4941f77812f4b3643",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-06-07T14:18:31Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "505417"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_505417"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "date": "2025-06-07T14:18:31Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-06-07T14:23:31Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryc8010a29941529139ba0"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryf55adceb15c778c5f84f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc139ba0",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-06-07T14:18:31Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef4ab88aa528280e9c0d7e",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2024-12-09T10:10:25Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "562835"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_562835"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "date": "2024-12-09T10:10:25Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2024-12-09T10:15:25Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary1fd54d6c5ef573cabd40"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinarye3c14a7da4c01e69a9a5"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnccabd40",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2024-12-09T10:10:25Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef45713ebb7c559961f45d",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-07-07T12:03:24Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "552945"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_552945"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "date": "2025-07-07T12:03:24Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-07-07T12:08:24Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary0b6f500e57ced109a7b0"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary0e9787ddd23b200f9218"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc09a7b0",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-07-07T12:03:24Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocReff46394a0a66964d75ed2",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-04-08T11:16:03Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "545329"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_545329"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "amended",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "date": "2025-04-08T11:16:03Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-04-08T11:21:03Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinarydc814434aeb111a81a83"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryd8996af5489110807f64"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnca81a83",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-04-08T11:16:03Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefce317ed887b82ae894ad",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2024-12-09T09:00:33Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "537891"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_537891"
+      }
+    ],
+    "status": "current",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "date": "2024-12-09T09:00:33Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2024-12-09T09:05:33Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary8fb7ab19ca9403d595b7"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary769b4650cab54534a29b"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncd595b7",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2024-12-09T09:00:33Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef0b5c90979b1132f238ea",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-02-07T09:46:06Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "559562"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_559562"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "imaging-report",
+            "display": "Imaging Report"
+          }
+        ],
+        "text": "Imaging Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "display": "Hernandez, James"
+    },
+    "date": "2025-02-07T09:46:06Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-02-07T09:51:06Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary6286668bd4e8aad9339b"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryd859a9dd969702a74f54"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncd9339b",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-02-07T09:46:06Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef20d573caeebd73794708",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T13:49:57Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "518599"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_518599"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "5",
+          "display": "Consultation Note"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11488-4",
+          "display": "Consult note",
+          "userSelected": true
+        }
+      ],
+      "text": "Consultation Note"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "display": "Hernandez, James"
+    },
+    "date": "2025-03-09T13:49:57Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T13:54:57Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryaef6805d1348a763e47c"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary66e9f6cee1efe0dac8f3"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc63e47c",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T13:49:57Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefb9f86dc663c822116d02",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-05-08T15:54:40Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "538138"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_538138"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "entered-in-error",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "date": "2025-05-08T15:54:40Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-05-08T15:59:40Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary302d14494194fa9a4fe3"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary3f562c66af6cedc53585"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc9a4fe3",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-05-08T15:54:40Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRefa71c1a7f0307d4d562d8",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-10-05T12:16:05Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "539912"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_539912"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "2",
+          "display": "Discharge Summary"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18842-5",
+          "display": "Discharge summary",
+          "userSelected": true
+        }
+      ],
+      "text": "Discharge Summary"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "date": "2025-10-05T12:16:05Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-10-05T12:21:05Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary5b6031b8489be86c9c68"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinarybe03480a7647799f0da3"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc6c9c68",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-10-05T12:16:05Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef360069d54ce43614eb63",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-01-08T12:16:10Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "560401"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_560401"
+      }
+    ],
+    "status": "current",
+    "docStatus": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "imaging-report",
+            "display": "Imaging Report"
+          }
+        ],
+        "text": "Imaging Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "date": "2025-01-08T12:16:10Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-01-08T12:21:10Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary8f4493ab21ebf1b846dd"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryabb2a89488e52ab8657f"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncb846dd",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-01-08T12:16:10Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocReff6889d86b494084aae7a",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-02-07T10:43:30Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "522482"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_522482"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "date": "2025-02-07T10:43:30Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-02-07T10:48:30Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary16333a143857d21c0e66"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary4289e70c3957e9444f81"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc1c0e66",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-02-07T10:43:30Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef9cdd322cfd93a956a142",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T09:31:21Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "562372"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_562372"
+      }
+    ],
+    "status": "current",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "5",
+          "display": "Consultation Note"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11488-4",
+          "display": "Consult note",
+          "userSelected": true
+        }
+      ],
+      "text": "Consultation Note"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "date": "2025-03-09T09:31:21Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T09:36:21Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryea4fc01ef7f3a42c0d12"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary265dbc7fe31361f71412"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc2c0d12",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T09:31:21Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef0d7c0bbae0a65865a692",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-04-08T10:18:43Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "529794"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_529794"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "date": "2025-04-08T10:18:43Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-04-08T10:23:43Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinarybc4b586ed27462a2521e"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary7d2330f962cdb3092ee9"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnca2521e",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-04-08T10:18:43Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef1fa04378b95b35696a84",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-06-07T11:55:47Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "547532"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_547532"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "amended",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "date": "2025-06-07T11:55:47Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-06-07T12:00:47Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary1b22954d4cb9ac0fb2b0"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary0cc28cbde817aa947aa8"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc0fb2b0",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-06-07T11:55:47Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef003b25045867568a8eab",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-09-05T10:01:53Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "543123"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_543123"
+      }
+    ],
+    "status": "entered-in-error",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "1",
+          "display": "Progress Notes"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "11506-3",
+          "display": "Progress note",
+          "userSelected": true
+        }
+      ],
+      "text": "Progress Notes"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "date": "2025-09-05T10:01:53Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-09-05T10:06:53Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinarydcb56bcc3da873ca06ac"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary911a32d319a883b29569"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEncca06ac",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-09-05T10:01:53Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef2f730833a3963ef7b97f",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T11:39:32Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "545447"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_545447"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "date": "2025-03-09T11:39:32Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T11:44:32Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary8ea516d18bb187a51a4c"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryf3dd59ff2021608e6e14"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnca51a4c",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T11:39:32Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef776dc7e2d8515571c8d0",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-10-05T10:18:07Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "516126"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_516126"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "3",
+          "display": "Lab Results"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Lab Results"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "date": "2025-10-05T10:18:07Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-10-05T10:23:07Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinaryf7fd0972783efe68153e"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary2a2dfdbd81fb8fce5c61"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc68153e",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-10-05T10:18:07Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef4f1dec0714668f26cb9a",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2024-12-09T14:17:51Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "565078"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_565078"
+      }
+    ],
+    "status": "superseded",
+    "docStatus": "final",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "lab-report",
+            "display": "Lab Report"
+          }
+        ],
+        "text": "Lab Report"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "date": "2024-12-09T14:17:51Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2024-12-09T14:22:51Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary5d4fca38e2fe369ea859"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinaryf116aac0a7939f184df8"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc9ea859",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2024-12-09T14:17:51Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  },
+  {
+    "resourceType": "DocumentReference",
+    "id": "eDocRef9155cdd9c64051ffb20b",
+    "extension": [
+      {
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                  "code": "1",
+                  "display": "Signer"
+                }
+              ],
+              "text": "Signer"
+            },
+            "url": "mode"
+          },
+          {
+            "valueDateTime": "2025-03-09T15:09:03Z",
+            "url": "time"
+          },
+          {
+            "valueReference": {
+              "reference": "Practitioner/ePractitioner123",
+              "display": "Physician, MD"
+            },
+            "url": "party"
+          }
+        ],
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+        "value": "557553"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.3.15",
+        "value": "1.2.840.114350.1.13.11511.1.7.2.727879_557553"
+      }
+    ],
+    "status": "current",
+    "docStatus": "unknown",
+    "type": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+          "code": "4",
+          "display": "Imaging Report"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18726-0",
+          "display": "Radiology studies",
+          "userSelected": true
+        }
+      ],
+      "text": "Imaging Report"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+            "code": "clinical-note",
+            "display": "Clinical Note"
+          }
+        ],
+        "text": "Clinical Note"
+      }
+    ],
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "date": "2025-03-09T15:09:03Z",
+    "author": [
+      {
+        "reference": "Practitioner/ePractitioner123",
+        "type": "Practitioner",
+        "display": "Physician, MD"
+      }
+    ],
+    "authenticator": {
+      "extension": [
+        {
+          "valueDateTime": "2025-03-09T15:14:03Z",
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+        }
+      ],
+      "reference": "Practitioner/ePractitioner123",
+      "type": "Practitioner",
+      "display": "Physician, MD"
+    },
+    "custodian": {
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:epic:cec.fsplyfin"
+      },
+      "display": "FHIR Playground"
+    },
+    "content": [
+      {
+        "attachment": {
+          "contentType": "text/html",
+          "url": "Binary/eBinary21631b0eebe0d1769332"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "text/rtf",
+          "url": "Binary/eBinary07a0d1a276f29e861577"
+        },
+        "format": {
+          "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+          "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+          "display": "mimeType Sufficient"
+        }
+      }
+    ],
+    "context": {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+                "code": "1",
+                "display": "Physician"
+              },
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.101",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ],
+            "text": "Physician"
+          },
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference-custodian"
+        }
+      ],
+      "encounter": {
+        "reference": "Encounter/eEnc769332",
+        "display": "Office Visit"
+      },
+      "period": {
+        "start": "2025-03-09T15:09:03Z"
+      },
+      "practiceSetting": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+            "code": "1",
+            "display": "General Practice"
+          }
+        ],
+        "text": "General Practice"
+      }
+    }
+  }
+]

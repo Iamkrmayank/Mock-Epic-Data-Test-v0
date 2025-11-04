@@ -1,0 +1,1562 @@
+[
+  {
+    "resourceType": "Patient",
+    "id": "ePtdJFCrnl2edlBDdz1C5Ja",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtdJFCrnl2edlBDdz1C5Ja",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ],
+            "text": "Female"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248152002",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29519-8",
+                "display": "she/her/her/hers/herself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-82b64f"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtdJFCrnl2edlBDdz1C5Ja"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-e82b64f"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Mary Rodriguez",
+          "family": "Rodriguez",
+          "given": [
+            "Mary"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Mary Rodriguez",
+          "family": "Rodriguez",
+          "given": [
+            "Mary"
+          ]
+        }
+      ],
+      "gender": "female",
+      "birthDate": "2002-07-26",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "6989 Main Street\\r\\nColumbus OH 43201\\r\\nUnited States of America",
+          "line": [
+            "6989 Main Street"
+          ],
+          "city": "Columbus",
+          "state": "OH",
+          "postalCode": "43201",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-339-572-7299",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Married"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLJ.EJ4jKEIQOkrtDXtBi10Q71hA1XcW9a",
+        "display": "Regional Medical Center"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePt2RJtBRnlWmTSHf6pWkLUy",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePt2RJtBRnlWmTSHf6pWkLUy",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-77dd3a"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePt2RJtBRnlWmTSHf6pWkLUy"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-b77dd3a"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Anthony Wilson",
+          "family": "Wilson",
+          "given": [
+            "Anthony"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Anthony Wilson",
+          "family": "Wilson",
+          "given": [
+            "Anthony"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1966-05-22",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "3237 Main Street\\r\\nColumbus OH 43201\\r\\nUnited States of America",
+          "line": [
+            "3237 Main Street"
+          ],
+          "city": "Columbus",
+          "state": "OH",
+          "postalCode": "43201",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-887-577-7001",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Single"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn",
+        "display": "Community Hospital"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtfDLkDmWJ6UuVTAIjvFu7",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtfDLkDmWJ6UuVTAIjvFu7",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-549213"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtfDLkDmWJ6UuVTAIjvFu7"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-3549213"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Thomas Taylor",
+          "family": "Taylor",
+          "given": [
+            "Thomas"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Thomas Taylor",
+          "family": "Taylor",
+          "given": [
+            "Thomas"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1984-06-14",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "5032 Park Street\\r\\nCharlotte NC 28201\\r\\nUnited States of America",
+          "line": [
+            "5032 Park Street"
+          ],
+          "city": "Charlotte",
+          "state": "NC",
+          "postalCode": "28201",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-613-663-7670",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Single"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLMX1C.CI3.dXRZv7qdYdk2r7xgHWPB6PRWJ",
+        "display": "General Health System"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ],
+            "text": "Female"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248152002",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29519-8",
+                "display": "she/her/her/hers/herself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-10b93c"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtICPhDeOZIiBOB-Y6sHrFH2ZUC"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-710b93c"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Andrew Young",
+          "family": "Young",
+          "given": [
+            "Andrew"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Andrew Young",
+          "family": "Young",
+          "given": [
+            "Andrew"
+          ]
+        }
+      ],
+      "gender": "female",
+      "birthDate": "1953-12-22",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "5669 Second Street\\r\\nChicago IL 60601\\r\\nUnited States of America",
+          "line": [
+            "5669 Second Street"
+          ],
+          "city": "Chicago",
+          "state": "IL",
+          "postalCode": "60601",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-269-718-9413",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Single"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-",
+        "display": "Metropolitan Medical Center"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePt-lgotu2iXW7GboIRoL3u6",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePt-lgotu2iXW7GboIRoL3u6",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-305541"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePt-lgotu2iXW7GboIRoL3u6"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-8305541"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Joshua Miller",
+          "family": "Miller",
+          "given": [
+            "Joshua"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Joshua Miller",
+          "family": "Miller",
+          "given": [
+            "Joshua"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1966-10-11",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "316 Maple Street\\r\\nPhoenix AZ 85001\\r\\nUnited States of America",
+          "line": [
+            "316 Maple Street"
+          ],
+          "city": "Phoenix",
+          "state": "AZ",
+          "postalCode": "85001",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-553-202-7491",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Married"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLDpyOpxyB9JKmyLDUwMbqJfgLq.nbK894R",
+        "display": "Valley Hospital"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtHwnMztVuaP.coUNEhEk",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtHwnMztVuaP.coUNEhEk",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-f3c39e"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtHwnMztVuaP.coUNEhEk"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-8f3c39e"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Ashley Robinson",
+          "family": "Robinson",
+          "given": [
+            "Ashley"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Ashley Robinson",
+          "family": "Robinson",
+          "given": [
+            "Ashley"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "2000-12-21",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "5578 Oak Street\\r\\nBoston MA 02101\\r\\nUnited States of America",
+          "line": [
+            "5578 Oak Street"
+          ],
+          "city": "Boston",
+          "state": "MA",
+          "postalCode": "02101",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-592-326-4495",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Divorced"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe",
+        "display": "Memorial Hospital"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePt.iqq8vH2BzNZV45pFCiR",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePt.iqq8vH2BzNZV45pFCiR",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ],
+            "text": "Female"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248152002",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29519-8",
+                "display": "she/her/her/hers/herself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-0ba471"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePt.iqq8vH2BzNZV45pFCiR"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-60ba471"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "James Hernandez",
+          "family": "Hernandez",
+          "given": [
+            "James"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "James Hernandez",
+          "family": "Hernandez",
+          "given": [
+            "James"
+          ]
+        }
+      ],
+      "gender": "female",
+      "birthDate": "1998-06-11",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "1476 Park Street\\r\\nNew York NY 10001\\r\\nUnited States of America",
+          "line": [
+            "1476 Park Street"
+          ],
+          "city": "New York",
+          "state": "NY",
+          "postalCode": "10001",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-845-355-4628",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Married"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLx.BTHRJJbykE0.E8.5clLCZFNV8S2QT6IN",
+        "display": "City Medical Center"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtDCajhDieQjEJ.Bq8F80",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtDCajhDieQjEJ.Bq8F80",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ],
+            "text": "Female"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "female",
+                "display": "female"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248152002",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29519-8",
+                "display": "she/her/her/hers/herself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-2bcb34"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtDCajhDieQjEJ.Bq8F80"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-a2bcb34"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Patricia Lewis",
+          "family": "Lewis",
+          "given": [
+            "Patricia"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Patricia Lewis",
+          "family": "Lewis",
+          "given": [
+            "Patricia"
+          ]
+        }
+      ],
+      "gender": "female",
+      "birthDate": "1980-10-19",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "1972 Elm Street\\r\\nSan Jose CA 95101\\r\\nUnited States of America",
+          "line": [
+            "1972 Elm Street"
+          ],
+          "city": "San Jose",
+          "state": "CA",
+          "postalCode": "95101",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-795-649-1233",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Widowed"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE",
+        "display": "Riverside Hospital"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtmm3T207gmhZRnFyy5r2xJ7",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtmm3T207gmhZRnFyy5r2xJ7",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-26792c"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtmm3T207gmhZRnFyy5r2xJ7"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-426792c"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "James Wright",
+          "family": "Wright",
+          "given": [
+            "James"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "James Wright",
+          "family": "Wright",
+          "given": [
+            "James"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1969-10-06",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "9567 Main Street\\r\\nDallas TX 75201\\r\\nUnited States of America",
+          "line": [
+            "9567 Main Street"
+          ],
+          "city": "Dallas",
+          "state": "TX",
+          "postalCode": "75201",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-622-434-3993",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Married"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLjua058LeDKK6jDHz2oCtIsjhvNK4p7M",
+        "display": "University Medical Center"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.063945+00:00"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "ePtj4mgblEv0.9BZhvWaXH6K2",
+    "data": {
+      "resourceType": "Patient",
+      "id": "ePtj4mgblEv0.9BZhvWaXH6K2",
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ],
+            "text": "Male"
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                "code": "male",
+                "display": "male"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        },
+        {
+          "extension": [
+            {
+              "valueCoding": {
+                "system": "urn:oid:2.16.840.1.113883.6.238",
+                "code": "2106-3",
+                "display": "White"
+              },
+              "url": "ombCategory"
+            },
+            {
+              "valueString": "White",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+          "extension": [
+            {
+              "valueString": "Not Hispanic or Latino",
+              "url": "text"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+          "valueCode": "248153007",
+          "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+        },
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LA29520-6",
+                "display": "he/him/his/his/himself"
+              }
+            ]
+          },
+          "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+        }
+      ],
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "text": "MRN"
+          },
+          "system": "urn:mrn:gooclaim",
+          "value": "MRN-4c2260"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "FHIR STU3"
+          },
+          "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+          "value": "ePtj4mgblEv0.9BZhvWaXH6K2"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "text": "Insurance Member ID"
+          },
+          "system": "urn:memberid:gooclaim",
+          "value": "MBR-04c2260"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "text": "Andrew Martinez",
+          "family": "Martinez",
+          "given": [
+            "Andrew"
+          ]
+        },
+        {
+          "use": "usual",
+          "text": "Andrew Martinez",
+          "family": "Martinez",
+          "given": [
+            "Andrew"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1962-04-05",
+      "deceasedBoolean": false,
+      "address": [
+        {
+          "use": "home",
+          "text": "1269 Park Street\\r\\nLos Angeles CA 90001\\r\\nUnited States of America",
+          "line": [
+            "1269 Park Street"
+          ],
+          "city": "Los Angeles",
+          "state": "CA",
+          "postalCode": "90001",
+          "country": "US",
+          "period": {
+            "start": "2010-01-01"
+          }
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+1-616-535-4415",
+          "use": "home"
+        }
+      ],
+      "maritalStatus": {
+        "text": "Married"
+      },
+      "managingOrganization": {
+        "reference": "Organization/eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L",
+        "display": "Central Hospital"
+      }
+    },
+    "retrieved_at": "2025-11-04T21:28:59.064945+00:00"
+  }
+]

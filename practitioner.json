@@ -1,0 +1,104 @@
+{
+  "resourceType": "Practitioner",
+  "id": "ef9TegF2nfECi-0Skirbvpg3",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "text": "NPI"
+      },
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1100399991"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "INTERNAL"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.697780",
+      "value": " CARDMD"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "EXTERNAL"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.697780",
+      "value": "CARDMD"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "PROVID"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+      "value": "1003"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "EPIC"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.7",
+      "value": "207RC0000X"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "NPI"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.60",
+      "value": "1100399991"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "Epic"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.63",
+      "value": "TEMP1003"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "INTERNAL"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.836982",
+      "value": "   E1003"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "text": "EXTERNAL"
+      },
+      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.836982",
+      "value": "E1003"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "usual",
+      "text": "Physician O. Cardiology, MD",
+      "family": "Cardiology",
+      "given": [
+        "Physician",
+        "One"
+      ]
+    }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+            "code": "11",
+            "display": "MD"
+          }
+        ],
+        "text": "MD"
+      }
+    }
+  ]
+}

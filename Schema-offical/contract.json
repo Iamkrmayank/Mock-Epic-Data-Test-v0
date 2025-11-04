@@ -1,0 +1,15 @@
+<Contract xmlns="http://hl7.org/fhir">
+    <id value="fH-4DSny9MM6vL7n0Q9M6jg4" />
+    <identifier>
+        <system value="urn:oid:1.2.840.114350.1.13.861.1.7.2.786767" />
+        <value value="2334" />
+    </identifier>
+    <name value="" />
+    <type>
+        <coding>
+            <code value="1" />
+            <display value="Vendor Contract" />
+        </coding>
+        <text value="Vendor Contract" />
+    </type>
+</Contract>

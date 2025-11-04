@@ -1,0 +1,8 @@
+This is a response for a read on an RTF Binary with the Accept header set to "application/fhir+json"
+
+{
+  "resourceType": "Binary",
+  "id": "f859KKT5DsrSxpFu8cSdkasOF3QBkgahtf5cQ5PV2ZcM4",
+  "contentType": "text/rtf",
+  "data": "e1xydGYxXGVwaWNWMTE1MDBcYW5zaVxzcGx0cGdwYXJcamV4cGFuZFxub3hsYXR0b3llbiANClxkZWZmMVxwYXBlcncxMjI0MFxwYXBlcmgxNTg0MFxtYXJnbDE4MDBcbWFyZ3IxODAwXG1hcmd0MTQ0MFxtYXJnYjE0NDAgDQp7XGZvbnR0Ymx7XGYxXGZjaGFyc2V0MFxmc3dpc3MgQXJpYWw7fX0NClxzZWN0ZFxoZWFkZXJ5NzIwXGZvb3Rlcnk3MjBccGFyZFxsdHJwYXIgDQpccGxhaW5cbHRyY2hcbGFuZzAgQmVkOlRSMDQ8QlI+RXhwZWN0ZWQgZGF0ZToyLzE2LzA5PEJSPkV4cGVjdGVkIHRpbWU6IDM6NTYgUE08QlI+TWVhbnMgb2YgYXJyaXZhbDpBbWJ1bGFuY2U8QlI+Q29tbWVudHM6PEJSPjY1IHlyIG9sZCBtYWxlIHcvQ2hlc3QgUGFpblxwYXJ9"
+}

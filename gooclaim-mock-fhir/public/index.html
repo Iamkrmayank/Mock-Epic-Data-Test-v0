@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooclaim Mock FHIR API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px;
+        }
+        .endpoints {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .endpoint-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s;
+        }
+        .endpoint-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .endpoint-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .endpoint-card code {
+            background: #e9ecef;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #495057;
+        }
+        .actions {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 10px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .info-box h3 {
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+        .info-box ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Gooclaim Mock FHIR API</h1>
+            <p>Mock FHIR API Server using Epic-style Fixtures</p>
+        </div>
+        <div class="content">
+            <h2>Welcome!</h2>
+            <p style="font-size: 1.1em; color: #666; margin-top: 10px;">
+                This is a mock FHIR API server that serves data from JSON fixtures. 
+                Perfect for development and testing without connecting to Epic FHIR.
+            </p>
+
+            <div class="endpoints">
+                <div class="endpoint-card">
+                    <h3>📋 Collection Endpoint</h3>
+                    <p>Get all resources of a type</p>
+                    <code>GET /{ResourceType}</code>
+                    <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                        Example: <code>/Patient</code>
+                    </p>
+                </div>
+                <div class="endpoint-card">
+                    <h3>🔍 Single Resource</h3>
+                    <p>Get a specific resource by ID</p>
+                    <code>GET /{ResourceType}/{id}</code>
+                    <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                        Example: <code>/Patient/123</code>
+                    </p>
+                </div>
+                <div class="endpoint-card">
+                    <h3>📄 Binary Content</h3>
+                    <p>Get binary file content</p>
+                    <code>GET /Binary/{id}/$content</code>
+                    <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                        Returns: PDF bytes placeholder
+                    </p>
+                </div>
+            </div>
+
+            <div class="actions">
+                <a href="/docs" class="btn">📚 View API Documentation</a>
+                <a href="/healthz" class="btn">❤️ Health Check</a>
+            </div>
+
+            <div class="info-box">
+                <h3>📖 Supported Resources</h3>
+                <ul>
+                    <li>Patient, Coverage, Encounter, Appointment</li>
+                    <li>Contract, Consent, DocumentReference</li>
+                    <li>Observation, Procedure, Condition</li>
+                    <li>Organization, Practitioner, PractitionerRole</li>
+                    <li>ExplanationOfBenefit, Binary, Provenance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,2711 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "eObsaf8dcae218b437671095",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "display": "Rodriguez, Mary"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncaf8dcae218b437671095",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "40199"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T08:24:18Z",
+    "issued": "2025-07-07T08:29:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs660c0075c86850a0d2f8",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "display": "Rodriguez, Mary"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc660c0075c86850a0d2f8",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "40226"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T15:34:18Z",
+    "issued": "2025-08-06T15:39:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "65 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsde5ebb6b26a0bd5a2cd1",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose"
+        }
+      ],
+      "text": "Glucose"
+    },
+    "subject": {
+      "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "display": "Rodriguez, Mary"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncaf8dcae218b437671095",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45873"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T10:29:18Z",
+    "issued": "2025-07-07T10:34:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "96 mg/dL"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsacf5aa6254282cf9d7ab",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "display": "Wilson, Anthony"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncacf5aa6254282cf9d7ab",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "42965"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-09-05T11:38:18Z",
+    "issued": "2025-09-05T11:43:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs926754da91e115be9355",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "display": "Wilson, Anthony"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc926754da91e115be9355",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "43722"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T16:34:18Z",
+    "issued": "2025-08-06T16:39:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "81 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObseae44df537873d8a9acd",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "display": "Wilson, Anthony"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnceae44df537873d8a9acd",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45873"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T13:38:18Z",
+    "issued": "2025-10-05T13:43:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "68 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs89de9cf1e8292704c969",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "Laboratory"
+          }
+        ],
+        "text": "Laboratory"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc89de9cf1e8292704c969",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46062"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T13:38:18Z",
+    "issued": "2025-06-07T13:43:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs82948ceac6ff6ec4d9b6",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body Temperature"
+        }
+      ],
+      "text": "Body Temperature"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc82948ceac6ff6ec4d9b6",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45107"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T10:41:18Z",
+    "issued": "2025-06-07T10:46:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "97.8 F"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs962283220755d868d2af",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc89de9cf1e8292704c969",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "43020"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T09:57:18Z",
+    "issued": "2025-10-05T10:02:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "138/74 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs5500a2615829f38a4e6a",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc82948ceac6ff6ec4d9b6",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "42476"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T17:17:18Z",
+    "issued": "2025-07-07T17:22:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs97a997591fca1f9aa0ee",
+    "status": "cancelled",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc89de9cf1e8292704c969",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "40716"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T13:54:18Z",
+    "issued": "2025-08-06T13:59:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs28b7273eebe6753e92fc",
+    "status": "entered-in-error",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "display": "Taylor, Thomas"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc82948ceac6ff6ec4d9b6",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45855"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T14:31:18Z",
+    "issued": "2025-05-08T14:36:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsf47cd4d1cf5524c2a3a7",
+    "status": "cancelled",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body Temperature"
+        }
+      ],
+      "text": "Body Temperature"
+    },
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf47cd4d1cf5524c2a3a7",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45526"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T13:29:18Z",
+    "issued": "2025-07-07T13:34:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "97.6 F"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs130f709289c8dc0a2b67",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc130f709289c8dc0a2b67",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "44280"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T10:13:18Z",
+    "issued": "2025-10-05T10:18:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "131/73 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsf859002ecb627c691d22",
+    "status": "preliminary",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "Laboratory"
+          }
+        ],
+        "text": "Laboratory"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose"
+        }
+      ],
+      "text": "Glucose"
+    },
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf47cd4d1cf5524c2a3a7",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46179"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T17:32:18Z",
+    "issued": "2025-05-08T17:37:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "93 mg/dL"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObscca1766449091d34c9b5",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "display": "Young, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc130f709289c8dc0a2b67",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45512"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T13:42:18Z",
+    "issued": "2025-05-08T13:47:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs10f43f47159400e7b9f1",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc10f43f47159400e7b9f1",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "44525"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T11:23:18Z",
+    "issued": "2025-06-07T11:28:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "83 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsf9d43410c32dfff524fd",
+    "status": "entered-in-error",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf9d43410c32dfff524fd",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46010"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T15:37:18Z",
+    "issued": "2025-10-05T15:42:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "62 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsdac4941f77812f4b3643",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "Laboratory"
+          }
+        ],
+        "text": "Laboratory"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncdac4941f77812f4b3643",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "44010"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T10:59:18Z",
+    "issued": "2025-05-08T11:04:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "120/65 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs91bcc51edc935d9d32d3",
+    "status": "preliminary",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "display": "Miller, Joshua"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc91bcc51edc935d9d32d3",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "47862"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T12:18:18Z",
+    "issued": "2025-07-07T12:23:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs4ab88aa528280e9c0d7e",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc4ab88aa528280e9c0d7e",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "42537"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T09:55:18Z",
+    "issued": "2025-07-07T10:00:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs45713ebb7c559961f45d",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc45713ebb7c559961f45d",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "49311"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T16:53:18Z",
+    "issued": "2025-05-08T16:58:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsf46394a0a66964d75ed2",
+    "status": "cancelled",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf46394a0a66964d75ed2",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45814"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T08:10:18Z",
+    "issued": "2025-07-07T08:15:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsce317ed887b82ae894ad",
+    "status": "registered",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc4ab88aa528280e9c0d7e",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46122"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-09-05T11:44:18Z",
+    "issued": "2025-09-05T11:49:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "139/84 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs6ce7daf3f58eea7f3b5a",
+    "status": "registered",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "display": "Robinson, Ashley"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc45713ebb7c559961f45d",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46679"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T08:03:18Z",
+    "issued": "2025-05-08T08:08:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs0b5c90979b1132f238ea",
+    "status": "preliminary",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "display": "Hernandez, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc0b5c90979b1132f238ea",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "43526"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T17:41:18Z",
+    "issued": "2025-08-06T17:46:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "109/82 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs20d573caeebd73794708",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "display": "Hernandez, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc20d573caeebd73794708",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "48274"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-09-05T10:32:18Z",
+    "issued": "2025-09-05T10:37:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs38d03bbe09099fcb6007",
+    "status": "entered-in-error",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "display": "Hernandez, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc38d03bbe09099fcb6007",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "46964"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T15:44:18Z",
+    "issued": "2025-10-05T15:49:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsb9f86dc663c822116d02",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncb9f86dc663c822116d02",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "43364"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T12:54:18Z",
+    "issued": "2025-08-06T12:59:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsa71c1a7f0307d4d562d8",
+    "status": "registered",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnca71c1a7f0307d4d562d8",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "43859"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T11:49:18Z",
+    "issued": "2025-07-07T11:54:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs360069d54ce43614eb63",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncb9f86dc663c822116d02",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "48861"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T15:09:18Z",
+    "issued": "2025-06-07T15:14:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "123/86 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs800d8e4a2d81995c21ff",
+    "status": "preliminary",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "display": "Lewis, Patricia"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnca71c1a7f0307d4d562d8",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "48064"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T10:10:18Z",
+    "issued": "2025-06-07T10:15:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsf6889d86b494084aae7a",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "Laboratory"
+          }
+        ],
+        "text": "Laboratory"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf6889d86b494084aae7a",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45100"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-09-05T16:23:18Z",
+    "issued": "2025-09-05T16:28:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs9cdd322cfd93a956a142",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc9cdd322cfd93a956a142",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "41403"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-07-07T17:26:18Z",
+    "issued": "2025-07-07T17:31:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs0d7c0bbae0a65865a692",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc0d7c0bbae0a65865a692",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "47671"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T08:00:18Z",
+    "issued": "2025-08-06T08:05:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs1fa04378b95b35696a84",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ],
+        "text": "Vital Signs"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc1fa04378b95b35696a84",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "42549"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T11:59:18Z",
+    "issued": "2025-10-05T12:04:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "66 bpm"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs003b25045867568a8eab",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEncf6889d86b494084aae7a",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "40674"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T16:09:18Z",
+    "issued": "2025-10-05T16:14:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsb3bd8f0a3aad49aacc5a",
+    "status": "amended",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose"
+        }
+      ],
+      "text": "Glucose"
+    },
+    "subject": {
+      "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "display": "Wright, James"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc9cdd322cfd93a956a142",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "45986"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T08:50:18Z",
+    "issued": "2025-06-07T08:55:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "82 mg/dL"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs2f730833a3963ef7b97f",
+    "status": "corrected",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc2f730833a3963ef7b97f",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "41633"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-05-08T10:56:18Z",
+    "issued": "2025-05-08T11:01:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs776dc7e2d8515571c8d0",
+    "status": "unknown",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose"
+        }
+      ],
+      "text": "Glucose"
+    },
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc776dc7e2d8515571c8d0",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "47705"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-08-06T17:26:18Z",
+    "issued": "2025-08-06T17:31:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "134 mg/dL"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs4f1dec0714668f26cb9a",
+    "status": "entered-in-error",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "Survey"
+          }
+        ],
+        "text": "Survey"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body Temperature"
+        }
+      ],
+      "text": "Body Temperature"
+    },
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc4f1dec0714668f26cb9a",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "49609"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-06-07T15:25:18Z",
+    "issued": "2025-06-07T15:30:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "98.5 F"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObs9155cdd9c64051ffb20b",
+    "status": "entered-in-error",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "Laboratory"
+          }
+        ],
+        "text": "Laboratory"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc9155cdd9c64051ffb20b",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "49620"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-10-05T10:51:18Z",
+    "issued": "2025-10-05T10:56:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "116/70 mmHg"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "eObsdc05ff7b81985d4a1879",
+    "status": "registered",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "imaging",
+            "display": "Imaging"
+          }
+        ],
+        "text": "Imaging"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "789-8",
+          "display": "Red Blood Cell Count"
+        }
+      ],
+      "text": "RBC Count"
+    },
+    "subject": {
+      "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "display": "Martinez, Andrew"
+    },
+    "encounter": {
+      "reference": "Encounter/eEnc2f730833a3963ef7b97f",
+      "identifier": {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+        "value": "47298"
+      },
+      "display": "Encounter"
+    },
+    "effectiveDateTime": "2025-09-05T16:55:18Z",
+    "issued": "2025-09-05T17:00:18Z",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17621005"
+        }
+      ],
+      "text": "Normal"
+    },
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "N",
+            "display": "Normal"
+          }
+        ],
+        "text": "Normal"
+      }
+    ]
+  }
+]

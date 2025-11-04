@@ -1,0 +1,758 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 17,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure?patient=eYg3-1aJmCMq-umIIq2Njxw3&_count=20"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikYGANBHH9KZ-kIG0dQzu9j3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikYGANBHH9KZ-kIG0dQzu9j3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikYGANBHH9KZ-kIG0dQzu9j3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "1995"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimk0EK8H5zyUCKcn7a.dvDL3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimk0EK8H5zyUCKcn7a.dvDL3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimk0EK8H5zyUCKcn7a.dvDL3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "ABDOMINAL SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimet1udbT8yOp.WNYysTdPM3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimet1udbT8yOp.WNYysTdPM3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimet1udbT8yOp.WNYysTdPM3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "COSMETIC SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdil9JdlA4ppez7g5ku1oj0rt3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdil9JdlA4ppez7g5ku1oj0rt3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdil9JdlA4ppez7g5ku1oj0rt3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "APPENDECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimgcYv4-khAoOY99pK5.7KQ3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimgcYv4-khAoOY99pK5.7KQ3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimgcYv4-khAoOY99pK5.7KQ3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73359007",
+              "display": "UNILATERAL MASTECTOMY"
+            }
+          ],
+          "text": "MASTECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdindk-AhySK0evMBvdrV7GJX3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdindk-AhySK0evMBvdrV7GJX3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdindk-AhySK0evMBvdrV7GJX3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "BACK SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimuGgchPFzVKTJM44qwNHtx3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimuGgchPFzVKTJM44qwNHtx3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimuGgchPFzVKTJM44qwNHtx3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "CARDIAC SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilcm0XORblJNTMDiZ3HyPh13"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilcm0XORblJNTMDiZ3HyPh13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilcm0XORblJNTMDiZ3HyPh13",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "GASTRECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilN2JQRDCQttvRIvAjgUIee3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilN2JQRDCQttvRIvAjgUIee3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdilN2JQRDCQttvRIvAjgUIee3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "BRAIN SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikwjZW0VAA0y3MKFn7EqykV3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikwjZW0VAA0y3MKFn7EqykV3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikwjZW0VAA0y3MKFn7EqykV3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "HERNIA REPAIR"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik7oFflUfcJ3Z4PKdRW37CU3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik7oFflUfcJ3Z4PKdRW37CU3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik7oFflUfcJ3Z4PKdRW37CU3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "SKIN BIOPSY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimhXCzakM9tmjL8pwJE9mk13"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimhXCzakM9tmjL8pwJE9mk13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdimhXCzakM9tmjL8pwJE9mk13",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "BREAST SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikf6Js6lzbsmu3v9xF1V5-g3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikf6Js6lzbsmu3v9xF1V5-g3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikf6Js6lzbsmu3v9xF1V5-g3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "HYSTERECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinmWmYrHaadBex9xmEIXk8G3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinmWmYrHaadBex9xmEIXk8G3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinmWmYrHaadBex9xmEIXk8G3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "FRACTURE SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik6Ss4Hjbsd6Tvfip2yHXyy3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik6Ss4Hjbsd6Tvfip2yHXyy3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdik6Ss4Hjbsd6Tvfip2yHXyy3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "JOINT REPLACEMENT"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinwsVxqvVYSsrAqI-kS86oV3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinwsVxqvVYSsrAqI-kS86oV3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdinwsVxqvVYSsrAqI-kS86oV3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "VASCULAR SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikOiXczIS8eqyVvBUFXug9M3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikOiXczIS8eqyVvBUFXug9M3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "etkQ-esdpswiwE6rRhms.Xhyg2PWlHTEHugvKXjUsdikOiXczIS8eqyVvBUFXug9M3",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "COLON SURGERY"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "performedDateTime": "2008-05-21"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f25ecac-b9eb-4695-a2a8-fb1d6473601f",
+      "resource": {
+        "resourceType": "OperationOutcome",
+        "issue": [
+          {
+            "severity": "information",
+            "code": "invalid",
+            "details": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.657369",
+                  "code": "59100",
+                  "display": "Content invalid against the specification or a profile."
+                }
+              ],
+              "text": "Content invalid against the specification or a profile."
+            },
+            "diagnostics": "Unknown parameter: _SORT. Parameter has been ignored."
+          },
+          {
+            "severity": "warning",
+            "code": "suppressed",
+            "details": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.657369",
+                  "code": "59204",
+                  "display": "The authenticated client's search request applies to a sub-resource that the client is not authorized for. Results of this sub-type will not be returned."
+                }
+              ],
+              "text": "The authenticated client's search request applies to a sub-resource that the client is not authorized for. Results of this sub-type will not be returned."
+            },
+            "diagnostics": "Client not authorized for Procedure - External Radiotherapy Summary. Search results of this type have not been included."
+          }
+        ]
+      },
+      "search": {
+        "mode": "outcome"
+      }
+    }
+  ]
+}

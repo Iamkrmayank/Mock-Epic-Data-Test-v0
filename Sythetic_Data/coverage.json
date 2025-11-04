@@ -1,0 +1,365 @@
+{
+  "total": 10,
+  "coverage": [
+    {
+      "id": "cov-ePtdJFCrnl2edlBDdz1C5Ja",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLJ.EJ4jKEIQOkrtDXtBi10Q71hA1XcW9a",
+          "display": "Regional Medical Center"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "2b64f",
+          "name": "Blue Cross Blue Shield"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-2b64f",
+          "name": "Blue Cross Blue Shield"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePt2RJtBRnlWmTSHf6pWkLUy",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn",
+          "display": "Community Hospital"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "7dd3a",
+          "name": "Blue Cross Blue Shield"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-7dd3a",
+          "name": "Blue Cross Blue Shield"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtfDLkDmWJ6UuVTAIjvFu7",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLMX1C.CI3.dXRZv7qdYdk2r7xgHWPB6PRWJ",
+          "display": "General Health System"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "49213",
+          "name": "Blue Cross Blue Shield"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-49213",
+          "name": "Blue Cross Blue Shield"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-",
+          "display": "Metropolitan Medical Center"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "0b93c",
+          "name": "Blue Cross Blue Shield"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-0b93c",
+          "name": "Blue Cross Blue Shield"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePt-lgotu2iXW7GboIRoL3u6",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLDpyOpxyB9JKmyLDUwMbqJfgLq.nbK894R",
+          "display": "Valley Hospital"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "05541",
+          "name": "Cigna"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-05541",
+          "name": "Cigna"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtHwnMztVuaP.coUNEhEk",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtHwnMztVuaP.coUNEhEk",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe",
+          "display": "Memorial Hospital"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "3c39e",
+          "name": "Humana"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-3c39e",
+          "name": "Humana"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePt.iqq8vH2BzNZV45pFCiR",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLx.BTHRJJbykE0.E8.5clLCZFNV8S2QT6IN",
+          "display": "City Medical Center"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "ba471",
+          "name": "Kaiser Permanente"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-ba471",
+          "name": "Kaiser Permanente"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtDCajhDieQjEJ.Bq8F80",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE",
+          "display": "Riverside Hospital"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "bcb34",
+          "name": "Aetna"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-bcb34",
+          "name": "Aetna"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtmm3T207gmhZRnFyy5r2xJ7",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLjua058LeDKK6jDHz2oCtIsjhvNK4p7M",
+          "display": "University Medical Center"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "6792c",
+          "name": "Humana"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-6792c",
+          "name": "Humana"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    },
+    {
+      "id": "cov-ePtj4mgblEv0.9BZhvWaXH6K2",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L",
+          "display": "Central Hospital"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "c2260",
+          "name": "Aetna"
+        },
+        {
+          "type": {
+            "code": "group",
+            "display": "Group"
+          },
+          "value": "GRP-c2260",
+          "name": "Aetna"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 11,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition?patient=eYg3-1aJmCMq-umIIq2Njxw3&_count=20"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ebWjO0ABE076wuMprKBOxbw3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ebWjO0ABE076wuMprKBOxbw3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ebWjO0ABE076wuMprKBOxbw3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "M81.0",
+              "display": "Age-related osteoporosis without current pathological fracture"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64859006",
+              "display": "Osteoporosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "733.00",
+              "display": "Osteoporosis"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "32328",
+              "display": "Osteoporosis"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "onsetDateTime": "2010-12-25",
+        "recordedDate": "2010-12-25"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ecwj0MBJQyEv4XruTrq2Aww3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ecwj0MBJQyEv4XruTrq2Aww3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ecwj0MBJQyEv4XruTrq2Aww3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive Disorder"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "401.9",
+              "display": "Hypertension"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "86491",
+              "display": "Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "onsetDateTime": "2010-12-25",
+        "recordedDate": "2010-12-25",
+        "note": [
+          {
+            "extension": [
+              {
+                "valueString": "Formatting of this note might be different from the original.",
+                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "68608-9",
+                      "display": "Summary note"
+                    }
+                  ],
+                  "text": "Problem Overview"
+                },
+                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+              }
+            ],
+            "authorReference": {
+              "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+              "display": "User Epic"
+            },
+            "time": "2015-02-28T20:21:30Z",
+            "text": "IMO import replacer change\r\nIMO clean up\r\n"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/edNKcUAU8juLdySxLB27H-ZMJ3STsFNMmC7fcWy.n-OAwV2jXp5Rvdfx8d77VHbvrKPko57AB6ECyLrKws2g1mQ3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/edNKcUAU8juLdySxLB27H-ZMJ3STsFNMmC7fcWy.n-OAwV2jXp5Rvdfx8d77VHbvrKPko57AB6ECyLrKws2g1mQ3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "edNKcUAU8juLdySxLB27H-ZMJ3STsFNMmC7fcWy.n-OAwV2jXp5Rvdfx8d77VHbvrKPko57AB6ECyLrKws2g1mQ3",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "74400008",
+              "display": "Appendicitis (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "541",
+              "display": "Appendicitis, unqualified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "K37",
+              "display": "Unspecified appendicitis"
+            }
+          ],
+          "text": "Appendicitis"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11906"
+          },
+          "display": "Surgical Consult"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/eUBg0ey0x4RaCixafyFyw1KRQdO9rtTobO-QDOhLDpVdd-aq4-S93dHG9qWWvQb5cru4SQMC5sCgrY-ulQm.EFw3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/eUBg0ey0x4RaCixafyFyw1KRQdO9rtTobO-QDOhLDpVdd-aq4-S93dHG9qWWvQb5cru4SQMC5sCgrY-ulQm.EFw3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eUBg0ey0x4RaCixafyFyw1KRQdO9rtTobO-QDOhLDpVdd-aq4-S93dHG9qWWvQb5cru4SQMC5sCgrY-ulQm.EFw3",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64859006",
+              "display": "Osteoporosis (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "733.00",
+              "display": "Osteoporosis, unspecified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "M81.0",
+              "display": "Age-related osteoporosis without current pathological fracture"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "encounter": {
+          "extension": [
+            {
+              "valueIdentifier": {
+                "use": "usual",
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                "value": "11917"
+              },
+              "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ce-encounter-id"
+            }
+          ],
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11916"
+          },
+          "display": "Anesthesia"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/eUBg0ey0x4RaCixafyFyw1GAHc.zCoVdZFWpZTOQXtjSDfDyxOYhHQth0UbxxsDHn9tws-1NYlq9o72e2YneN.w3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/eUBg0ey0x4RaCixafyFyw1GAHc.zCoVdZFWpZTOQXtjSDfDyxOYhHQth0UbxxsDHn9tws-1NYlq9o72e2YneN.w3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eUBg0ey0x4RaCixafyFyw1GAHc.zCoVdZFWpZTOQXtjSDfDyxOYhHQth0UbxxsDHn9tws-1NYlq9o72e2YneN.w3",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive disorder, systemic arterial (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "401.9",
+              "display": "Unspecified essential hypertension"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "encounter": {
+          "extension": [
+            {
+              "valueIdentifier": {
+                "use": "usual",
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+                "value": "11917"
+              },
+              "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ce-encounter-id"
+            }
+          ],
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11916"
+          },
+          "display": "Anesthesia"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7Q1OYxJ20go8EgdfPqT332E3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7Q1OYxJ20go8EgdfPqT332E3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ejf2zxURzmXeqwytEo03d7Q1OYxJ20go8EgdfPqT332E3",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "medical-history",
+                "display": "Medical History"
+              }
+            ],
+            "text": "Medical History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive disorder, systemic arterial (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "401.9",
+              "display": "Unspecified essential hypertension"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7QjtqPWpOwaPtWsspYvq3kg3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7QjtqPWpOwaPtWsspYvq3kg3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ejf2zxURzmXeqwytEo03d7QjtqPWpOwaPtWsspYvq3kg3",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "medical-history",
+                "display": "Medical History"
+              }
+            ],
+            "text": "Medical History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1488000",
+              "display": "Postoperative nausea and vomiting (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "787.01",
+              "display": "Nausea with vomiting"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "R11.2",
+              "display": "Nausea with vomiting, unspecified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "Z98.890",
+              "display": "Other specified postprocedural states"
+            }
+          ],
+          "text": "PONV (postoperative nausea and vomiting)"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7awlwUjWsy8qbDctKLDc0MA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7awlwUjWsy8qbDctKLDc0MA3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ejf2zxURzmXeqwytEo03d7awlwUjWsy8qbDctKLDc0MA3",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "refuted",
+              "display": "Refuted"
+            }
+          ],
+          "text": "Refuted"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "medical-history",
+                "display": "Medical History"
+              }
+            ],
+            "text": "Medical History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16932000",
+              "display": "Nausea and vomiting (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "787.01",
+              "display": "Nausea with vomiting"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "R11.2",
+              "display": "Nausea with vomiting, unspecified"
+            }
+          ],
+          "text": "Nausea & vomiting"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "recordedDate": "2010-12-25"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7WPh5pNnX5WsBmatIQ770l03"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7WPh5pNnX5WsBmatIQ770l03",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ejf2zxURzmXeqwytEo03d7WPh5pNnX5WsBmatIQ770l03",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "refuted",
+              "display": "Refuted"
+            }
+          ],
+          "text": "Refuted"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "medical-history",
+                "display": "Medical History"
+              }
+            ],
+            "text": "Medical History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "405501007",
+              "display": "Malignant hyperthermia (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "995.86",
+              "display": "Malignant hyperthermia"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "T88.3XXA",
+              "display": "Malignant hyperthermia due to anesthesia, initial encounter"
+            }
+          ],
+          "text": "Malignant hyperthermia"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "recordedDate": "2010-12-25"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7R4lc-eJHvspk06pM4idTCY3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/ejf2zxURzmXeqwytEo03d7R4lc-eJHvspk06pM4idTCY3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ejf2zxURzmXeqwytEo03d7R4lc-eJHvspk06pM4idTCY3",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "refuted",
+              "display": "Refuted"
+            }
+          ],
+          "text": "Refuted"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "medical-history",
+                "display": "Medical History"
+              }
+            ],
+            "text": "Medical History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "398987004",
+              "display": "Headache following lumbar puncture (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "349.0",
+              "display": "Reaction to spinal or lumbar puncture"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "G97.1",
+              "display": "Other reaction to spinal and lumbar puncture"
+            }
+          ],
+          "text": "Spinal headache"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "recordedDate": "2010-12-25"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/edNKcUAU8juLdySxLB27H-Vxa.ICE3S4LZKOSlMK6DSM3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Condition/edNKcUAU8juLdySxLB27H-Vxa.ICE3S4LZKOSlMK6DSM3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "edNKcUAU8juLdySxLB27H-Vxa.ICE3S4LZKOSlMK6DSM3",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "reason-for-visit",
+                "display": "Reason for Visit"
+              }
+            ],
+            "text": "Reason for Visit"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+              "code": "110002",
+              "display": "Abdominal Pain"
+            }
+          ],
+          "text": "Abdominal Pain"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11906"
+          },
+          "display": "Surgical Consult"
+        },
+        "recordedDate": "2013-11-12T21:39:11Z",
+        "recorder": {
+          "reference": "Practitioner/es6H3dpd-oirB-gJjEnFI1g3",
+          "display": "Physician Surgery, MD"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e51144f0-ae10-4e61-9917-c9f4f4d70681",
+      "resource": {
+        "resourceType": "OperationOutcome",
+        "issue": [
+          {
+            "severity": "information",
+            "code": "invalid",
+            "details": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.657369",
+                  "code": "59100",
+                  "display": "Content invalid against the specification or a profile."
+                }
+              ],
+              "text": "Content invalid against the specification or a profile."
+            },
+            "diagnostics": "Unknown parameter: _SORT. Parameter has been ignored."
+          }
+        ]
+      },
+      "search": {
+        "mode": "outcome"
+      }
+    }
+  ]
+}

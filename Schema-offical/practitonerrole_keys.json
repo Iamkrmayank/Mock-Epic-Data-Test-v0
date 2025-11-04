@@ -1,0 +1,37 @@
+{
+  "resourceType": "string",
+  "id": "string",
+  "active": "boolean",
+  "practitioner": {
+    "reference": "string",
+    "display": "string"
+  },
+  "code": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "specialty": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "location": {
+    "reference": "string"
+  },
+  "telecom": {
+    "system": "string",
+    "value": "string",
+    "use": "string"
+  },
+  "endpoint": {
+    "reference": "string",
+    "display": "string"
+  }
+}

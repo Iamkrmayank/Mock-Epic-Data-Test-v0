@@ -1,0 +1,932 @@
+[
+  {
+    "resourceType": "Provenance",
+    "id": "eProv16c38fb2a23fe32323f5",
+    "target": [
+      {
+        "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja"
+      }
+    ],
+    "recorded": "2025-06-07T17:23:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract9ff21c6685ac6f379861",
+          "display": "John Smith, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProva343d7f9ed4675e7019b",
+    "target": [
+      {
+        "reference": "Condition/eConde79e849f0f3592a1c758"
+      }
+    ],
+    "recorded": "2025-03-09T17:20:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePract9ff21c6685ac6f379861",
+          "display": "John Smith, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvdbf858bf6f223f1c5b19",
+    "target": [
+      {
+        "reference": "Procedure/eProce79e849f0f3592a1c758"
+      }
+    ],
+    "recorded": "2025-09-05T08:08:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract9ff21c6685ac6f379861",
+          "display": "John Smith, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProve9a03e42bac1bbe7c3f2",
+    "target": [
+      {
+        "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy"
+      }
+    ],
+    "recorded": "2025-09-05T17:01:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract044820dcf9fa5d694327",
+          "display": "Sarah Johnson, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv8c72f386d34734005562",
+    "target": [
+      {
+        "reference": "Condition/eCond7182c0da08f85a767d29"
+      }
+    ],
+    "recorded": "2025-02-07T12:12:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePract044820dcf9fa5d694327",
+          "display": "Sarah Johnson, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvc825bed17d11c098e153",
+    "target": [
+      {
+        "reference": "Procedure/eProc7182c0da08f85a767d29"
+      }
+    ],
+    "recorded": "2025-06-07T10:53:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePract044820dcf9fa5d694327",
+          "display": "Sarah Johnson, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv980d4ebae5f3b3bf30a6",
+    "target": [
+      {
+        "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7"
+      }
+    ],
+    "recorded": "2025-03-09T11:34:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte081c3a378c55a1ac558",
+          "display": "Michael Williams, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv8fa6fe353e7c00150dc0",
+    "target": [
+      {
+        "reference": "Condition/eCondb106ffe723f7492942f1"
+      }
+    ],
+    "recorded": "2025-05-08T13:23:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte081c3a378c55a1ac558",
+          "display": "Michael Williams, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvcab6dde64a417f57d713",
+    "target": [
+      {
+        "reference": "Procedure/eProcb106ffe723f7492942f1"
+      }
+    ],
+    "recorded": "2025-02-07T13:39:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte081c3a378c55a1ac558",
+          "display": "Michael Williams, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv146ef6a83a5b3e9a6b27",
+    "target": [
+      {
+        "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC"
+      }
+    ],
+    "recorded": "2025-02-07T12:07:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte6ce6756cfb188d428fd",
+          "display": "Emily Brown, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv00aeba2d1ab65e80ff55",
+    "target": [
+      {
+        "reference": "Condition/eCond8723b50d4195aa325bf1"
+      }
+    ],
+    "recorded": "2025-03-09T16:03:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte6ce6756cfb188d428fd",
+          "display": "Emily Brown, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProva4ffc1afb1ca52a411fd",
+    "target": [
+      {
+        "reference": "Procedure/eProc8723b50d4195aa325bf1"
+      }
+    ],
+    "recorded": "2025-09-05T16:31:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePracte6ce6756cfb188d428fd",
+          "display": "Emily Brown, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv2743cb8b9f0f26ef9008",
+    "target": [
+      {
+        "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6"
+      }
+    ],
+    "recorded": "2025-06-07T12:06:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePract72d30a6e34f4bdc5ecf2",
+          "display": "David Jones, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv46d9f69c0cf91d5df451",
+    "target": [
+      {
+        "reference": "Condition/eCond59c4618f51b6ef91cd35"
+      }
+    ],
+    "recorded": "2025-05-08T08:07:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract72d30a6e34f4bdc5ecf2",
+          "display": "David Jones, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvbf4bb4c5e3b382649761",
+    "target": [
+      {
+        "reference": "Procedure/eProc59c4618f51b6ef91cd35"
+      }
+    ],
+    "recorded": "2025-09-05T11:18:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract72d30a6e34f4bdc5ecf2",
+          "display": "David Jones, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv77ae67890121bbacbd22",
+    "target": [
+      {
+        "reference": "Patient/ePtHwnMztVuaP.coUNEhEk"
+      }
+    ],
+    "recorded": "2025-01-08T14:35:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePracta5d70a35ca95010a54df",
+          "display": "Maria Garcia, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv4c637eb5c50f482dc7d8",
+    "target": [
+      {
+        "reference": "Condition/eCond347d92779dcb97dcda77"
+      }
+    ],
+    "recorded": "2025-06-07T11:53:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePracta5d70a35ca95010a54df",
+          "display": "Maria Garcia, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv99d27350d46397abe287",
+    "target": [
+      {
+        "reference": "Procedure/eProc347d92779dcb97dcda77"
+      }
+    ],
+    "recorded": "2024-12-09T17:15:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePracta5d70a35ca95010a54df",
+          "display": "Maria Garcia, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv6c693600920a8ee1204c",
+    "target": [
+      {
+        "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR"
+      }
+    ],
+    "recorded": "2024-11-09T09:36:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePract59edc79a1cf08d5aeb38",
+          "display": "Robert Miller, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv5f383e1a4b0e50c2d5ca",
+    "target": [
+      {
+        "reference": "Condition/eCond0500a019a2446e6d4f9b"
+      }
+    ],
+    "recorded": "2025-03-09T15:03:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract59edc79a1cf08d5aeb38",
+          "display": "Robert Miller, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProve5cf2341f928020ce939",
+    "target": [
+      {
+        "reference": "Procedure/eProc0500a019a2446e6d4f9b"
+      }
+    ],
+    "recorded": "2025-09-05T15:23:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePract59edc79a1cf08d5aeb38",
+          "display": "Robert Miller, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv908b32d8124c40d95602",
+    "target": [
+      {
+        "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80"
+      }
+    ],
+    "recorded": "2025-01-08T11:37:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract6c80fe1add36dbf2be84",
+          "display": "Jennifer Davis, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvf76b9945e7a1eb8ad80b",
+    "target": [
+      {
+        "reference": "Condition/eCondccb785937b6e37c5b60c"
+      }
+    ],
+    "recorded": "2025-03-09T08:51:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePract6c80fe1add36dbf2be84",
+          "display": "Jennifer Davis, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv555d95705caa112ffa09",
+    "target": [
+      {
+        "reference": "Procedure/eProcccb785937b6e37c5b60c"
+      }
+    ],
+    "recorded": "2025-01-08T15:12:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePract6c80fe1add36dbf2be84",
+          "display": "Jennifer Davis, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvda3c304385d21473f07d",
+    "target": [
+      {
+        "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7"
+      }
+    ],
+    "recorded": "2024-12-09T16:33:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "transmitter",
+              "display": "Transmitter"
+            }
+          ],
+          "text": "Transmitter"
+        },
+        "who": {
+          "reference": "Practitioner/ePract84edac9a25950aea6b85",
+          "display": "James Rodriguez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv72a8768aaf121c8cc564",
+    "target": [
+      {
+        "reference": "Condition/eCond1a07e3038df2e96b60d7"
+      }
+    ],
+    "recorded": "2025-09-05T08:25:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePract84edac9a25950aea6b85",
+          "display": "James Rodriguez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv80e877a9b65514224a33",
+    "target": [
+      {
+        "reference": "Procedure/eProc1a07e3038df2e96b60d7"
+      }
+    ],
+    "recorded": "2025-04-08T11:05:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "author",
+              "display": "Author"
+            }
+          ],
+          "text": "Author"
+        },
+        "who": {
+          "reference": "Practitioner/ePract84edac9a25950aea6b85",
+          "display": "James Rodriguez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv1ee9580b67be152c02ab",
+    "target": [
+      {
+        "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2"
+      }
+    ],
+    "recorded": "2024-12-09T09:39:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePractc68430654dc29c7f9d8d",
+          "display": "Patricia Martinez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProvc72990ae68bc782eeafd",
+    "target": [
+      {
+        "reference": "Condition/eCond5c289667222b68ce9b7f"
+      }
+    ],
+    "recorded": "2025-06-07T08:11:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "enterer",
+              "display": "Enterer"
+            }
+          ],
+          "text": "Enterer"
+        },
+        "who": {
+          "reference": "Practitioner/ePractc68430654dc29c7f9d8d",
+          "display": "Patricia Martinez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Provenance",
+    "id": "eProv74b96cb5a3dfc3db676a",
+    "target": [
+      {
+        "reference": "Procedure/eProc5c289667222b68ce9b7f"
+      }
+    ],
+    "recorded": "2025-04-08T14:24:18Z",
+    "agent": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+              "code": "verifier",
+              "display": "Verifier"
+            }
+          ],
+          "text": "Verifier"
+        },
+        "who": {
+          "reference": "Practitioner/ePractc68430654dc29c7f9d8d",
+          "display": "Patricia Martinez, MD"
+        },
+        "onBehalfOf": {
+          "display": "Medical Center"
+        }
+      }
+    ]
+  }
+]

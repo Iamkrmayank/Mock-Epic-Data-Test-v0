@@ -1,0 +1,27 @@
+{
+  "total": "number",
+  "coverage": {
+    "id": "string",
+    "status": "string",
+    "type": "null",
+    "subscriber": "string",
+    "subscriber_id": "null",
+    "beneficiary": "string",
+    "relationship": "null",
+    "period": "null",
+    "payor": {
+      "reference": "string",
+      "display": "string"
+    },
+    "class": {
+      "type": {
+        "code": "string",
+        "display": "string"
+      },
+      "value": "string",
+      "name": "string"
+    },
+    "network": "null",
+    "cost_sharing": []
+  }
+}

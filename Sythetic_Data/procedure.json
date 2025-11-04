@@ -1,0 +1,833 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 20,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure?patient=*&_count=100"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcaf8dcae218b437671095"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcaf8dcae218b437671095",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcaf8dcae218b437671095",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "unknown",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "409073007",
+              "display": "Evaluation procedure"
+            }
+          ],
+          "text": "Evaluation"
+        },
+        "code": {
+          "text": "CHOLECYSTECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+          "display": "Rodriguez, Mary"
+        },
+        "performedDateTime": "2023-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc660c0075c86850a0d2f8"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc660c0075c86850a0d2f8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc660c0075c86850a0d2f8",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "on-hold",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "Angioplasty"
+        },
+        "subject": {
+          "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+          "display": "Rodriguez, Mary"
+        },
+        "performedDateTime": "2023-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcde5ebb6b26a0bd5a2cd1"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcde5ebb6b26a0bd5a2cd1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcde5ebb6b26a0bd5a2cd1",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+          "display": "Rodriguez, Mary"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcacf5aa6254282cf9d7ab"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcacf5aa6254282cf9d7ab",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcacf5aa6254282cf9d7ab",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "unknown",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "HYSTERECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc926754da91e115be9355"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc926754da91e115be9355",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc926754da91e115be9355",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "preparation",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "409073007",
+              "display": "Evaluation procedure"
+            }
+          ],
+          "text": "Evaluation"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc89de9cf1e8292704c969"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc89de9cf1e8292704c969",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc89de9cf1e8292704c969",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "entered-in-error",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "Knee Replacement"
+        },
+        "subject": {
+          "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+          "display": "Taylor, Thomas"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf47cd4d1cf5524c2a3a7"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf47cd4d1cf5524c2a3a7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcf47cd4d1cf5524c2a3a7",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "entered-in-error",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+          "display": "Young, Andrew"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc130f709289c8dc0a2b67"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc130f709289c8dc0a2b67",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc130f709289c8dc0a2b67",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+          "display": "Young, Andrew"
+        },
+        "performedDateTime": "2022-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf859002ecb627c691d22"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf859002ecb627c691d22",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcf859002ecb627c691d22",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "preparation",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+          "display": "Young, Andrew"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc10f43f47159400e7b9f1"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc10f43f47159400e7b9f1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc10f43f47159400e7b9f1",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "in-progress",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "409073007",
+              "display": "Evaluation procedure"
+            }
+          ],
+          "text": "Evaluation"
+        },
+        "code": {
+          "text": "Angioplasty"
+        },
+        "subject": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf9d43410c32dfff524fd"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf9d43410c32dfff524fd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcf9d43410c32dfff524fd",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "stopped",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "Knee Replacement"
+        },
+        "subject": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc4ab88aa528280e9c0d7e"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc4ab88aa528280e9c0d7e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc4ab88aa528280e9c0d7e",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "not-done",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "Knee Replacement"
+        },
+        "subject": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "performedDateTime": "2022-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc45713ebb7c559961f45d"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc45713ebb7c559961f45d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc45713ebb7c559961f45d",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "409073007",
+              "display": "Evaluation procedure"
+            }
+          ],
+          "text": "Evaluation"
+        },
+        "code": {
+          "text": "Knee Replacement"
+        },
+        "subject": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "performedDateTime": "2022-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf46394a0a66964d75ed2"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf46394a0a66964d75ed2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcf46394a0a66964d75ed2",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "entered-in-error",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "Mastectomy"
+        },
+        "subject": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc0b5c90979b1132f238ea"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc0b5c90979b1132f238ea",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc0b5c90979b1132f238ea",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "stopped",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "CESAREAN SECTION"
+        },
+        "subject": {
+          "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+          "display": "Hernandez, James"
+        },
+        "performedDateTime": "2021-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcb9f86dc663c822116d02"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcb9f86dc663c822116d02",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcb9f86dc663c822116d02",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "preparation",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "409073007",
+              "display": "Evaluation procedure"
+            }
+          ],
+          "text": "Evaluation"
+        },
+        "code": {
+          "text": "Cardiac Catheterization"
+        },
+        "subject": {
+          "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+          "display": "Lewis, Patricia"
+        },
+        "performedDateTime": "2023-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf6889d86b494084aae7a"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProcf6889d86b494084aae7a",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProcf6889d86b494084aae7a",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "preparation",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "APPENDECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc9cdd322cfd93a956a142"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc9cdd322cfd93a956a142",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc9cdd322cfd93a956a142",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "in-progress",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "Knee Replacement"
+        },
+        "subject": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "performedDateTime": "2022-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc2f730833a3963ef7b97f"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc2f730833a3963ef7b97f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc2f730833a3963ef7b97f",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "in-progress",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Diagnostic"
+        },
+        "code": {
+          "text": "CHOLECYSTECTOMY"
+        },
+        "subject": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "performedDateTime": "2023-11-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc776dc7e2d8515571c8d0"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Procedure/eProc776dc7e2d8515571c8d0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eProc776dc7e2d8515571c8d0",
+        "extension": [
+          {
+            "valueString": "Provider",
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/surgical-history-source"
+          }
+        ],
+        "status": "stopped",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical History"
+        },
+        "code": {
+          "text": "Colonoscopy"
+        },
+        "subject": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "performedDateTime": "2024-11-04"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "total": 1,
+  "coverage": [
+    {
+      "id": "ebX4gMtV0LW3dH2huBMwerVoyv4zXKrDij4txtGEcGxU3",
+      "status": "active",
+      "type": null,
+      "subscriber": "",
+      "subscriber_id": null,
+      "beneficiary": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+      "relationship": null,
+      "period": null,
+      "payor": [
+        {
+          "reference": "Organization/eZJz9NSFV2qF0NQIOzJ-37Q3",
+          "display": "AETNA"
+        }
+      ],
+      "class": [
+        {
+          "type": {
+            "code": "plan",
+            "display": "Plan"
+          },
+          "value": "10001",
+          "name": "AETNA"
+        }
+      ],
+      "network": null,
+      "cost_sharing": []
+    }
+  ]
+}

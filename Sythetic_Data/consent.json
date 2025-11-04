@@ -1,0 +1,2297 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 31,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent?patient=*&_count=100"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentaf8dcae218b437671095"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentaf8dcae218b437671095",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentaf8dcae218b437671095",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "736551"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "12",
+              "display": "HIPAA Notice of Privacy"
+            }
+          ],
+          "text": "HIPAA Notice of Privacy"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "12",
+                "display": "HIPAA Notice of Privacy"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+          "display": "Rodriguez, Mary"
+        },
+        "dateTime": "2022-11-05T08:08:51Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent660c0075c86850a0d2f8"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent660c0075c86850a0d2f8",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent660c0075c86850a0d2f8",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "709029"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "12",
+              "display": "HIPAA Notice of Privacy"
+            }
+          ],
+          "text": "HIPAA Notice of Privacy"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "12",
+                "display": "HIPAA Notice of Privacy"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+          "display": "Rodriguez, Mary"
+        },
+        "dateTime": "2020-11-05T14:18:44Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentacf5aa6254282cf9d7ab"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentacf5aa6254282cf9d7ab",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentacf5aa6254282cf9d7ab",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "747885"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "dateTime": "2022-11-05T08:53:22Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc15496373"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent926754da91e115be9355"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent926754da91e115be9355",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent926754da91e115be9355",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "739250"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "dateTime": "2022-11-05T13:14:58Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc3fe28e43"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsenteae44df537873d8a9acd"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsenteae44df537873d8a9acd",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsenteae44df537873d8a9acd",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "743839"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "dateTime": "2024-11-04T14:58:43Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc93de62e2"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4456cb865317a1a7b635"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4456cb865317a1a7b635",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent4456cb865317a1a7b635",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "743401"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+          "display": "Wilson, Anthony"
+        },
+        "dateTime": "2022-11-05T12:20:13Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc2f60c356"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent89de9cf1e8292704c969"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent89de9cf1e8292704c969",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent89de9cf1e8292704c969",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "760408"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+          "display": "Taylor, Thomas"
+        },
+        "dateTime": "2021-11-05T11:31:50Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc2825c92e"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent82948ceac6ff6ec4d9b6"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent82948ceac6ff6ec4d9b6",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent82948ceac6ff6ec4d9b6",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "706508"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+          "display": "Taylor, Thomas"
+        },
+        "dateTime": "2024-11-04T15:50:58Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf47cd4d1cf5524c2a3a7"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf47cd4d1cf5524c2a3a7",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentf47cd4d1cf5524c2a3a7",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "731545"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+          "display": "Young, Andrew"
+        },
+        "dateTime": "2020-11-05T15:16:46Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEncde421046"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent130f709289c8dc0a2b67"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent130f709289c8dc0a2b67",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent130f709289c8dc0a2b67",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "717225"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+          "display": "Young, Andrew"
+        },
+        "dateTime": "2021-11-05T09:20:47Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent10f43f47159400e7b9f1"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent10f43f47159400e7b9f1",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent10f43f47159400e7b9f1",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "712951"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "dateTime": "2022-11-05T08:51:32Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc6670fd18"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf9d43410c32dfff524fd"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf9d43410c32dfff524fd",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentf9d43410c32dfff524fd",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "727211"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "dateTime": "2024-11-04T11:36:15Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc30613335"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentdac4941f77812f4b3643"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentdac4941f77812f4b3643",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentdac4941f77812f4b3643",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "716991"
+          }
+        ],
+        "status": "draft",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "dateTime": "2020-11-05T14:39:31Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc0ce61232"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent91bcc51edc935d9d32d3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent91bcc51edc935d9d32d3",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent91bcc51edc935d9d32d3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "760151"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+          "display": "Miller, Joshua"
+        },
+        "dateTime": "2020-11-05T08:36:26Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4ab88aa528280e9c0d7e"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4ab88aa528280e9c0d7e",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent4ab88aa528280e9c0d7e",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "756812"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "dateTime": "2023-11-05T10:19:04Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc867cec9d"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent45713ebb7c559961f45d"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent45713ebb7c559961f45d",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent45713ebb7c559961f45d",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "750241"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "12",
+              "display": "HIPAA Notice of Privacy"
+            }
+          ],
+          "text": "HIPAA Notice of Privacy"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "12",
+                "display": "HIPAA Notice of Privacy"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "dateTime": "2021-11-05T08:47:54Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf46394a0a66964d75ed2"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf46394a0a66964d75ed2",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentf46394a0a66964d75ed2",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "732876"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+          "display": "Robinson, Ashley"
+        },
+        "dateTime": "2023-11-05T16:55:05Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent0b5c90979b1132f238ea"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent0b5c90979b1132f238ea",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent0b5c90979b1132f238ea",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "749769"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+          "display": "Hernandez, James"
+        },
+        "dateTime": "2021-11-05T11:22:33Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent20d573caeebd73794708"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent20d573caeebd73794708",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent20d573caeebd73794708",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "734766"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+          "display": "Hernandez, James"
+        },
+        "dateTime": "2022-11-05T11:07:27Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEncbc84ff4a"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent38d03bbe09099fcb6007"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent38d03bbe09099fcb6007",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent38d03bbe09099fcb6007",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "736592"
+          }
+        ],
+        "status": "rejected",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "12",
+              "display": "HIPAA Notice of Privacy"
+            }
+          ],
+          "text": "HIPAA Notice of Privacy"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "12",
+                "display": "HIPAA Notice of Privacy"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+          "display": "Hernandez, James"
+        },
+        "dateTime": "2022-11-05T11:32:18Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf8847a868ce4b2b082ad"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf8847a868ce4b2b082ad",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentf8847a868ce4b2b082ad",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "747921"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+          "display": "Hernandez, James"
+        },
+        "dateTime": "2021-11-05T16:27:56Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc0ca76052"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentb9f86dc663c822116d02"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentb9f86dc663c822116d02",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentb9f86dc663c822116d02",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "732951"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+          "display": "Lewis, Patricia"
+        },
+        "dateTime": "2022-11-05T09:26:22Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsenta71c1a7f0307d4d562d8"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsenta71c1a7f0307d4d562d8",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsenta71c1a7f0307d4d562d8",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "709911"
+          }
+        ],
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+          "display": "Lewis, Patricia"
+        },
+        "dateTime": "2024-11-04T12:58:31Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf6889d86b494084aae7a"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsentf6889d86b494084aae7a",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsentf6889d86b494084aae7a",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "715946"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "dateTime": "2022-11-05T17:47:59Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent9cdd322cfd93a956a142"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent9cdd322cfd93a956a142",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent9cdd322cfd93a956a142",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "763348"
+          }
+        ],
+        "status": "rejected",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "2000",
+              "display": "Consent Form"
+            }
+          ],
+          "text": "Consent Form"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "2000",
+                "display": "Consent Form"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "dateTime": "2024-11-04T16:25:11Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent0d7c0bbae0a65865a692"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent0d7c0bbae0a65865a692",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent0d7c0bbae0a65865a692",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "703560"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "11",
+              "display": "Power of Attorney"
+            }
+          ],
+          "text": "Power of Attorney"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "11",
+                "display": "Power of Attorney"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "dateTime": "2020-11-05T09:10:10Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc7e094877"
+              }
+            }
+          ]
+        },
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent1fa04378b95b35696a84"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent1fa04378b95b35696a84",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent1fa04378b95b35696a84",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "722946"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+          "display": "Wright, James"
+        },
+        "dateTime": "2020-11-05T14:19:19Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc47b78264"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent2f730833a3963ef7b97f"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent2f730833a3963ef7b97f",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent2f730833a3963ef7b97f",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "703310"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "dateTime": "2021-11-05T16:43:28Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "_status": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent776dc7e2d8515571c8d0"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent776dc7e2d8515571c8d0",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent776dc7e2d8515571c8d0",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "720894"
+          }
+        ],
+        "status": "proposed",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "dateTime": "2022-11-05T14:26:54Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4f1dec0714668f26cb9a"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent4f1dec0714668f26cb9a",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent4f1dec0714668f26cb9a",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "703343"
+          }
+        ],
+        "status": "inactive",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "13",
+              "display": "Advanced Directive"
+            }
+          ],
+          "text": "Advanced Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "13",
+                "display": "Advanced Directive"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "dateTime": "2022-11-05T08:09:40Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "provision": {
+          "data": [
+            {
+              "meaning": "related",
+              "reference": {
+                "reference": "Encounter/eEnc8561978b"
+              }
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent9155cdd9c64051ffb20b"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Consent/eConsent9155cdd9c64051ffb20b",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "eConsent9155cdd9c64051ffb20b",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.686783",
+            "value": "763782"
+          }
+        ],
+        "status": "rejected",
+        "scope": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+              "code": "14",
+              "display": "Research Consent"
+            }
+          ],
+          "text": "Research Consent"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.686783.100",
+                "code": "14",
+                "display": "Research Consent"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "59284-0",
+                "display": "Consent Document"
+              }
+            ],
+            "text": "Consent Document"
+          }
+        ],
+        "patient": {
+          "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+          "display": "Martinez, Andrew"
+        },
+        "dateTime": "2024-11-04T13:17:01Z",
+        "policy": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

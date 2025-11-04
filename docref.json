@@ -1,0 +1,193 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "eXR.vCaCsTte6MWYJJim4wA3",
+  "extension": [
+    {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.72072",
+                "code": "1",
+                "display": "Signer"
+              }
+            ],
+            "text": "Signer"
+          },
+          "url": "mode"
+        },
+        {
+          "valueDateTime": "2025-04-20T23:27:56Z",
+          "url": "time"
+        },
+        {
+          "valueReference": {
+            "reference": "Practitioner/ejb8.EbaQ8UyziPoyHy.J3A3",
+            "display": "Attending Physician Inpatient, MD"
+          },
+          "url": "party"
+        }
+      ],
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.2.727879",
+      "value": "566327"
+    },
+    {
+      "system": "urn:oid:1.2.840.114350.1.72.3.15",
+      "value": "1.2.840.114350.1.13.11511.1.7.2.727879_566327"
+    }
+  ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.737880.5010",
+        "code": "1",
+        "display": "Progress Notes"
+      },
+      {
+        "system": "urn:oid:1.2.840.114350.1.72.727879.69848980",
+        "code": "1",
+        "display": "Progress Notes"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11506-3",
+        "display": "Progress note",
+        "userSelected": true
+      }
+    ],
+    "text": "Progress Notes"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code": "clinical-note",
+          "display": "Clinical Note"
+        }
+      ],
+      "text": "Clinical Note"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/eUEKdnYPKuCXlSq8WIYaPTA3",
+    "display": "Bugsy, Beau Dakota"
+  },
+  "date": "2025-04-20T23:27:24Z",
+  "author": [
+    {
+      "reference": "Practitioner/ejb8.EbaQ8UyziPoyHy.J3A3",
+      "type": "Practitioner",
+      "display": "Attending Physician Inpatient, MD"
+    }
+  ],
+  "authenticator": {
+    "extension": [
+      {
+        "valueDateTime": "2025-04-20T23:27:56Z",
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-authentication-instant"
+      }
+    ],
+    "reference": "Practitioner/ejb8.EbaQ8UyziPoyHy.J3A3",
+    "type": "Practitioner",
+    "display": "Attending Physician Inpatient, MD"
+  },
+  "custodian": {
+    "identifier": {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:epic:cec.fsplyfin"
+    },
+    "display": "FHIR Playground"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "text/html",
+        "url": "Binary/e6OvKs0SMxxJBE132ZozoeA3"
+      },
+      "format": {
+        "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+        "display": "mimeType Sufficient"
+      }
+    },
+    {
+      "attachment": {
+        "contentType": "text/rtf",
+        "url": "Binary/fF4.r.AZYL0syLa.ko.DTJDW6zmUskO2Tigi1g8J7iwA4"
+      },
+      "format": {
+        "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+        "display": "mimeType Sufficient"
+      }
+    }
+  ],
+  "context": {
+    "extension": [
+      {
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1040",
+              "code": "1",
+              "display": "Physician"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.101",
+              "code": "207R00000X",
+              "display": "Internal Medicine Physician"
+            }
+          ],
+          "text": "Physician"
+        },
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-author-provider-type"
+      },
+      {
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.696784.34886",
+              "code": "112",
+              "display": "Internal Medicine"
+            }
+          ],
+          "text": "Internal Medicine"
+        },
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/clinical-note-service"
+      }
+    ],
+    "encounter": [
+      {
+        "reference": "Encounter/eKvkb8V4sgTKL9nm3MtDjXw3",
+        "identifier": {
+          "use": "usual",
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.3.698084.8",
+          "value": "40282"
+        },
+        "display": "Hospital Encounter"
+      }
+    ],
+    "period": {
+      "start": "2025-04-20T23:27:24Z"
+    },
+    "practiceSetting": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.840.114350.1.13.11511.1.7.4.836982.1050",
+          "code": "17",
+          "display": "Internal Medicine"
+        }
+      ],
+      "text": "Internal Medicine"
+    }
+  }
+}

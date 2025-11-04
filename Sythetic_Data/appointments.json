@@ -1,0 +1,1702 @@
+{
+  "resourceType": "Bundle",
+  "total": 10,
+  "appointments": [
+    {
+      "id": "e198F6sXyriJ1RIaKM.t59SQW6PyEXD0",
+      "status": "cancelled",
+      "start": "2025-11-05T14:00:00Z",
+      "end": "2025-11-05T15:30:00Z",
+      "duration": 90,
+      "description": "TOTAL KNEE REPLACEMENT with Physician Orthopedics in OR1 on 11/5/2025",
+      "service_type": "surgery",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Anesthesia, Rohan"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Physician Orthopedics, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "OR1"
+        }
+      ],
+      "location": "OR1",
+      "specialty": "orthopedics",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "e198F6sXyriJ1RIaKM.t59SQW6PyEXD0",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "1001"
+          }
+        ],
+        "status": "cancelled",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.111111.1.1.1.100",
+                "code": "210",
+                "display": "Orthopedics"
+              }
+            ],
+            "text": "Orthopedics"
+          }
+        ],
+        "description": "TOTAL KNEE REPLACEMENT with Physician Orthopedics in OR1 on 11/5/2025",
+        "minutesDuration": 90,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtdJFCrnl2edlBDdz1C5Ja",
+              "display": "Rodriguez, Mary"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-05T14:00:00Z",
+              "end": "2025-11-05T15:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePr.tyLBhhOhg9uhkxiiEZpFfk1O",
+              "display": "Physician Orthopedics, MD"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-05T14:00:00Z",
+              "end": "2025-11-05T15:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLJ.EJ4jKEIQOkrtDXtBi10Q71hA1XcW9a",
+              "display": "OR1"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-05T14:00:00Z",
+              "end": "2025-11-05T15:30:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-05T14:00:00Z",
+        "end": "2025-11-05T15:30:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early.",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        }
+      }
+    },
+    {
+      "id": "eWXt-eqQm4m6bs0tj8HRYkQWO.eiEKDl3mm4vMd",
+      "status": "fulfilled",
+      "start": "2025-11-06T14:00:00Z",
+      "end": "2025-11-06T15:15:00Z",
+      "duration": 75,
+      "description": "APPENDECTOMY with Physician Surgery in EMH OR on 11/6/2025",
+      "service_type": "surgery",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Emma"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "EMH OR"
+        }
+      ],
+      "location": "EMH OR",
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eWXt-eqQm4m6bs0tj8HRYkQWO.eiEKDl3mm4vMd",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "1002"
+          }
+        ],
+        "status": "fulfilled",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "APPENDECTOMY with Physician Surgery in EMH OR on 11/6/2025",
+        "minutesDuration": 75,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePt2RJtBRnlWmTSHf6pWkLUy",
+              "display": "Wilson, Anthony"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-06T14:00:00Z",
+              "end": "2025-11-06T15:15:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrAOEHYqM6Ojb6mjBHqSiFV",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-06T14:00:00Z",
+              "end": "2025-11-06T15:15:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLGk8cgSCifdFzctEq8oB7GVvouNndNWYzjFn",
+              "display": "EMH OR"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-06T14:00:00Z",
+              "end": "2025-11-06T15:15:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-06T14:00:00Z",
+        "end": "2025-11-06T15:15:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "eLTV3sF0xvwkWE-sD7G6Gb7Ku",
+      "status": "booked",
+      "start": "2025-11-07T11:00:00Z",
+      "end": "2025-11-07T13:00:00Z",
+      "duration": 120,
+      "description": "WEDGE BIOPSY OF LIVER - Right with Radiologist Imaging in OR2 on 11/7/2025",
+      "service_type": "surgery",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Aarav"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "Radiologist Imaging, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "OR2"
+        }
+      ],
+      "location": "OR2",
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eLTV3sF0xvwkWE-sD7G6Gb7Ku",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "1003"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "WEDGE BIOPSY OF LIVER - Right with Radiologist Imaging in OR2 on 11/7/2025",
+        "minutesDuration": 120,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtfDLkDmWJ6UuVTAIjvFu7",
+              "display": "Taylor, Thomas"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-07T11:00:00Z",
+              "end": "2025-11-07T13:00:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePru4MbMnrHontIKARAH.Ggl",
+              "display": "Radiologist Imaging, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-07T11:00:00Z",
+              "end": "2025-11-07T13:00:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLMX1C.CI3.dXRZv7qdYdk2r7xgHWPB6PRWJ",
+              "display": "OR2"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-07T11:00:00Z",
+              "end": "2025-11-07T13:00:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-07T11:00:00Z",
+        "end": "2025-11-07T13:00:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "eM2G6MzX9nEWTLLcYJbg-KDTCyGrmfN4eUq",
+      "status": "booked",
+      "start": "2025-11-08T12:00:00Z",
+      "end": "2025-11-08T12:30:00Z",
+      "duration": 30,
+      "description": "X-RAY CHEST PA/LAT with Cardiologist Heart in EMH X-Ray Imaging on 11/8/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Olivia"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "Cardiologist Heart, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "EMH X-Ray Imaging"
+        }
+      ],
+      "location": "EMH X-Ray Imaging",
+      "specialty": "radiology",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eM2G6MzX9nEWTLLcYJbg-KDTCyGrmfN4eUq",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1004"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5040",
+                "code": "120",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          }
+        ],
+        "description": "X-RAY CHEST PA/LAT with Cardiologist Heart in EMH X-Ray Imaging on 11/8/2025",
+        "minutesDuration": 30,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtICPhDeOZIiBOB-Y6sHrFH2ZUC",
+              "display": "Young, Andrew"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-08T12:00:00Z",
+              "end": "2025-11-08T12:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrJfaQqHu42bojteVs3qfNUfT",
+              "display": "Cardiologist Heart, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-08T12:00:00Z",
+              "end": "2025-11-08T12:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLpfS2ViRb1.n3U6t3wI973IPFlJ5F7WRd-",
+              "display": "EMH X-Ray Imaging"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-08T12:00:00Z",
+              "end": "2025-11-08T12:30:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-08T12:00:00Z",
+        "end": "2025-11-08T12:30:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "1053001",
+                "display": "X-Ray Exam"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "e1wzqUIvG9LRo7jsCYUlYbHp6VHWVnD8dP",
+      "status": "booked",
+      "start": "2025-11-09T11:00:00Z",
+      "end": "2025-11-09T11:45:00Z",
+      "duration": 45,
+      "description": "MRI BRAIN WITH & WITHOUT CONTRAST with Dermatologist Skin in EMH MRI on 11/9/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Liam"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "Dermatologist Skin, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "EMH MRI"
+        }
+      ],
+      "location": "EMH MRI",
+      "specialty": "radiology",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "e1wzqUIvG9LRo7jsCYUlYbHp6VHWVnD8dP",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1005"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5040",
+                "code": "120",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          }
+        ],
+        "description": "MRI BRAIN WITH & WITHOUT CONTRAST with Dermatologist Skin in EMH MRI on 11/9/2025",
+        "minutesDuration": 45,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePt-lgotu2iXW7GboIRoL3u6",
+              "display": "Miller, Joshua"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-09T11:00:00Z",
+              "end": "2025-11-09T11:45:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrFnT0tEuw0dwQ0FIunWe8",
+              "display": "Dermatologist Skin, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-09T11:00:00Z",
+              "end": "2025-11-09T11:45:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLDpyOpxyB9JKmyLDUwMbqJfgLq.nbK894R",
+              "display": "EMH MRI"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-09T11:00:00Z",
+              "end": "2025-11-09T11:45:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-09T11:00:00Z",
+        "end": "2025-11-09T11:45:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "1053002",
+                "display": "MRI Exam"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "e7M0orfeM-omErX6V1t1m.0JeV",
+      "status": "cancelled",
+      "start": "2025-11-10T10:00:00Z",
+      "end": "2025-11-10T10:40:00Z",
+      "duration": 40,
+      "description": "CARDIAC ECHO with Family Medicine in Cardiology Lab on 11/10/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Patient, Sophia"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Family Medicine, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Cardiology Lab"
+        }
+      ],
+      "location": "Cardiology Lab",
+      "specialty": "cardiology",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "e7M0orfeM-omErX6V1t1m.0JeV",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1006"
+          }
+        ],
+        "status": "cancelled",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5050",
+                "code": "130",
+                "display": "Cardiology"
+              }
+            ],
+            "text": "Cardiology"
+          }
+        ],
+        "description": "CARDIAC ECHO with Family Medicine in Cardiology Lab on 11/10/2025",
+        "minutesDuration": 40,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtHwnMztVuaP.coUNEhEk",
+              "display": "Robinson, Ashley"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-10T10:00:00Z",
+              "end": "2025-11-10T10:40:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrz6SNDCdyZQJiJSZQdoHw",
+              "display": "Family Medicine, MD"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-10T10:00:00Z",
+              "end": "2025-11-10T10:40:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLI-4kf3PGdlDcIfw84Jx3.l8S0QPnuQ0-KZe",
+              "display": "Cardiology Lab"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-10T10:00:00Z",
+              "end": "2025-11-10T10:40:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-10T10:00:00Z",
+        "end": "2025-11-10T10:40:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early.",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        }
+      }
+    },
+    {
+      "id": "eUmVThYJyp6lBcgQFqAiABDQsaJsqGw",
+      "status": "noshow",
+      "start": "2025-11-11T12:00:00Z",
+      "end": "2025-11-11T12:30:00Z",
+      "duration": 30,
+      "description": "PRE-ADMISSION TESTING with Anesthesiologist Anesthesia in EMC General Surgery on 11/11/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Patient, Noah"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Anesthesiologist Anesthesia, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "EMC General Surgery"
+        }
+      ],
+      "location": "EMC General Surgery",
+      "specialty": "primarycare",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eUmVThYJyp6lBcgQFqAiABDQsaJsqGw",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1007"
+          }
+        ],
+        "status": "noshow",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5080",
+                "code": "160",
+                "display": "Primary Care"
+              }
+            ],
+            "text": "Primary Care"
+          }
+        ],
+        "description": "PRE-ADMISSION TESTING with Anesthesiologist Anesthesia in EMC General Surgery on 11/11/2025",
+        "minutesDuration": 30,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePt.iqq8vH2BzNZV45pFCiR",
+              "display": "Hernandez, James"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-11T12:00:00Z",
+              "end": "2025-11-11T12:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePren3SO3oXyGf3azU3iQOpM",
+              "display": "Anesthesiologist Anesthesia, MD"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-11T12:00:00Z",
+              "end": "2025-11-11T12:30:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLx.BTHRJJbykE0.E8.5clLCZFNV8S2QT6IN",
+              "display": "EMC General Surgery"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2025-11-11T12:00:00Z",
+              "end": "2025-11-11T12:30:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-11T12:00:00Z",
+        "end": "2025-11-11T12:30:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17003",
+                "display": "Pre-Admission Testing Visit"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "eqbTEPcwHgq1oi85Un5CfM6d",
+      "status": "booked",
+      "start": "2025-11-12T14:00:00Z",
+      "end": "2025-11-12T14:20:00Z",
+      "duration": 20,
+      "description": "TELEMEDICINE FOLLOW-UP with PT Therapist in Telemedicine on 11/12/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Isabella"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "PT Therapist, DPT"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Telemedicine"
+        }
+      ],
+      "location": "Telemedicine",
+      "specialty": "telemedicine",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eqbTEPcwHgq1oi85Un5CfM6d",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1008"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5090",
+                "code": "170",
+                "display": "Telemedicine"
+              }
+            ],
+            "text": "Telemedicine"
+          }
+        ],
+        "description": "TELEMEDICINE FOLLOW-UP with PT Therapist in Telemedicine on 11/12/2025",
+        "minutesDuration": 20,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtDCajhDieQjEJ.Bq8F80",
+              "display": "Lewis, Patricia"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-12T14:00:00Z",
+              "end": "2025-11-12T14:20:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrN0PZLqy1WwMZaMKA3P744B8vk",
+              "display": "PT Therapist, DPT"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-12T14:00:00Z",
+              "end": "2025-11-12T14:20:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLgG9oiZ.jgttMkFp1CW54M2NhmABHkuE",
+              "display": "Telemedicine"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-12T14:00:00Z",
+              "end": "2025-11-12T14:20:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-12T14:00:00Z",
+        "end": "2025-11-12T14:20:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "30001",
+                "display": "Telemedicine Visit"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "e2n.4jkPsiqJPWL63moB35D0R6Z1mO2OGVt8",
+      "status": "booked",
+      "start": "2025-11-13T12:00:00Z",
+      "end": "2025-11-13T12:45:00Z",
+      "duration": 45,
+      "description": "PHYSICAL THERAPY - KNEE with General Surgeon in PT Room 3 on 11/13/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Mia"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "General Surgeon, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "PT Room 3"
+        }
+      ],
+      "location": "PT Room 3",
+      "specialty": "physicaltherapy",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "e2n.4jkPsiqJPWL63moB35D0R6Z1mO2OGVt8",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1009"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5070",
+                "code": "150",
+                "display": "Physical Therapy"
+              }
+            ],
+            "text": "Physical Therapy"
+          }
+        ],
+        "description": "PHYSICAL THERAPY - KNEE with General Surgeon in PT Room 3 on 11/13/2025",
+        "minutesDuration": 45,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtmm3T207gmhZRnFyy5r2xJ7",
+              "display": "Wright, James"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-13T12:00:00Z",
+              "end": "2025-11-13T12:45:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePrQlENCzsdfF8j61yX-ZFsa",
+              "display": "General Surgeon, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-13T12:00:00Z",
+              "end": "2025-11-13T12:45:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLjua058LeDKK6jDHz2oCtIsjhvNK4p7M",
+              "display": "PT Room 3"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-13T12:00:00Z",
+              "end": "2025-11-13T12:45:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-13T12:00:00Z",
+        "end": "2025-11-13T12:45:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "20501",
+                "display": "Physical Therapy Session"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    },
+    {
+      "id": "el3mVqhQp0T2gKNTnBt9CnSVoJ",
+      "status": "booked",
+      "start": "2025-11-14T09:00:00Z",
+      "end": "2025-11-14T09:20:00Z",
+      "duration": 20,
+      "description": "DERMATOLOGY SKIN CHECK with Telemedicine Provider in Derm Clinic 2 on 11/14/2025",
+      "service_type": "appointment",
+      "participants": [
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Patient, Ethan"
+        },
+        {
+          "type": "PPRF",
+          "status": "accepted",
+          "actor": "Telemedicine Provider, MD"
+        },
+        {
+          "type": "PART",
+          "status": "accepted",
+          "actor": "Derm Clinic 2"
+        }
+      ],
+      "location": "Derm Clinic 2",
+      "specialty": "dermatology",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "el3mVqhQp0T2gKNTnBt9CnSVoJ",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "1010"
+          }
+        ],
+        "status": "booked",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5060",
+                "code": "140",
+                "display": "Dermatology"
+              }
+            ],
+            "text": "Dermatology"
+          }
+        ],
+        "description": "DERMATOLOGY SKIN CHECK with Telemedicine Provider in Derm Clinic 2 on 11/14/2025",
+        "minutesDuration": 20,
+        "created": "2025-11-01",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/ePtj4mgblEv0.9BZhvWaXH6K2",
+              "display": "Martinez, Andrew"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-14T09:00:00Z",
+              "end": "2025-11-14T09:20:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ePr2Cw7gFp6r7O425u85H",
+              "display": "Telemedicine Provider, MD"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-14T09:00:00Z",
+              "end": "2025-11-14T09:20:00Z"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/eLlOGPoZa70gyU-4gAIqK4.pdEuNb0lCo7pt-L",
+              "display": "Derm Clinic 2"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2025-11-14T09:00:00Z",
+              "end": "2025-11-14T09:20:00Z"
+            }
+          }
+        ],
+        "start": "2025-11-14T09:00:00Z",
+        "end": "2025-11-14T09:20:00Z",
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "patientInstruction": "Please bring ID and insurance. Do not eat or drink after midnight for surgical procedures. Arrive 30 minutes early."
+      }
+    }
+  ],
+  "search_parameters": {
+    "patient": "MULTI",
+    "status": "mixed",
+    "limit": 20
+  },
+  "retrieved_at": "2025-11-02T10:59:24.040710+00:00"
+}

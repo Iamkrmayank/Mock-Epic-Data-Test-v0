@@ -1,0 +1,105 @@
+{
+  "resourceType": "string",
+  "id": "string",
+  "data": {
+    "resourceType": "string",
+    "id": "string",
+    "extension": {
+      "valueCodeableConcept": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "url": "string",
+      "extension": {
+        "valueCoding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "url": "string",
+        "valueString": "string"
+      },
+      "valueCode": "string"
+    },
+    "identifier": {
+      "use": "string",
+      "type": {
+        "text": "string"
+      },
+      "system": "string",
+      "value": "string"
+    },
+    "active": "boolean",
+    "name": {
+      "use": "string",
+      "text": "string",
+      "family": "string",
+      "given": "string"
+    },
+    "gender": "string",
+    "birthDate": "string",
+    "deceasedBoolean": "boolean",
+    "address": {
+      "use": "string",
+      "text": "string",
+      "line": "string",
+      "city": "string",
+      "district": "string",
+      "state": "string",
+      "postalCode": "string",
+      "country": "string",
+      "period": {
+        "start": "string"
+      }
+    },
+    "maritalStatus": {
+      "text": "string"
+    },
+    "contact": {
+      "relationship": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "name": {
+        "use": "string",
+        "text": "string"
+      },
+      "address": {
+        "use": "string",
+        "text": "string",
+        "line": "string",
+        "city": "string",
+        "district": "string",
+        "state": "string",
+        "postalCode": "string",
+        "country": "string"
+      },
+      "telecom": {
+        "system": "string",
+        "value": "string",
+        "use": "string"
+      },
+      "organization": {
+        "display": "string"
+      }
+    },
+    "generalPractitioner": {
+      "reference": "string",
+      "type": "string",
+      "display": "string"
+    },
+    "managingOrganization": {
+      "reference": "string",
+      "display": "string"
+    }
+  },
+  "retrieved_at": "string"
+}

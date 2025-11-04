@@ -1,0 +1,66 @@
+{
+  "resourceType": "string",
+  "id": "string",
+  "basedOn": {
+    "reference": "string",
+    "display": "string"
+  },
+  "status": "string",
+  "category": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "code": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "subject": {
+    "reference": "string",
+    "display": "string"
+  },
+  "encounter": {
+    "reference": "string",
+    "identifier": {
+      "use": "string",
+      "system": "string",
+      "value": "string"
+    },
+    "display": "string"
+  },
+  "effectiveDateTime": "string",
+  "issued": "string",
+  "valueCodeableConcept": {
+    "coding": {
+      "system": "string",
+      "code": "string"
+    },
+    "text": "string"
+  },
+  "interpretation": {
+    "coding": {
+      "system": "string",
+      "code": "string",
+      "display": "string"
+    },
+    "text": "string"
+  },
+  "note": {
+    "text": "string"
+  },
+  "specimen": {
+    "reference": "string",
+    "display": "string"
+  },
+  "hasMember": {
+    "reference": "string",
+    "display": "string"
+  }
+}

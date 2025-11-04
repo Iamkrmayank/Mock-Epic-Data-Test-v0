@@ -1,0 +1,25 @@
+{
+  "resourceType": "string",
+  "id": "string",
+  "target": {
+    "reference": "string"
+  },
+  "recorded": "string",
+  "agent": {
+    "type": {
+      "coding": {
+        "system": "string",
+        "code": "string",
+        "display": "string"
+      },
+      "text": "string"
+    },
+    "who": {
+      "reference": "string",
+      "display": "string"
+    },
+    "onBehalfOf": {
+      "display": "string"
+    }
+  }
+}

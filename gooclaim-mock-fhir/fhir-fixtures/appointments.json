@@ -1,0 +1,2228 @@
+{
+  "resourceType": "Bundle",
+  "total": 8,
+  "appointments": [
+    {
+      "id": "eESdmUKahBOf8dNOKOvs4Qg3",
+      "status": "cancelled",
+      "start": null,
+      "end": null,
+      "duration": 120,
+      "description": "SURGICAL LAPAROSCOPY WITH APPENDECTOMY - Right with Physician Surgery, MD in EMH OR on 11/16/2013",
+      "service_type": null,
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Emh Or"
+        }
+      ],
+      "location": null,
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eESdmUKahBOf8dNOKOvs4Qg3",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "944"
+          }
+        ],
+        "status": "cancelled",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        },
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "SURGICAL LAPAROSCOPY WITH APPENDECTOMY - Right with Physician Surgery, MD in EMH OR on 11/16/2013",
+        "minutesDuration": 120,
+        "created": "2016-06-21",
+        "patientInstruction": "\r\nLAPAROSCOPY APPENDECTOMY\r\nPatient should not eat or drink after midnight prior to day of surgery.  Please arrange travel plans to/from the hospital.  Do not forget to bring any medications you are currently taking.  Please leave any valuables at home or with someone for safekeeping. \r\n \r\n\r\n\r\n",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "Emh Or"
+            },
+            "required": "required",
+            "status": "declined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "euLZa6wvNFt8pjmAvkKbo1g3",
+      "status": "cancelled",
+      "start": null,
+      "end": null,
+      "duration": 75,
+      "description": "APPENDECTOMY with Physician Surgery, MD in EMH OR on 11/13/2013",
+      "service_type": null,
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Emh Or"
+        },
+        {
+          "type": "SPRF",
+          "status": "declined",
+          "actor": "Circ Nurse Three Optime, RN"
+        },
+        {
+          "type": "SPRF",
+          "status": "declined",
+          "actor": "Circ Nurse Four Optime, RN"
+        },
+        {
+          "type": "SPRF",
+          "status": "declined",
+          "actor": "Circ Nurse Two Optime, RN"
+        },
+        {
+          "type": "SPRF",
+          "status": "declined",
+          "actor": "Circ Nurse Optime, RN"
+        },
+        {
+          "type": "SPRF",
+          "status": "declined",
+          "actor": "Anesthesiologist Anesthesia, MD"
+        }
+      ],
+      "location": null,
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "euLZa6wvNFt8pjmAvkKbo1g3",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "945"
+          }
+        ],
+        "status": "cancelled",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        },
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "APPENDECTOMY with Physician Surgery, MD in EMH OR on 11/13/2013",
+        "minutesDuration": 75,
+        "created": "2016-06-21",
+        "patientInstruction": "\r\nAPPENDECTOMY OPEN\r\nHere are some basic reminders about your Appendectomy with Dr. Surgery\r\n1. Be sure to not eat after midnight the night before your surgery. Doing so may require that we delay your procedure. If you have questions, be sure to call the nurse at Dr. Surgery's office at (608)271-9000. \r\n2. Bring all of the medications that you are currently taking or that you have recently taken. Dr. Surgery will make sure that you are prescribed the appropriate medications after your surgery. \r\n3. It's important to arrange transportation to and from the hospital/clinic. You will not be in a position to drive yourself after the surgery. The nurse will ask for your travel arrangements when you arrive. \r\n4. Please don't bring any unnecessary valuables with you. Jewelry, MP3 players, watches, cell phones should all be left home if appropriate. \r\n\r\nIf you are unable to make your surgery date, please call Dr. Surgery's nurse (608-271-9000) as soon as possible. \r\n\r\n\r\n",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "Emh Or"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer"
+                  }
+                ],
+                "text": "SPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/ezDvRQSSUccYch9YBVRmCKA3",
+              "display": "Circ Nurse Three Optime, RN"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer"
+                  }
+                ],
+                "text": "SPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eab.zdhvjmaR-sGDcP8WrvQ3",
+              "display": "Circ Nurse Four Optime, RN"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer"
+                  }
+                ],
+                "text": "SPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/e7e3hw5qGZk2UIxZfxqfPyw3",
+              "display": "Circ Nurse Two Optime, RN"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer"
+                  }
+                ],
+                "text": "SPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+              "display": "Circ Nurse Optime, RN"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer"
+                  }
+                ],
+                "text": "SPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+              "display": "Anesthesiologist Anesthesia, MD"
+            },
+            "required": "required",
+            "status": "declined"
+          }
+        ],
+        "requestedPeriod": [
+          {
+            "start": "2013-11-12",
+            "end": "2013-11-12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9RwczU0hJfij-Ia-0pdRYQ3",
+      "status": "cancelled",
+      "start": null,
+      "end": null,
+      "duration": 130,
+      "description": "WEDGE BIOPSY OF LIVER - Right with Physician Surgery, MD in EMH OR on 11/9/2013",
+      "service_type": null,
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Emh Or"
+        }
+      ],
+      "location": null,
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "e9RwczU0hJfij-Ia-0pdRYQ3",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "946"
+          }
+        ],
+        "status": "cancelled",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        },
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "WEDGE BIOPSY OF LIVER - Right with Physician Surgery, MD in EMH OR on 11/9/2013",
+        "minutesDuration": 130,
+        "created": "2016-06-21",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "Emh Or"
+            },
+            "required": "required",
+            "status": "declined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eVvmL0ydbcD4CqHEf5qp7Pw3",
+      "status": "cancelled",
+      "start": null,
+      "end": null,
+      "duration": 120,
+      "description": "TYLECTOMY OF BREAST - Right with Physician Surgery, MD in EMH OR on 12/25/2010",
+      "service_type": null,
+      "participants": [
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "PPRF",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "PART",
+          "status": "declined",
+          "actor": "Emh Or"
+        }
+      ],
+      "location": null,
+      "specialty": "surgery",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eVvmL0ydbcD4CqHEf5qp7Pw3",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+            "value": "947"
+          }
+        ],
+        "status": "cancelled",
+        "cancelationReason": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+              "code": "282",
+              "display": "Per Patient"
+            }
+          ],
+          "text": "Per Patient"
+        },
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "surgery",
+                "display": "Surgery"
+              }
+            ],
+            "text": "surgery"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                "code": "110",
+                "display": "General"
+              }
+            ],
+            "text": "General"
+          }
+        ],
+        "description": "TYLECTOMY OF BREAST - Right with Physician Surgery, MD in EMH OR on 12/25/2010",
+        "minutesDuration": 120,
+        "created": "2016-06-21",
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "PPRF"
+              }
+            ],
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined"
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation"
+                  }
+                ],
+                "text": "PART"
+              }
+            ],
+            "actor": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "Emh Or"
+            },
+            "required": "required",
+            "status": "declined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "es9qmhpDlKmZzraCYyD50GcqGk5f6gigKvGiFlZhHf5Q3",
+      "status": "noshow",
+      "start": "2013-11-14T14:00:00Z",
+      "end": "2013-11-14T14:30:00Z",
+      "duration": 30,
+      "description": null,
+      "service_type": null,
+      "participants": [
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Pre Admission Testing Nurse, RN"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "EMH Pre-Admission Testing"
+        }
+      ],
+      "location": null,
+      "specialty": "appointment",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "es9qmhpDlKmZzraCYyD50GcqGk5f6gigKvGiFlZhHf5Q3",
+        "identifier": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11904"
+          }
+        ],
+        "status": "noshow",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17003",
+                "display": "Pre-Admission Testing Visit"
+              }
+            ]
+          }
+        ],
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "start": "2013-11-14T14:00:00Z",
+        "end": "2013-11-14T14:30:00Z",
+        "minutesDuration": 30,
+        "patientInstruction": "Please bring your current home medications or a list of home medications on the day of your appointment.",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T14:00:00Z",
+              "end": "2013-11-14T14:30:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+              "display": "Pre Admission Testing Nurse, RN"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T14:00:00Z",
+              "end": "2013-11-14T14:30:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Location/eJG6Ep2t.iL-TuZXPPvfMozjm4V.Rj8vMBZZ8spBZ2BM3",
+              "display": "EMH Pre-Admission Testing"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T14:00:00Z",
+              "end": "2013-11-14T14:30:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "es9qmhpDlKmZzraCYyD50GXqnRw.jtSJXV8.OmIXmr143",
+      "status": "noshow",
+      "start": "2013-11-14T15:30:00Z",
+      "end": "2013-11-14T16:15:00Z",
+      "duration": 45,
+      "description": null,
+      "service_type": null,
+      "participants": [
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "EMC General Surgery"
+        }
+      ],
+      "location": null,
+      "specialty": "appointment",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "es9qmhpDlKmZzraCYyD50GXqnRw.jtSJXV8.OmIXmr143",
+        "identifier": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11906"
+          }
+        ],
+        "status": "noshow",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                "code": "110002",
+                "display": "Abdominal Pain"
+              }
+            ],
+            "text": "Abdominal Pain"
+          }
+        ],
+        "start": "2013-11-14T15:30:00Z",
+        "end": "2013-11-14T16:15:00Z",
+        "minutesDuration": 45,
+        "patientInstruction": "Please bring any insurance information and a copayment if required by your insurance company.",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T15:30:00Z",
+              "end": "2013-11-14T16:15:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T15:30:00Z",
+              "end": "2013-11-14T16:15:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Location/eJsPBO3EzYHeBErroa-CUhGOZGhOOdCqWGe02mMeHAvE3",
+              "display": "EMC General Surgery"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T15:30:00Z",
+              "end": "2013-11-14T16:15:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "es9qmhpDlKmZzraCYyD50GQ9UBwU7Xc6PycfRq92MU4k3",
+      "status": "noshow",
+      "start": "2013-11-14T16:15:00Z",
+      "end": "2013-11-14T17:00:00Z",
+      "duration": 45,
+      "description": null,
+      "service_type": null,
+      "participants": [
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "Physician Surgery, MD"
+        },
+        {
+          "type": "Unknown",
+          "status": "declined",
+          "actor": "EMC General Surgery"
+        }
+      ],
+      "location": null,
+      "specialty": "appointment",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "es9qmhpDlKmZzraCYyD50GQ9UBwU7Xc6PycfRq92MU4k3",
+        "identifier": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11905"
+          }
+        ],
+        "status": "noshow",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "17107",
+                "display": "Surgical Consultation"
+              }
+            ]
+          }
+        ],
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "start": "2013-11-14T16:15:00Z",
+        "end": "2013-11-14T17:00:00Z",
+        "minutesDuration": 45,
+        "patientInstruction": "Please bring any insurance information and a copayment if required by your insurance company.",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T16:15:00Z",
+              "end": "2013-11-14T17:00:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "display": "Physician Surgery, MD"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T16:15:00Z",
+              "end": "2013-11-14T17:00:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Location/eJsPBO3EzYHeBErroa-CUhGOZGhOOdCqWGe02mMeHAvE3",
+              "display": "EMC General Surgery"
+            },
+            "required": "required",
+            "status": "declined",
+            "period": {
+              "start": "2013-11-14T16:15:00Z",
+              "end": "2013-11-14T17:00:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "eIwMk4NBAh4XmltMas8Jzn-bffpYvtfFADbRBMrsRfbc3",
+      "status": "fulfilled",
+      "start": "2016-07-29T14:25:00Z",
+      "end": "2016-07-29T14:55:00Z",
+      "duration": 30,
+      "description": null,
+      "service_type": null,
+      "participants": [
+        {
+          "type": "Unknown",
+          "status": "accepted",
+          "actor": "Anesthesia, Abby"
+        },
+        {
+          "type": "Unknown",
+          "status": "accepted",
+          "actor": "EMH X-Ray Imaging"
+        },
+        {
+          "type": "Unknown",
+          "status": "accepted",
+          "actor": "EMH X-Ray"
+        }
+      ],
+      "location": null,
+      "specialty": "appointment",
+      "full_resource": {
+        "resourceType": "Appointment",
+        "id": "eIwMk4NBAh4XmltMas8Jzn-bffpYvtfFADbRBMrsRfbc3",
+        "identifier": [
+          {
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "25705"
+          }
+        ],
+        "status": "fulfilled",
+        "serviceCategory": [
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                "code": "appointment",
+                "display": "Appointment"
+              }
+            ],
+            "text": "appointment"
+          }
+        ],
+        "serviceType": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "1053001",
+                "display": "X-Ray Exam"
+              }
+            ]
+          }
+        ],
+        "appointmentType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            }
+          ]
+        },
+        "start": "2016-07-29T14:25:00Z",
+        "end": "2016-07-29T14:55:00Z",
+        "minutesDuration": 30,
+        "created": "2016-07-29",
+        "patientInstruction": "No special preparation is needed for this exam.",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+              "display": "Anesthesia, Abby"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2016-07-29T14:25:00Z",
+              "end": "2016-07-29T14:55:00Z"
+            }
+          },
+          {
+            "actor": {
+              "reference": "Location/e6.GHPEJ3Jrk18e14wi2AJ5vFRqvLa0ZB6qH40N4UgB03",
+              "display": "EMH X-Ray Imaging"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2016-07-29T14:25:00Z",
+              "end": "2016-07-29T14:55:00Z"
+            }
+          },
+          {
+            "actor": {
+              "display": "EMH X-Ray"
+            },
+            "required": "required",
+            "status": "accepted",
+            "period": {
+              "start": "2016-07-29T14:25:00Z",
+              "end": "2016-07-29T14:55:00Z"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "search_parameters": {
+    "patient": "eYg3-1aJmCMq-umIIq2Njxw3",
+    "status": null,
+    "limit": 20
+  },
+  "retrieved_at": "2025-11-01T10:48:58.769375+00:00",
+  "raw_response": {
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 8,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment?patient=eYg3-1aJmCMq-umIIq2Njxw3&_count=20"
+      }
+    ],
+    "entry": [
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eESdmUKahBOf8dNOKOvs4Qg3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eESdmUKahBOf8dNOKOvs4Qg3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "eESdmUKahBOf8dNOKOvs4Qg3",
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "text": "ORC"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+              "value": "944"
+            }
+          ],
+          "status": "cancelled",
+          "cancelationReason": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+                "code": "282",
+                "display": "Per Patient"
+              }
+            ],
+            "text": "Per Patient"
+          },
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "surgery",
+                  "display": "Surgery"
+                }
+              ],
+              "text": "surgery"
+            }
+          ],
+          "specialty": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                  "code": "110",
+                  "display": "General"
+                }
+              ],
+              "text": "General"
+            }
+          ],
+          "description": "SURGICAL LAPAROSCOPY WITH APPENDECTOMY - Right with Physician Surgery, MD in EMH OR on 11/16/2013",
+          "minutesDuration": 120,
+          "created": "2016-06-21",
+          "patientInstruction": "\r\nLAPAROSCOPY APPENDECTOMY\r\nPatient should not eat or drink after midnight prior to day of surgery.  Please arrange travel plans to/from the hospital.  Do not forget to bring any medications you are currently taking.  Please leave any valuables at home or with someone for safekeeping. \r\n \r\n\r\n\r\n",
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "PPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                "display": "Emh Or"
+              },
+              "required": "required",
+              "status": "declined"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/euLZa6wvNFt8pjmAvkKbo1g3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/euLZa6wvNFt8pjmAvkKbo1g3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "euLZa6wvNFt8pjmAvkKbo1g3",
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "text": "ORC"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+              "value": "945"
+            }
+          ],
+          "status": "cancelled",
+          "cancelationReason": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+                "code": "282",
+                "display": "Per Patient"
+              }
+            ],
+            "text": "Per Patient"
+          },
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "surgery",
+                  "display": "Surgery"
+                }
+              ],
+              "text": "surgery"
+            }
+          ],
+          "specialty": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                  "code": "110",
+                  "display": "General"
+                }
+              ],
+              "text": "General"
+            }
+          ],
+          "description": "APPENDECTOMY with Physician Surgery, MD in EMH OR on 11/13/2013",
+          "minutesDuration": 75,
+          "created": "2016-06-21",
+          "patientInstruction": "\r\nAPPENDECTOMY OPEN\r\nHere are some basic reminders about your Appendectomy with Dr. Surgery\r\n1. Be sure to not eat after midnight the night before your surgery. Doing so may require that we delay your procedure. If you have questions, be sure to call the nurse at Dr. Surgery's office at (608)271-9000. \r\n2. Bring all of the medications that you are currently taking or that you have recently taken. Dr. Surgery will make sure that you are prescribed the appropriate medications after your surgery. \r\n3. It's important to arrange transportation to and from the hospital/clinic. You will not be in a position to drive yourself after the surgery. The nurse will ask for your travel arrangements when you arrive. \r\n4. Please don't bring any unnecessary valuables with you. Jewelry, MP3 players, watches, cell phones should all be left home if appropriate. \r\n\r\nIf you are unable to make your surgery date, please call Dr. Surgery's nurse (608-271-9000) as soon as possible. \r\n\r\n\r\n",
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "PPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                "display": "Emh Or"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "SPRF",
+                      "display": "secondary performer"
+                    }
+                  ],
+                  "text": "SPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/ezDvRQSSUccYch9YBVRmCKA3",
+                "display": "Circ Nurse Three Optime, RN"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "SPRF",
+                      "display": "secondary performer"
+                    }
+                  ],
+                  "text": "SPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eab.zdhvjmaR-sGDcP8WrvQ3",
+                "display": "Circ Nurse Four Optime, RN"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "SPRF",
+                      "display": "secondary performer"
+                    }
+                  ],
+                  "text": "SPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/e7e3hw5qGZk2UIxZfxqfPyw3",
+                "display": "Circ Nurse Two Optime, RN"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "SPRF",
+                      "display": "secondary performer"
+                    }
+                  ],
+                  "text": "SPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eUHWM5R81nV4SlA71j3Y7rA3",
+                "display": "Circ Nurse Optime, RN"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "SPRF",
+                      "display": "secondary performer"
+                    }
+                  ],
+                  "text": "SPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/enHmcmrIOygs4mq-t6soebQ3",
+                "display": "Anesthesiologist Anesthesia, MD"
+              },
+              "required": "required",
+              "status": "declined"
+            }
+          ],
+          "requestedPeriod": [
+            {
+              "start": "2013-11-12",
+              "end": "2013-11-12"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/e9RwczU0hJfij-Ia-0pdRYQ3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/e9RwczU0hJfij-Ia-0pdRYQ3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "e9RwczU0hJfij-Ia-0pdRYQ3",
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "text": "ORC"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+              "value": "946"
+            }
+          ],
+          "status": "cancelled",
+          "cancelationReason": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+                "code": "282",
+                "display": "Per Patient"
+              }
+            ],
+            "text": "Per Patient"
+          },
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "surgery",
+                  "display": "Surgery"
+                }
+              ],
+              "text": "surgery"
+            }
+          ],
+          "specialty": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                  "code": "110",
+                  "display": "General"
+                }
+              ],
+              "text": "General"
+            }
+          ],
+          "description": "WEDGE BIOPSY OF LIVER - Right with Physician Surgery, MD in EMH OR on 11/9/2013",
+          "minutesDuration": 130,
+          "created": "2016-06-21",
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "PPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                "display": "Emh Or"
+              },
+              "required": "required",
+              "status": "declined"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eVvmL0ydbcD4CqHEf5qp7Pw3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eVvmL0ydbcD4CqHEf5qp7Pw3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "eVvmL0ydbcD4CqHEf5qp7Pw3",
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "text": "ORC"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798267",
+              "value": "947"
+            }
+          ],
+          "status": "cancelled",
+          "cancelationReason": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798267.515",
+                "code": "282",
+                "display": "Per Patient"
+              }
+            ],
+            "text": "Per Patient"
+          },
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "surgery",
+                  "display": "Surgery"
+                }
+              ],
+              "text": "surgery"
+            }
+          ],
+          "specialty": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.5030",
+                  "code": "110",
+                  "display": "General"
+                }
+              ],
+              "text": "General"
+            }
+          ],
+          "description": "TYLECTOMY OF BREAST - Right with Physician Surgery, MD in EMH OR on 12/25/2010",
+          "minutesDuration": 120,
+          "created": "2016-06-21",
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "PPRF"
+                }
+              ],
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined"
+            },
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PART",
+                      "display": "Participation"
+                    }
+                  ],
+                  "text": "PART"
+                }
+              ],
+              "actor": {
+                "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+                "display": "Emh Or"
+              },
+              "required": "required",
+              "status": "declined"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GcqGk5f6gigKvGiFlZhHf5Q3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GcqGk5f6gigKvGiFlZhHf5Q3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "es9qmhpDlKmZzraCYyD50GcqGk5f6gigKvGiFlZhHf5Q3",
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+              "value": "11904"
+            }
+          ],
+          "status": "noshow",
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "appointment",
+                  "display": "Appointment"
+                }
+              ],
+              "text": "appointment"
+            }
+          ],
+          "serviceType": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                  "code": "17003",
+                  "display": "Pre-Admission Testing Visit"
+                }
+              ]
+            }
+          ],
+          "appointmentType": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "AMB",
+                "display": "Ambulatory"
+              }
+            ]
+          },
+          "start": "2013-11-14T14:00:00Z",
+          "end": "2013-11-14T14:30:00Z",
+          "minutesDuration": 30,
+          "patientInstruction": "Please bring your current home medications or a list of home medications on the day of your appointment.",
+          "participant": [
+            {
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T14:00:00Z",
+                "end": "2013-11-14T14:30:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Practitioner/e0Jp3gj4FaIdH3TtBOvpIIA3",
+                "display": "Pre Admission Testing Nurse, RN"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T14:00:00Z",
+                "end": "2013-11-14T14:30:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Location/eJG6Ep2t.iL-TuZXPPvfMozjm4V.Rj8vMBZZ8spBZ2BM3",
+                "display": "EMH Pre-Admission Testing"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T14:00:00Z",
+                "end": "2013-11-14T14:30:00Z"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GXqnRw.jtSJXV8.OmIXmr143"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GXqnRw.jtSJXV8.OmIXmr143",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "es9qmhpDlKmZzraCYyD50GXqnRw.jtSJXV8.OmIXmr143",
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+              "value": "11906"
+            }
+          ],
+          "status": "noshow",
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "appointment",
+                  "display": "Appointment"
+                }
+              ],
+              "text": "appointment"
+            }
+          ],
+          "serviceType": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                  "code": "17107",
+                  "display": "Surgical Consultation"
+                }
+              ]
+            }
+          ],
+          "appointmentType": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "AMB",
+                "display": "Ambulatory"
+              }
+            ]
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.728286",
+                  "code": "110002",
+                  "display": "Abdominal Pain"
+                }
+              ],
+              "text": "Abdominal Pain"
+            }
+          ],
+          "start": "2013-11-14T15:30:00Z",
+          "end": "2013-11-14T16:15:00Z",
+          "minutesDuration": 45,
+          "patientInstruction": "Please bring any insurance information and a copayment if required by your insurance company.",
+          "participant": [
+            {
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T15:30:00Z",
+                "end": "2013-11-14T16:15:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T15:30:00Z",
+                "end": "2013-11-14T16:15:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Location/eJsPBO3EzYHeBErroa-CUhGOZGhOOdCqWGe02mMeHAvE3",
+                "display": "EMC General Surgery"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T15:30:00Z",
+                "end": "2013-11-14T16:15:00Z"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GQ9UBwU7Xc6PycfRq92MU4k3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/es9qmhpDlKmZzraCYyD50GQ9UBwU7Xc6PycfRq92MU4k3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "es9qmhpDlKmZzraCYyD50GQ9UBwU7Xc6PycfRq92MU4k3",
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+              "value": "11905"
+            }
+          ],
+          "status": "noshow",
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "appointment",
+                  "display": "Appointment"
+                }
+              ],
+              "text": "appointment"
+            }
+          ],
+          "serviceType": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                  "code": "17107",
+                  "display": "Surgical Consultation"
+                }
+              ]
+            }
+          ],
+          "appointmentType": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "AMB",
+                "display": "Ambulatory"
+              }
+            ]
+          },
+          "start": "2013-11-14T16:15:00Z",
+          "end": "2013-11-14T17:00:00Z",
+          "minutesDuration": 45,
+          "patientInstruction": "Please bring any insurance information and a copayment if required by your insurance company.",
+          "participant": [
+            {
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T16:15:00Z",
+                "end": "2013-11-14T17:00:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+                "display": "Physician Surgery, MD"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T16:15:00Z",
+                "end": "2013-11-14T17:00:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Location/eJsPBO3EzYHeBErroa-CUhGOZGhOOdCqWGe02mMeHAvE3",
+                "display": "EMC General Surgery"
+              },
+              "required": "required",
+              "status": "declined",
+              "period": {
+                "start": "2013-11-14T16:15:00Z",
+                "end": "2013-11-14T17:00:00Z"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "link": [
+          {
+            "relation": "self",
+            "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eIwMk4NBAh4XmltMas8Jzn-bffpYvtfFADbRBMrsRfbc3"
+          }
+        ],
+        "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Appointment/eIwMk4NBAh4XmltMas8Jzn-bffpYvtfFADbRBMrsRfbc3",
+        "resource": {
+          "resourceType": "Appointment",
+          "id": "eIwMk4NBAh4XmltMas8Jzn-bffpYvtfFADbRBMrsRfbc3",
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+              "value": "25705"
+            }
+          ],
+          "status": "fulfilled",
+          "serviceCategory": [
+            {
+              "coding": [
+                {
+                  "system": "http://open.epic.com/FHIR/StructureDefinition/appointment-service-category",
+                  "code": "appointment",
+                  "display": "Appointment"
+                }
+              ],
+              "text": "appointment"
+            }
+          ],
+          "serviceType": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                  "code": "1053001",
+                  "display": "X-Ray Exam"
+                }
+              ]
+            }
+          ],
+          "appointmentType": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                "code": "AMB",
+                "display": "Ambulatory"
+              }
+            ]
+          },
+          "start": "2016-07-29T14:25:00Z",
+          "end": "2016-07-29T14:55:00Z",
+          "minutesDuration": 30,
+          "created": "2016-07-29",
+          "patientInstruction": "No special preparation is needed for this exam.",
+          "participant": [
+            {
+              "actor": {
+                "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+                "display": "Anesthesia, Abby"
+              },
+              "required": "required",
+              "status": "accepted",
+              "period": {
+                "start": "2016-07-29T14:25:00Z",
+                "end": "2016-07-29T14:55:00Z"
+              }
+            },
+            {
+              "actor": {
+                "reference": "Location/e6.GHPEJ3Jrk18e14wi2AJ5vFRqvLa0ZB6qH40N4UgB03",
+                "display": "EMH X-Ray Imaging"
+              },
+              "required": "required",
+              "status": "accepted",
+              "period": {
+                "start": "2016-07-29T14:25:00Z",
+                "end": "2016-07-29T14:55:00Z"
+              }
+            },
+            {
+              "actor": {
+                "display": "EMH X-Ray"
+              },
+              "required": "required",
+              "status": "accepted",
+              "period": {
+                "start": "2016-07-29T14:25:00Z",
+                "end": "2016-07-29T14:55:00Z"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "urn:uuid:fb6545df-2034-430b-9b3b-dec97349d15d",
+        "resource": {
+          "resourceType": "OperationOutcome",
+          "issue": [
+            {
+              "severity": "information",
+              "code": "invalid",
+              "details": {
+                "coding": [
+                  {
+                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.657369",
+                    "code": "59100",
+                    "display": "Content invalid against the specification or a profile."
+                  }
+                ],
+                "text": "Content invalid against the specification or a profile."
+              },
+              "diagnostics": "Unknown parameter: _SORT. Parameter has been ignored."
+            }
+          ]
+        },
+        "search": {
+          "mode": "outcome"
+        }
+      }
+    ]
+  }
+}

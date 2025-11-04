@@ -1,0 +1,70 @@
+{
+  "resourceType": "string",
+  "type": "string",
+  "total": "number",
+  "link": {
+    "relation": "string",
+    "url": "string"
+  },
+  "entry": {
+    "link": {
+      "relation": "string",
+      "url": "string"
+    },
+    "fullUrl": "string",
+    "resource": {
+      "resourceType": "string",
+      "id": "string",
+      "identifier": {
+        "use": "string",
+        "system": "string",
+        "value": "string"
+      },
+      "scope": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "category": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "patient": {
+        "reference": "string",
+        "display": "string"
+      },
+      "dateTime": "string",
+      "policy": {
+        "extension": {
+          "valueCode": "string",
+          "url": "string"
+        }
+      },
+      "provision": {
+        "data": {
+          "meaning": "string",
+          "reference": {
+            "reference": "string"
+          }
+        }
+      },
+      "_status": {
+        "extension": {
+          "valueCode": "string",
+          "url": "string"
+        }
+      },
+      "status": "string"
+    },
+    "search": {
+      "mode": "string"
+    }
+  }
+}

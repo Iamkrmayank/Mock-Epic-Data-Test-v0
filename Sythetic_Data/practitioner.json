@@ -1,0 +1,482 @@
+[
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract9ff21c6685ac6f379861",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1739780364"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1000"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "John Smith, MD",
+        "family": "Smith",
+        "given": [
+          "John",
+          "Car"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract044820dcf9fa5d694327",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "3145386982"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1001"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Sarah Johnson, MD",
+        "family": "Johnson",
+        "given": [
+          "Sarah",
+          "Int"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePracte081c3a378c55a1ac558",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "3213918034"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1002"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Michael Williams, MD",
+        "family": "Williams",
+        "given": [
+          "Michael",
+          "Fam"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePracte6ce6756cfb188d428fd",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0547774803"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1003"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Emily Brown, MD",
+        "family": "Brown",
+        "given": [
+          "Emily",
+          "Ped"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract72d30a6e34f4bdc5ecf2",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "9239015856"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1004"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "David Jones, MD",
+        "family": "Jones",
+        "given": [
+          "David",
+          "Ort"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePracta5d70a35ca95010a54df",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "7950241556"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1005"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Maria Garcia, MD",
+        "family": "Garcia",
+        "given": [
+          "Maria",
+          "Gen"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract59edc79a1cf08d5aeb38",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0865196662"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1006"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Robert Miller, MD",
+        "family": "Miller",
+        "given": [
+          "Robert",
+          "Car"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract6c80fe1add36dbf2be84",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1303671858"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1007"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Jennifer Davis, MD",
+        "family": "Davis",
+        "given": [
+          "Jennifer",
+          "Int"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePract84edac9a25950aea6b85",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1403372573"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1008"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "James Rodriguez, MD",
+        "family": "Rodriguez",
+        "given": [
+          "James",
+          "Fam"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ePractc68430654dc29c7f9d8d",
+    "identifier": [
+      {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "0438620323"
+      },
+      {
+        "use": "usual",
+        "type": {
+          "text": "PROVID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.6",
+        "value": "1009"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "use": "usual",
+        "text": "Patricia Martinez, MD",
+        "family": "Martinez",
+        "given": [
+          "Patricia",
+          "Ped"
+        ]
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.836982.6000",
+              "code": "11",
+              "display": "MD"
+            }
+          ],
+          "text": "MD"
+        }
+      }
+    ]
+  }
+]

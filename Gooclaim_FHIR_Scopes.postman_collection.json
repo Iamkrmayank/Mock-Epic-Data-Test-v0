@@ -1,0 +1,2040 @@
+{
+	"info": {
+		"name": "Gooclaim FHIR Scopes – Intake, Coding, Denial & Utility",
+		"description": "# Gooclaim FHIR API Collection\n\n## Setup Instructions\n\n### 1. Set Collection Variables\n\n- **fhir_base_url**: Your Epic FHIR base URL (e.g., `https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/`)\n- **access_token**: Your OAuth2 bearer token (without \"Bearer \" prefix)\n\n### 2. Required Scopes\n\nThis collection requires the following Epic FHIR scopes:\n\n- `system/Patient.read`\n- `system/Coverage.read`\n- `system/Encounter.read`\n- `system/Appointment.read`\n- `system/Contract.read`\n- `system/Consent.read`\n- `system/DocumentReference.read`\n- `system/Condition.read`\n- `system/Procedure.read`\n- `system/Observation.read`\n- `system/Binary.read`\n- `system/Organization.read`\n- `system/Practitioner.read`\n- `system/ExplanationOfBenefit.read`\n- `system/PractitionerRole.read`\n- `system/Provenance.read`\n\n### 3. Security & Compliance\n\n⚠️ **Important**: This collection handles Protected Health Information (PHI) and Personally Identifiable Information (PII).\n\n- Ensure all requests are made over HTTPS\n- Implement proper audit logging for all API calls\n- Follow HIPAA compliance requirements\n- Never commit tokens or sensitive data to version control\n- Rotate access tokens regularly\n- Use secure token storage mechanisms in production\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{access_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "fhir_base_url",
+			"value": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/",
+			"type": "string"
+		},
+		{
+			"key": "access_token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "patient_id",
+			"value": "eYg3-1aJmCMq-umIIq2Njxw3",
+			"type": "string"
+		},
+		{
+			"key": "coverage_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "encounter_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "appointment_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "contract_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "consent_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "docref_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "condition_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "procedure_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "observation_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "binary_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "org_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "practitioner_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "eob_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "pracrole_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "provenance_id",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "Intake (Day-1)",
+			"item": [
+				{
+					"name": "Patient",
+					"item": [
+						{
+							"name": "GET Patient by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Patient/{{patient_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Patient", "{{patient_id}}"]
+								},
+								"description": "**Purpose**: Retrieve patient demographics, DOB, Gender, Address\n**Required Scope**: system/Patient.read"
+							},
+							"response": [
+								{
+									"name": "Patient Example",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{fhir_base_url}}Patient/{{patient_id}}",
+											"host": ["{{fhir_base_url}}"],
+											"path": ["Patient", "{{patient_id}}"]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/fhir+json"
+										}
+									],
+									"body": "{\n    \"resourceType\": \"Patient\",\n    \"id\": \"{{patient_id}}\",\n    \"name\": [\n        {\n            \"family\": \"Doe\",\n            \"given\": [\"John\"]\n        }\n    ],\n    \"gender\": \"male\",\n    \"birthDate\": \"1980-01-01\"\n}"
+								}
+							],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Patient Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Patient?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Patient"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Retrieve patient demographics, DOB, Gender, Address\n**Required Scope**: system/Patient.read"
+							},
+							"response": [
+								{
+									"name": "Patient Search Example",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{fhir_base_url}}Patient?_count=25",
+											"host": ["{{fhir_base_url}}"],
+											"path": ["Patient"],
+											"query": [
+												{
+													"key": "_count",
+													"value": "25"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/fhir+json"
+										}
+									],
+									"body": "{\n    \"resourceType\": \"Bundle\",\n    \"type\": \"searchset\",\n    \"total\": 1,\n    \"entry\": [\n        {\n            \"resource\": {\n                \"resourceType\": \"Patient\",\n                \"id\": \"{{patient_id}}\",\n                \"name\": [\n                    {\n                        \"family\": \"Doe\",\n                        \"given\": [\"John\"]\n                    }\n                ]\n            }\n        }\n    ]\n}"
+								}
+							],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Patient Search by Name",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Patient?family=Smith&given=John",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Patient"],
+									"query": [
+										{
+											"key": "family",
+											"value": "Smith"
+										},
+										{
+											"key": "given",
+											"value": "John"
+										}
+									]
+								},
+								"description": "**Purpose**: Retrieve patient demographics, DOB, Gender, Address\n**Required Scope**: system/Patient.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Coverage",
+					"item": [
+						{
+							"name": "GET Coverage by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Coverage/{{coverage_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Coverage", "{{coverage_id}}"]
+								},
+								"description": "**Purpose**: Insurance plan & payer info\n**Required Scope**: system/Coverage.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Coverage Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Coverage?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Coverage"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Insurance plan & payer info\n**Required Scope**: system/Coverage.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Coverage Search by Beneficiary",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Coverage?beneficiary={{patient_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Coverage"],
+									"query": [
+										{
+											"key": "beneficiary",
+											"value": "{{patient_id}}"
+										}
+									]
+								},
+								"description": "**Purpose**: Insurance plan & payer info\n**Required Scope**: system/Coverage.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Encounter",
+					"item": [
+						{
+							"name": "GET Encounter by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Encounter/{{encounter_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Encounter", "{{encounter_id}}"]
+								},
+								"description": "**Purpose**: Visit / Admission details\n**Required Scope**: system/Encounter.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Encounter Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Encounter?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Encounter"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Visit / Admission details\n**Required Scope**: system/Encounter.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Encounter Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Encounter?patient={{patient_id}}&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Encounter"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Visit / Admission details\n**Required Scope**: system/Encounter.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Appointment",
+					"item": [
+						{
+							"name": "GET Appointment by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Appointment/{{appointment_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Appointment", "{{appointment_id}}"]
+								},
+								"description": "**Purpose**: Date of service & scheduling\n**Required Scope**: system/Appointment.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Appointment Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Appointment?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Appointment"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Date of service & scheduling\n**Required Scope**: system/Appointment.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Appointment Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Appointment?patient={{patient_id}}&status=booked&date=ge2024-01-01",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Appointment"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "status",
+											"value": "booked"
+										},
+										{
+											"key": "date",
+											"value": "ge2024-01-01"
+										}
+									]
+								},
+								"description": "**Purpose**: Date of service & scheduling\n**Required Scope**: system/Appointment.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Contract",
+					"item": [
+						{
+							"name": "GET Contract by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Contract/{{contract_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Contract", "{{contract_id}}"]
+								},
+								"description": "**Purpose**: Policy / payer contract metadata\n**Required Scope**: system/Contract.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Contract Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Contract?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Contract"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Policy / payer contract metadata\n**Required Scope**: system/Contract.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Consent",
+					"item": [
+						{
+							"name": "GET Consent by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Consent/{{consent_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Consent", "{{consent_id}}"]
+								},
+								"description": "**Purpose**: Patient consent records (HIPAA check)\n**Required Scope**: system/Consent.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Consent Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Consent?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Consent"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Patient consent records (HIPAA check)\n**Required Scope**: system/Consent.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Consent Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Consent?patient={{patient_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Consent"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										}
+									]
+								},
+								"description": "**Purpose**: Patient consent records (HIPAA check)\n**Required Scope**: system/Consent.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "DocumentReference",
+					"item": [
+						{
+							"name": "GET DocumentReference by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}DocumentReference/{{docref_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["DocumentReference", "{{docref_id}}"]
+								},
+								"description": "**Purpose**: Clinical documents metadata\n**Required Scope**: system/DocumentReference.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET DocumentReference Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}DocumentReference?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["DocumentReference"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Clinical documents metadata\n**Required Scope**: system/DocumentReference.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET DocumentReference Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}DocumentReference?patient={{patient_id}}&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["DocumentReference"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Clinical documents metadata\n**Required Scope**: system/DocumentReference.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "🧠 Coding & Clinical Context (Next Phase)",
+			"item": [
+				{
+					"name": "Condition",
+					"item": [
+						{
+							"name": "GET Condition by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Condition/{{condition_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Condition", "{{condition_id}}"]
+								},
+								"description": "**Purpose**: Diagnoses / Problems (ICD-10, SNOMED)\n**Required Scope**: system/Condition.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Condition Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Condition?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Condition"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Diagnoses / Problems (ICD-10, SNOMED)\n**Required Scope**: system/Condition.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Condition Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Condition?patient={{patient_id}}&clinical-status=active&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Condition"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "clinical-status",
+											"value": "active"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Diagnoses / Problems (ICD-10, SNOMED)\n**Required Scope**: system/Condition.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Procedure",
+					"item": [
+						{
+							"name": "GET Procedure by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Procedure/{{procedure_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Procedure", "{{procedure_id}}"]
+								},
+								"description": "**Purpose**: Performed procedures (CPT/HCPCS)\n**Required Scope**: system/Procedure.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Procedure Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Procedure?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Procedure"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Performed procedures (CPT/HCPCS)\n**Required Scope**: system/Procedure.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Procedure Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Procedure?patient={{patient_id}}&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Procedure"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Performed procedures (CPT/HCPCS)\n**Required Scope**: system/Procedure.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Observation",
+					"item": [
+						{
+							"name": "GET Observation by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Observation/{{observation_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Observation", "{{observation_id}}"]
+								},
+								"description": "**Purpose**: Vitals, labs, findings\n**Required Scope**: system/Observation.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Observation Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Observation?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Observation"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Vitals, labs, findings\n**Required Scope**: system/Observation.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Observation Search by Patient (Vital Signs)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Observation?patient={{patient_id}}&category=vital-signs&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Observation"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "category",
+											"value": "vital-signs"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Vitals, labs, findings\n**Required Scope**: system/Observation.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Binary",
+					"item": [
+						{
+							"name": "GET Binary by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Binary/{{binary_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Binary", "{{binary_id}}"]
+								},
+								"description": "**Purpose**: PDFs/attachments (notes, radiology, labs)\n**Required Scope**: system/Binary.read\n\nNote: For raw content, some servers require `Accept: application/pdf` header or query parameter `?format=application/pdf`. For versioned access, use `{{fhir_base_url}}Binary/{{binary_id}}/_history/{{vid}}`"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Binary Raw Content (PDF)",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/pdf"
+									}
+								],
+								"url": {
+									"raw": "{{fhir_base_url}}Binary/{{binary_id}}?format=application/pdf",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Binary", "{{binary_id}}"],
+									"query": [
+										{
+											"key": "format",
+											"value": "application/pdf"
+										}
+									]
+								},
+								"description": "**Purpose**: PDFs/attachments (notes, radiology, labs)\n**Required Scope**: system/Binary.read\n\nFetches raw binary content with PDF content type. Alternative: Use `{{fhir_base_url}}Binary/{{binary_id}}/_history/{{vid}}` for versioned access."
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Organization",
+					"item": [
+						{
+							"name": "GET Organization by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Organization/{{org_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Organization", "{{org_id}}"]
+								},
+								"description": "**Purpose**: Hospital / Payer / Facility\n**Required Scope**: system/Organization.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Organization Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Organization?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Organization"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Hospital / Payer / Facility\n**Required Scope**: system/Organization.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Practitioner",
+					"item": [
+						{
+							"name": "GET Practitioner by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Practitioner/{{practitioner_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Practitioner", "{{practitioner_id}}"]
+								},
+								"description": "**Purpose**: Rendering / Referring provider\n**Required Scope**: system/Practitioner.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Practitioner Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Practitioner?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Practitioner"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Rendering / Referring provider\n**Required Scope**: system/Practitioner.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "💰 Denial & Appeals Agent",
+			"item": [
+				{
+					"name": "ExplanationOfBenefit",
+					"item": [
+						{
+							"name": "GET ExplanationOfBenefit by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}ExplanationOfBenefit/{{eob_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["ExplanationOfBenefit", "{{eob_id}}"]
+								},
+								"description": "**Purpose**: Claim status, remittance, denial reasons\n**Required Scope**: system/ExplanationOfBenefit.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET ExplanationOfBenefit Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}ExplanationOfBenefit?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["ExplanationOfBenefit"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Claim status, remittance, denial reasons\n**Required Scope**: system/ExplanationOfBenefit.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET ExplanationOfBenefit Search by Patient",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}ExplanationOfBenefit?patient={{patient_id}}&_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["ExplanationOfBenefit"],
+									"query": [
+										{
+											"key": "patient",
+											"value": "{{patient_id}}"
+										},
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Claim status, remittance, denial reasons\n**Required Scope**: system/ExplanationOfBenefit.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET ExplanationOfBenefit Search by Created Date",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}ExplanationOfBenefit?created=ge2024-01-01",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["ExplanationOfBenefit"],
+									"query": [
+										{
+											"key": "created",
+											"value": "ge2024-01-01"
+										}
+									]
+								},
+								"description": "**Purpose**: Claim status, remittance, denial reasons\n**Required Scope**: system/ExplanationOfBenefit.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "🧱 Utility (Future-Ready)",
+			"item": [
+				{
+					"name": "PractitionerRole",
+					"item": [
+						{
+							"name": "GET PractitionerRole by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}PractitionerRole/{{pracrole_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["PractitionerRole", "{{pracrole_id}}"]
+								},
+								"description": "**Purpose**: Provider's org role\n**Required Scope**: system/PractitionerRole.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET PractitionerRole Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}PractitionerRole?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["PractitionerRole"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Provider's org role\n**Required Scope**: system/PractitionerRole.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Provenance",
+					"item": [
+						{
+							"name": "GET Provenance by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Provenance/{{provenance_id}}",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Provenance", "{{provenance_id}}"]
+								},
+								"description": "**Purpose**: Who created/updated each record\n**Required Scope**: system/Provenance.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						},
+						{
+							"name": "GET Provenance Search (Basic)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{fhir_base_url}}Provenance?_count=25",
+									"host": ["{{fhir_base_url}}"],
+									"path": ["Provenance"],
+									"query": [
+										{
+											"key": "_count",
+											"value": "25"
+										}
+									]
+								},
+								"description": "**Purpose**: Who created/updated each record\n**Required Scope**: system/Provenance.read"
+							},
+							"response": [],
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"  pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response is JSON\", function () {",
+											"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"json\");",
+											"});",
+											"",
+											"pm.test(\"FHIR resourceType present\", function () {",
+											"  const body = pm.response.json();",
+											"  pm.expect(body).to.have.property(\"resourceType\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set global FHIR headers",
+					"pm.request.headers.add({",
+					"    key: 'Accept',",
+					"    value: 'application/fhir+json'",
+					"});",
+					"pm.request.headers.add({",
+					"    key: 'Content-Type',",
+					"    value: 'application/fhir+json'",
+					"});"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": []
+			}
+		}
+	]
+}
+

@@ -1,0 +1,1251 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 9,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter?patient=eYg3-1aJmCMq-umIIq2Njxw3&_count=20"
+    }
+  ],
+  "entry": [
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eC9g81elqT96OC2R4yz88nw3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eC9g81elqT96OC2R4yz88nw3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "eC9g81elqT96OC2R4yz88nw3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "25705"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "5",
+          "display": "Appointment"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                "code": "102",
+                "display": "Outpatient"
+              }
+            ],
+            "text": "Outpatient"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "50",
+                "display": "Appointment"
+              }
+            ],
+            "text": "Appointment"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.808267",
+                "code": "1053001",
+                "display": "X-Ray Exam"
+              }
+            ],
+            "text": "X-Ray Exam"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ],
+                "text": "attender"
+              }
+            ],
+            "period": {
+              "start": "2016-07-29T14:24:18Z"
+            },
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "REF",
+                    "display": "referrer"
+                  }
+                ],
+                "text": "referrer"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "period": {
+              "start": "2016-07-29T14:25:00Z",
+              "end": "2016-07-29T14:55:00Z"
+            },
+            "individual": {
+              "display": "EMH X-RAY 2"
+            }
+          }
+        ],
+        "period": {
+          "start": "2016-07-29T14:25:00Z",
+          "end": "2016-07-29T14:55:00Z"
+        },
+        "account": [
+          {
+            "identifier": {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+              "value": "1000394"
+            },
+            "display": "ANESTHESIA,ABBY"
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "Location/e6.GHPEJ3Jrk18e14wi2AJ5vFRqvLa0ZB6qH40N4UgB03",
+              "display": "EMH X-Ray Imaging"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        },
+        "partOf": {
+          "reference": "Encounter/eq8b9H5iOvODTxzxW9Cywlg3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11903"
+          },
+          "display": "Hospital Encounter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eWMfFqEpHBVSZACpdXc36WA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eWMfFqEpHBVSZACpdXc36WA3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "eWMfFqEpHBVSZACpdXc36WA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11900"
+          }
+        ],
+        "status": "unknown",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "10",
+          "display": "Surgery Log"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "51",
+                "display": "Surgery"
+              }
+            ],
+            "text": "Surgery"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+              "type": "Practitioner",
+              "display": "Physician Champion, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-11-16T14:00:00Z",
+          "end": "2013-11-16T16:00:00Z"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "EMH Operating Room"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        },
+        "partOf": {
+          "reference": "Encounter/eq8b9H5iOvODTxzxW9Cywlg3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11903"
+          },
+          "display": "Hospital Encounter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e7UNT98mLAJY7TLJAe5k6Kg3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e7UNT98mLAJY7TLJAe5k6Kg3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e7UNT98mLAJY7TLJAe5k6Kg3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11902"
+          }
+        ],
+        "status": "cancelled",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "2",
+          "display": "Preadmission"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                "code": "106",
+                "display": "Hospital Outpatient Surgery"
+              }
+            ],
+            "text": "Hospital Outpatient Surgery"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "3",
+                "display": "Hospital Encounter"
+              }
+            ],
+            "text": "Hospital Encounter"
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+              "code": "124",
+              "display": "General Surgery"
+            }
+          ],
+          "text": "General Surgery"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display": "admitter"
+                  }
+                ],
+                "text": "admitter"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ],
+                "text": "attender"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-11-15",
+          "end": "2013-11-15"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+              "display": "Epic Hospital System"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eq8b9H5iOvODTxzxW9Cywlg3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eq8b9H5iOvODTxzxW9Cywlg3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "eq8b9H5iOvODTxzxW9Cywlg3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11903"
+          }
+        ],
+        "status": "in-progress",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "3",
+          "display": "Admission"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                "code": "108",
+                "display": "Surgery Admit"
+              }
+            ],
+            "text": "Surgery Admit"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "3",
+                "display": "Hospital Encounter"
+              }
+            ],
+            "text": "Hospital Encounter"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                "code": "3",
+                "display": "Elective"
+              }
+            ],
+            "text": "Elective"
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+              "code": "124",
+              "display": "General Surgery"
+            }
+          ],
+          "text": "General Surgery"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display": "admitter"
+                  }
+                ],
+                "text": "admitter"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ],
+                "text": "attender"
+              }
+            ],
+            "period": {
+              "start": "2013-11-16T17:38:24Z"
+            },
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-11-16T17:38:24Z"
+        },
+        "account": [
+          {
+            "identifier": {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+              "value": "751"
+            },
+            "display": "ANESTHESIA,ABBY"
+          }
+        ],
+        "hospitalization": {
+          "extension": [
+            {
+              "valueDateTime": "2013-11-16T17:38:24Z",
+              "url": "http://open.epic.com/FHIR/StructureDefinition/extension/observation-datetime"
+            }
+          ],
+          "admitSource": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                "code": "4",
+                "display": "Hospital (Acute Care Facility)"
+              }
+            ],
+            "text": "Hospital (Acute Care Facility)"
+          }
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+              "display": "EMH Medical Surgical"
+            },
+            "period": {
+              "start": "2013-11-16T17:38:00Z",
+              "end": "2013-11-17T16:00:00Z"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+              "display": "EMH Medical Surgical"
+            },
+            "period": {
+              "start": "2013-11-17T16:00:00Z"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eO-3e71xq6A5Xp7leBMrw5X-8sAl6UHIF91p7maQKFdU3",
+              "display": "EMH Medical Surgical"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+              "display": "Epic Hospital System"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/e3.YW4hLydOpJG8JIS.r-4A3",
+              "display": "123"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "ro",
+                  "display": "Room"
+                }
+              ],
+              "text": "Room"
+            }
+          },
+          {
+            "location": {
+              "identifier": {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                "value": "187"
+              },
+              "display": "123-02"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "bd",
+                  "display": "Bed"
+                }
+              ],
+              "text": "Bed"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e1kFToK4Z8yIpdDO51eUqgA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e1kFToK4Z8yIpdDO51eUqgA3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e1kFToK4Z8yIpdDO51eUqgA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11908"
+          }
+        ],
+        "status": "unknown",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "10",
+          "display": "Surgery Log"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "51",
+                "display": "Surgery"
+              }
+            ],
+            "text": "Surgery"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "REF",
+                    "display": "referrer"
+                  }
+                ],
+                "text": "referrer"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+              "type": "Practitioner",
+              "display": "Physician Champion, MD"
+            }
+          },
+          {
+            "individual": {
+              "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+              "type": "Practitioner",
+              "display": "Physician Champion, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-11-13T17:15:00Z",
+          "end": "2013-11-13T18:30:00Z"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "EMH Operating Room"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        },
+        "partOf": {
+          "reference": "Encounter/e-Ju7csNvjY1MRtQqWjk6bA3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11912"
+          },
+          "display": "Hospital Encounter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e-Ju7csNvjY1MRtQqWjk6bA3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e-Ju7csNvjY1MRtQqWjk6bA3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e-Ju7csNvjY1MRtQqWjk6bA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11912"
+          }
+        ],
+        "status": "cancelled",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "2",
+          "display": "Preadmission"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                "code": "108",
+                "display": "Surgery Admit"
+              }
+            ],
+            "text": "Surgery Admit"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "3",
+                "display": "Hospital Encounter"
+              }
+            ],
+            "text": "Hospital Encounter"
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+              "code": "124",
+              "display": "General Surgery"
+            }
+          ],
+          "text": "General Surgery"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display": "admitter"
+                  }
+                ],
+                "text": "admitter"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ],
+                "text": "attender"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2011-04-10T16:15:00Z",
+          "end": "2011-04-10T16:15:00Z"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+              "display": "Epic Hospital System"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eZoBoN7Vnr31AMRuLzyMpug3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/eZoBoN7Vnr31AMRuLzyMpug3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "eZoBoN7Vnr31AMRuLzyMpug3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11914"
+          }
+        ],
+        "status": "unknown",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "10",
+          "display": "Surgery Log"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "51",
+                "display": "Surgery"
+              }
+            ],
+            "text": "Surgery"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+              "type": "Practitioner",
+              "display": "Physician Champion, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-11-09T15:45:00Z",
+          "end": "2013-11-09T17:00:00Z"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "EMH Operating Room"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        },
+        "partOf": {
+          "reference": "Encounter/e7UNT98mLAJY7TLJAe5k6Kg3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11902"
+          },
+          "display": "Hospital Encounter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e64OOR8Z.E5kiytg2xMtD0w3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/e64OOR8Z.E5kiytg2xMtD0w3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e64OOR8Z.E5kiytg2xMtD0w3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11919"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "6",
+          "display": "Discharge"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+                "code": "108",
+                "display": "Surgery Admit"
+              }
+            ],
+            "text": "Surgery Admit"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "3",
+                "display": "Hospital Encounter"
+              }
+            ],
+            "text": "Hospital Encounter"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18875",
+                "code": "3",
+                "display": "Elective"
+              }
+            ],
+            "text": "Elective"
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18886",
+              "code": "124",
+              "display": "General Surgery"
+            }
+          ],
+          "text": "General Surgery"
+        },
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display": "admitter"
+                  }
+                ],
+                "text": "admitter"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "DIS",
+                    "display": "discharger"
+                  }
+                ],
+                "text": "discharger"
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ],
+                "text": "attender"
+              }
+            ],
+            "period": {
+              "start": "2010-12-26T03:32:00Z",
+              "end": "2010-12-26T03:53:00Z"
+            },
+            "individual": {
+              "reference": "Practitioner/eOyFJ.PiGBcbhr3T1oyJZ1A3",
+              "type": "Practitioner",
+              "display": "Physician Surgery, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2010-12-26T03:32:00Z",
+          "end": "2010-12-26T03:53:00Z"
+        },
+        "account": [
+          {
+            "identifier": {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.726582",
+              "value": "750"
+            },
+            "display": "ANESTHESIA,ABBY"
+          }
+        ],
+        "hospitalization": {
+          "extension": [
+            {
+              "valueDateTime": "2010-12-26T03:32:00Z",
+              "url": "http://open.epic.com/FHIR/StructureDefinition/extension/ip-admit-datetime"
+            }
+          ],
+          "admitSource": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10310",
+                "code": "2",
+                "display": "Physician or Clinic Office"
+              }
+            ],
+            "text": "Physician or Clinic Office"
+          },
+          "dischargeDisposition": {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.18888",
+                "code": "1",
+                "display": "Home or Self Care"
+              }
+            ],
+            "text": "Home or Self Care"
+          }
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            },
+            "period": {
+              "start": "2010-12-26T03:32:00Z",
+              "end": "2010-12-26T03:53:00Z"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eih1L3clnoL-Odea34LokKYlHPndLwGjYudOa4y6QHvk3",
+              "display": "EMH Main Operating Room"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/eQSOrLdbVrMRc68KBcTBG4A3",
+              "display": "Epic Hospital System"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/ew.LarBtoCiHPOHV6-1EOyg3"
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "ro",
+                  "display": "Room"
+                }
+              ],
+              "text": "Room"
+            }
+          },
+          {
+            "location": {
+              "identifier": {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.666968",
+                "value": "319"
+              }
+            },
+            "physicalType": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                  "code": "bd",
+                  "display": "Bed"
+                }
+              ],
+              "text": "Bed"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "link": [
+        {
+          "relation": "self",
+          "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/ezY41zflHPpTnE4ulO5Ja.g3"
+        }
+      ],
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Encounter/ezY41zflHPpTnE4ulO5Ja.g3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "ezY41zflHPpTnE4ulO5Ja.g3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11920"
+          }
+        ],
+        "status": "unknown",
+        "class": {
+          "system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+          "code": "10",
+          "display": "Surgery Log"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.30",
+                "code": "51",
+                "display": "Surgery"
+              }
+            ],
+            "text": "Surgery"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/eYg3-1aJmCMq-umIIq2Njxw3",
+          "display": "Anesthesia, Abby"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/e7D.u41Zv3VPrLmUp-mWnrQ3",
+              "type": "Practitioner",
+              "display": "Physician Champion, MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2010-12-25T13:40:00Z",
+          "end": "2010-12-25T15:40:00Z"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/efR3SIdpRKF9BFBM5qakt9F5X1mWxjiAGu2hNTKbqOdI3",
+              "display": "EMH Operating Room"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/enRyWnSP963FYDpoks4NHOA3",
+          "display": "Epic Hospital System"
+        },
+        "partOf": {
+          "reference": "Encounter/e64OOR8Z.E5kiytg2xMtD0w3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "11919"
+          },
+          "display": "Hospital Encounter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ca72912-db10-475d-bce0-2766dbdda352",
+      "resource": {
+        "resourceType": "OperationOutcome",
+        "issue": [
+          {
+            "severity": "information",
+            "code": "invalid",
+            "details": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.657369",
+                  "code": "59100",
+                  "display": "Content invalid against the specification or a profile."
+                }
+              ],
+              "text": "Content invalid against the specification or a profile."
+            },
+            "diagnostics": "Unknown parameter: _SORT. Parameter has been ignored."
+          }
+        ]
+      },
+      "search": {
+        "mode": "outcome"
+      }
+    }
+  ]
+}

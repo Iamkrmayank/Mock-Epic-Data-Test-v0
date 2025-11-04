@@ -1,0 +1,154 @@
+{
+  "resourceType": "string",
+  "type": "string",
+  "total": "number",
+  "link": {
+    "relation": "string",
+    "url": "string"
+  },
+  "entry": {
+    "link": {
+      "relation": "string",
+      "url": "string"
+    },
+    "fullUrl": "string",
+    "resource": {
+      "resourceType": "string",
+      "id": "string",
+      "identifier": {
+        "use": "string",
+        "system": "string",
+        "value": "string"
+      },
+      "status": "string",
+      "class": {
+        "system": "string",
+        "code": "string",
+        "display": "string"
+      },
+      "type": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "subject": {
+        "reference": "string",
+        "display": "string"
+      },
+      "participant": {
+        "type": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        },
+        "period": {
+          "start": "string",
+          "end": "string"
+        },
+        "individual": {
+          "reference": "string",
+          "type": "string",
+          "display": "string"
+        }
+      },
+      "period": {
+        "start": "string",
+        "end": "string"
+      },
+      "account": {
+        "identifier": {
+          "system": "string",
+          "value": "string"
+        },
+        "display": "string"
+      },
+      "location": {
+        "location": {
+          "reference": "string",
+          "display": "string",
+          "identifier": {
+            "system": "string",
+            "value": "string"
+          }
+        },
+        "period": {
+          "start": "string",
+          "end": "string"
+        },
+        "physicalType": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        }
+      },
+      "serviceProvider": {
+        "reference": "string",
+        "display": "string"
+      },
+      "partOf": {
+        "reference": "string",
+        "identifier": {
+          "use": "string",
+          "system": "string",
+          "value": "string"
+        },
+        "display": "string"
+      },
+      "serviceType": {
+        "coding": {
+          "system": "string",
+          "code": "string",
+          "display": "string"
+        },
+        "text": "string"
+      },
+      "hospitalization": {
+        "extension": {
+          "valueDateTime": "string",
+          "url": "string"
+        },
+        "admitSource": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        },
+        "dischargeDisposition": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        }
+      },
+      "issue": {
+        "severity": "string",
+        "code": "string",
+        "details": {
+          "coding": {
+            "system": "string",
+            "code": "string",
+            "display": "string"
+          },
+          "text": "string"
+        },
+        "diagnostics": "string"
+      }
+    },
+    "search": {
+      "mode": "string"
+    }
+  }
+}
