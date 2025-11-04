@@ -1,391 +1,395 @@
-# Epic FHIR API Integration with FastAPI
+# GooClaim Epic FHIR Mock Server - R&D Purpose Only
 
-A comprehensive FastAPI application that implements OAuth2 JWT client assertion flow for Epic FHIR API integration, supporting both Sandbox and Production environments.
+A FastAPI-based **Mock Epic FHIR R4 API Server** that serves synthetic, HIPAA-safe test data for development and testing purposes. This is a **mock implementation** that simulates Epic's FHIR API structure and responses.
+
+## ⚠️ IMPORTANT DISCLAIMERS
+
+### 🔴 This is a MOCK Server - NOT Real Epic Integration
+
+- **This is NOT connected to Epic's real FHIR API**
+- **This is NOT Epic's official server**
+- **This is a mock/test server using synthetic data**
+- **All data is fictional and HIPAA-safe**
+
+### 🎯 Purpose & Usage
+
+**ONLY for GooClaim R&D purposes:**
+- Internal development and testing
+- API integration testing
+- Learning FHIR R4 structure
+- Mock data for development environments
+
+**⚠️ DO NOT USE for:**
+- Production environments
+- Real patient data
+- Clinical decision making
+- Any commercial purposes outside GooClaim R&D
+
+### 📋 For Other Work
+
+**If you need real Epic FHIR integration:**
+1. Register your application at [Epic on FHIR](https://fhir.epic.com/)
+2. Follow Epic's official documentation
+3. Complete Epic's app registration process
+4. Set up proper OAuth2 authentication
+5. Use Epic's sandbox for testing
+6. **Do NOT use this mock server for production work**
+
+---
 
 ## 🚀 Features
 
-- **OAuth2 JWT Client Assertion**: Implements Epic's required authentication flow using RS256-signed JWTs
-- **Dual Environment Support**: Seamlessly switch between Sandbox and Production Epic environments
-- **FHIR R4 API Integration**: Access Patient and Observation resources via Epic FHIR APIs
-- **Interactive Web Interface**: Clean HTML/JavaScript frontend for testing API endpoints
-- **JWKS Generation**: Automatic JWKS (JSON Web Key Set) generation for Epic app registration
-- **Comprehensive Configuration**: Environment-based configuration with .env support
+- **Epic-Compatible API Structure**: Mimics Epic's FHIR R4 API patterns
+- **Synthetic Test Data**: 15 FHIR resources with realistic but fictional data
+- **Full Resource Support**: Patient, Appointment, Condition, Encounter, Observation, Procedure, Coverage, and more
+- **Epic Standard Search Parameters**: All Epic search parameters supported
+- **Bundle Responses**: Returns Epic-compatible FHIR Bundle format
+- **HIPAA-Safe**: All data is synthetic and cannot be linked to real patients
 
 ## 📋 Requirements
 
-- Python 3.12+
-- Epic FHIR Developer Account
-- RSA 2048-bit Private Key
-- Registered Epic Application with Backend Service access
+- Python 3.10+
+- FastAPI
+- Uvicorn
 
 ## 🛠️ Installation
 
-1. **Clone and Setup**:
+1. **Clone the repository**:
    ```bash
-   cd c:\Users\AMANPREET\python_projects\epic-fhir
-   python -m venv venv
-   venv\Scripts\activate
+   git clone https://github.com/Iamkrmayank/Mock-Epic-Data-Test-v0.git
+   cd Mock-Epic-Data-Test-v0
+   ```
+
+2. **Install dependencies**:
+   ```bash
    pip install -r requirements.txt
    ```
 
-2. **Generate Private Key**:
+3. **Verify data files exist**:
    ```bash
-   python generate_key.py
+   # Check that Sythetic_Data folder contains all JSON files
+   ls Sythetic_Data/
    ```
 
-3. **Configure Environment**:
-   ```bash
-   copy .env.example .env
-   # Edit .env with your Epic client credentials
-   ```
+## 🏃‍♂️ Running the Mock Server
 
-4. **Configure .env file**:
-   ```env
-   EPIC_CLIENT_ID=your-epic-client-id-here
-   PRIVATE_KEY_PATH=keys/private.key
-   EPIC_ENV=sandbox
-   PRODUCTION_FHIR_BASE_URL=https://your-epic-prod-url.com/api/FHIR/R4/
-   PRODUCTION_TOKEN_URL=https://your-epic-prod-url.com/oauth2/token
-   JWT_EXPIRY_MINUTES=5
-   ```
-
-## 🔧 Epic Application Registration
-
-1. **Register Your App** at [Epic's Developer Portal](https://fhir.epic.com/Developer)
-2. **Application Type**: Backend Service
-3. **FHIR Version**: R4
-4. **Grant Type**: Client Credentials
-5. **Authentication Method**: Private Key JWT (client_assertion)
-6. **Get JWKS**: Visit `http://localhost:8000/jwks` after starting the app
-7. **Provide JWKS** during Epic registration
-
-## 🏃‍♂️ Running the Application
+### Start the Server
 
 ```bash
-# Development server with auto-reload
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+# Option 1: Direct Python
+python fhir_api.py
 
-# Production server
-uvicorn main:app --host 0.0.0.0 --port 8000
+# Option 2: Using Uvicorn
+uvicorn fhir_api:app --reload --host 0.0.0.0 --port 8000
 ```
 
-Visit: `http://localhost:8000`
+The server will start on: `http://localhost:8000`
+
+### Verify Server is Running
+
+```bash
+# Health check
+curl http://localhost:8000/health
+
+# Or visit in browser
+http://localhost:8000/health
+```
+
+## 🧪 How to Test the API
+
+### 1. Interactive API Documentation
+
+Once the server is running, visit:
+
+- **Swagger UI**: `http://localhost:8000/docs`
+- **ReDoc**: `http://localhost:8000/redoc`
+
+These provide interactive documentation where you can test all endpoints directly.
+
+### 2. Using cURL
+
+#### Test Health Endpoint
+```bash
+curl http://localhost:8000/health
+```
+
+#### Get a Patient
+```bash
+curl http://localhost:8000/Patient/ePtdJFCrnl2edlBDdz1C5Ja
+```
+
+#### Search Patients
+```bash
+# By family name
+curl "http://localhost:8000/Patient?family=Rodriguez"
+
+# By identifier
+curl "http://localhost:8000/Patient?identifier=MRN-77dd3a"
+```
+
+#### Get Appointments
+```bash
+# All appointments for a patient
+curl "http://localhost:8000/Appointment?patient=ePtdJFCrnl2edlBDdz1C5Ja"
+
+# Appointments by status
+curl "http://localhost:8000/Appointment?patient=ePtdJFCrnl2edlBDdz1C5Ja&status=booked"
+
+# Appointments by date (Epic standard format)
+curl "http://localhost:8000/Appointment?patient=ePtdJFCrnl2edlBDdz1C5Ja&date=eq2025-11-05"
+```
+
+#### Get Conditions
+```bash
+# Active conditions
+curl "http://localhost:8000/Condition?patient=ePtdJFCrnl2edlBDdz1C5Ja&clinical-status=active"
+```
+
+#### Get Observations (Epic requires category)
+```bash
+# Vital signs
+curl "http://localhost:8000/Observation?patient=ePtdJFCrnl2edlBDdz1C5Ja&category=vital-signs"
+
+# Lab results
+curl "http://localhost:8000/Observation?patient=ePtdJFCrnl2edlBDdz1C5Ja&category=laboratory"
+```
+
+#### Get Encounters
+```bash
+curl "http://localhost:8000/Encounter?patient=ePtdJFCrnl2edlBDdz1C5Ja&status=finished"
+```
+
+### 3. Using Python Test Script
+
+We provide a test script:
+
+```bash
+# Start server in one terminal
+python fhir_api.py
+
+# In another terminal, run tests
+python test_api.py
+```
+
+This will test all major endpoints and verify Epic compatibility.
+
+### 4. Using Browser
+
+Simply visit these URLs in your browser:
+
+- Health: `http://localhost:8000/health`
+- Patient: `http://localhost:8000/Patient/ePtdJFCrnl2edlBDdz1C5Ja`
+- Appointments: `http://localhost:8000/Appointment?patient=ePtdJFCrnl2edlBDdz1C5Ja`
+- API Docs: `http://localhost:8000/docs`
+
+### 5. Using PowerShell (Windows)
+
+```powershell
+# Health check
+Invoke-RestMethod -Uri "http://localhost:8000/health" -Method Get
+
+# Get patient
+Invoke-RestMethod -Uri "http://localhost:8000/Patient/ePtdJFCrnl2edlBDdz1C5Ja" -Method Get
+
+# Search appointments
+Invoke-RestMethod -Uri "http://localhost:8000/Appointment?patient=ePtdJFCrnl2edlBDdz1C5Ja" -Method Get
+```
 
 ## 📚 API Endpoints
 
-### Authentication
-- `POST /auth/token` - Exchange JWT assertion for Epic access token
-- `GET /jwks` - Get JWKS for Epic registration
-
-### FHIR Resources
-- `GET /fhir/patient/{id}` - Retrieve patient data by ID
-- `GET /fhir/observation/{patient_id}` - Get observations for a patient
-- `GET /fhir/patient/search` - Search patients by family/given name
-- `GET /fhir/patient/search/common-names` - Find patients with common names
-- `GET /fhir/patient/epic-test-patients` - Get Epic's known test patients
-- `GET /fhir/patients/browse` - Browse available patients in sandbox
-
-### System
-- `GET /health` - Health check and environment info
-- `GET /config/info` - Current configuration details
-- `GET /` - Interactive web interface
-
-## 🔐 Authentication Flow
-
-The application implements Epic's OAuth2 client assertion flow:
-
-1. **JWT Generation**: Creates a signed JWT with required claims:
-   ```json
-   {
-     "iss": "your-client-id",
-     "sub": "your-client-id", 
-     "aud": "https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token",
-     "exp": 1234567890,
-     "jti": "unique-jwt-id",
-     "iat": 1234567885
-   }
-   ```
-
-2. **Token Exchange**: Sends JWT to Epic's token endpoint:
-   ```http
-   POST /oauth2/token
-   Content-Type: application/x-www-form-urlencoded
-   
-   grant_type=client_credentials&
-   client_assertion_type=urn:ietf:params:oauth:client-assertion-type:jwt-bearer&
-   client_assertion=<signed-jwt>&
-   scope=system/Patient.read system/Observation.read
-   ```
-
-3. **API Access**: Uses received access token for FHIR API calls
-
-## 🌍 Environment Configuration
-
-### Sandbox Environment (Default)
-- **Token URL**: `https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token`
-- **FHIR Base URL**: `https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/`
-- **Working Test Patient IDs**: 
-  - `eYg3-1aJmCMq-umIIq2Njxw3` (Abby Anesthesia)
-  - `Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB`
-  - `TUKRxL29bxE9lyAcdTIyrWC6Ln5gZ-z7CLr2r-2SY964B`
-
-### Production Environment
-- Configure via environment variables
-- Set `EPIC_ENV=production` in `.env`
-- Provide your production URLs
-
-## 📖 Epic FHIR Scopes & Endpoints
-
-### Patient Resources
-**Scope**: `system/Patient.read`
-```bash
-# Get patient by ID
-http://localhost:8000/fhir/patient/eYg3-1aJmCMq-umIIq2Njxw3
-
-# Search patients
-http://localhost:8000/fhir/patient/search?family=Anesthesia&given=Abby
-
-# Get comprehensive patient data
-http://localhost:8000/fhir/patient/eYg3-1aJmCMq-umIIq2Njxw3/comprehensive
+### Base URL
+```
+http://localhost:8000
 ```
 
-### Observations (Vital Signs & Labs)
-**Scope**: `system/Observation.read`  
-**⚠️ Required**: Must include `category` or `code` parameter
-```bash
-# Get vital signs
-http://localhost:8000/fhir/observation/eYg3-1aJmCMq-umIIq2Njxw3?category=vital-signs&_count=20
+### Available Resources
 
-# Get lab results
-http://localhost:8000/fhir/observation/eYg3-1aJmCMq-umIIq2Njxw3?category=laboratory&_count=20
+| Resource | Endpoints | Epic Scope Supported |
+|----------|-----------|---------------------|
+| **Patient** | `GET /Patient`, `GET /Patient/{id}` | `system/Patient.read` |
+| **Appointment** | `GET /Appointment`, `GET /Appointment/{id}` | `Appointment.Read/Search (Appointments) (R4)` |
+| **Condition** | `GET /Condition`, `GET /Condition/{id}` | `system/Condition.read` |
+| **Encounter** | `GET /Encounter`, `GET /Encounter/{id}` | `system/Encounter.read` |
+| **Observation** | `GET /Observation`, `GET /Observation/{id}` | `system/Observation.read` |
+| **Procedure** | `GET /Procedure`, `GET /Procedure/{id}` | `system/Procedure.read` |
+| **Coverage** | `GET /Coverage`, `GET /Coverage/{id}` | `system/Coverage.read` |
+| **Organization** | `GET /Organization`, `GET /Organization/{id}` | `system/Organization.read` |
+| **Practitioner** | `GET /Practitioner`, `GET /Practitioner/{id}` | `system/Practitioner.read` |
+| **PractitionerRole** | `GET /PractitionerRole`, `GET /PractitionerRole/{id}` | `system/PractitionerRole.read` |
+| **DocumentReference** | `GET /DocumentReference`, `GET /DocumentReference/{id}` | `system/DocumentReference.read` |
+| **Consent** | `GET /Consent`, `GET /Consent/{id}` | `system/Consent.read` |
+| **Binary** | `GET /Binary/{id}` | `system/Binary.read` |
+| **Provenance** | `GET /Provenance`, `GET /Provenance/{id}` | `system/Provenance.read` |
+| **ExplanationOfBenefit** | `GET /ExplanationOfBenefit` | `system/ExplanationOfBenefit.read` |
 
-# Get specific observation (e.g., blood pressure)
-http://localhost:8000/fhir/observation/eYg3-1aJmCMq-umIIq2Njxw3?code=8480-6
+## 📖 Epic-Compatible Search Parameters
+
+### Patient
+- `_id`, `identifier`, `name`, `family`, `given`, `birthdate`, `gender`, `_count`
+
+### Appointment
+- `_id`, `patient`, `status`, `date`, `actor`, `_count`
+- **Date Format**: Epic standard FHIR (`eqYYYY-MM-DD`, `geYYYY-MM-DD`, `leYYYY-MM-DD`, `gtYYYY-MM-DD`, `ltYYYY-MM-DD`)
+
+### Condition
+- `_id`, `patient`, `clinical-status`, `category`, `code`, `_count`
+
+### Observation
+- `_id`, `patient`, `encounter`, `category`, `code`, `date`, `_count`
+- **⚠️ Epic Requirement**: Must include `category` or `code` (unless `patient` provided)
+
+### Encounter
+- `_id`, `patient`, `organization`, `status`, `class`, `date`, `_count`
+
+For complete parameter documentation, see [README_API.md](README_API.md)
+
+## 📊 Test Patient IDs
+
+Use these synthetic patient IDs for testing:
+
+- `ePtdJFCrnl2edlBDdz1C5Ja`
+- `ePt2RJtBRnlWmTSHf6pWkLUy`
+- `ePtfDLkDmWJ6UuVTAIjvFu7`
+- `ePtICPhDeOZIiBOB-Y6sHrFH2ZUC`
+- `ePt-lgotu2iXW7GboIRoL3u6`
+- `ePtHwnMztVuaP.coUNEhEk`
+- `ePt.iqq8vH2BzNZV45pFCiR`
+- `ePtDCajhDieQjEJ.Bq8F80`
+- `ePtmm3T207gmhZRnFyy5r2xJ7`
+- `ePtj4mgblEv0.9BZhvWaXH6K2`
+
+## 📋 Response Format
+
+All search endpoints return Epic-compatible FHIR Bundle format:
+
+```json
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 10,
+  "link": [{
+    "relation": "self",
+    "url": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/{Resource}?_count=100"
+  }],
+  "entry": [
+    {
+      "fullUrl": "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/{Resource}/{id}",
+      "resource": {...},
+      "search": {"mode": "match"}
+    }
+  ]
+}
 ```
 
-### Conditions & Diagnoses
-**Scope**: `system/Condition.read`
-```bash
-http://localhost:8000/fhir/conditions/eYg3-1aJmCMq-umIIq2Njxw3?clinical-status=active
-```
-
-### Encounters & Visits
-**Scope**: `system/Encounter.read`
-```bash
-http://localhost:8000/fhir/encounters/eYg3-1aJmCMq-umIIq2Njxw3?_count=20
-```
-
-
-### Procedures
-**Scope**: `system/Procedure.read`
-```bash
-http://localhost:8000/fhir/procedures/eYg3-1aJmCMq-umIIq2Njxw3?_count=20
-```
-
-
-### Documents
-**Scope**: `system/DocumentReference.read`
-```bash
-http://localhost:8000/fhir/documents/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-### Appointments
-**Scope**: `system/Appointment.read`
-```bash
-# Get appointments
-http://localhost:8000/fhir/appointments/eYg3-1aJmCMq-umIIq2Njxw3?date=ge2024-01-01
-
-# Search appointments
-http://localhost:8000/fhir/appointments/search?patient=eYg3-1aJmCMq-umIIq2Njxw3&status=booked
-```
-
-### Coverage & Benefits
-**Scope**: `system/Coverage.read`
-```bash
-# Get insurance coverage
-http://localhost:8000/fhir/coverage/eYg3-1aJmCMq-umIIq2Njxw3
-
-# Search coverage
-http://localhost:8000/fhir/coverage/search?beneficiary=eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-**Scope**: `system/ExplanationOfBenefit.read`
-```bash
-http://localhost:8000/fhir/ExplanationOfBenefit/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-### Care Plans
-**Scope**: `system/CarePlan.read`
-```bash
-http://localhost:8000/fhir/CarePlan/eYg3-1aJmCMq-umIIq2Njxw3?status=active
-```
-
-### Provider Resources
-**Scope**: `system/Organization.read`
-```bash
-http://localhost:8000/fhir/organizations/enRnEOTlPO134WKjGk5PnDA3
-```
-
-**Scope**: `system/Practitioner.read`
-```bash
-http://localhost:8000/fhir/practitioner/T3Mz3KLBDVXXgaRoQd7EbUw3
-```
-
-**Scope**: `system/PractitionerRole.read`
-```bash
-http://localhost:8000/fhir/PractitionerRole/T3Mz3KLBDVXXgaRoQd7EbUw3
-```
-
-### Questionnaires & Forms
-**Scope**: `system/Questionnaire.read`
-```bash
-http://localhost:8000/fhir/questionnaires/{questionnaire_id}
-```
-
-**Scope**: `system/QuestionnaireResponse.read`
-```bash
-http://localhost:8000/fhir/QuestionnaireResponse/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-### Administrative Resources
-**Scope**: `system/List.read`
-```bash
-http://localhost:8000/fhir/lists/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-**Scope**: `system/Consent.read`
-```bash
-http://localhost:8000/fhir/consents/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-**Scope**: `system/Provenance.read`
-```bash
-http://localhost:8000/fhir/provenance/{resource_id}
-```
-
-**Scope**: `system/DeviceUseStatement.read`
-```bash
-http://localhost:8000/fhir/DeviceUseStatement/eYg3-1aJmCMq-umIIq2Njxw3
-```
-
-## 🔍 Example Usage
-
-### 1. Get Access Token
-```bash
-curl -X POST "http://localhost:8000/auth/token"
-```
-
-### 2. Find Working Test Patients
-```bash
-curl "http://localhost:8000/fhir/patient/epic-test-patients"
-```
-
-### 3. Retrieve Patient Data (Using Working Patient ID)
-```bash
-curl "http://localhost:8000/fhir/patient/eYg3-1aJmCMq-umIIq2Njxw3"
-```
-
-### 4. Search Patients by Name
-```bash
-curl "http://localhost:8000/fhir/patient/search?family=Anesthesia&limit=5"
-```
-
-### 5. Get Patient Observations (⚠️ Category Required!)
-```bash
-# Vital signs
-curl "http://localhost:8000/fhir/observation/eYg3-1aJmCMq-umIIq2Njxw3?category=vital-signs&_count=20"
-
-# Lab results  
-curl "http://localhost:8000/fhir/observation/eYg3-1aJmCMq-umIIq2Njxw3?category=laboratory&_count=20"
-```
-
-### 6. Browse Available Patients
-```bash
-curl "http://localhost:8000/fhir/patients/browse"
-```
+Individual resource endpoints return the resource directly.
 
 ## 🏗️ Project Structure
 
 ```
-epic-fhir/
-├── main.py                 # FastAPI application
-├── config.py              # Configuration management
-├── jwt_auth.py            # JWT authentication module
-├── generate_key.py        # Private key generation utility
-├── requirements.txt       # Python dependencies
-├── .env.example          # Environment variables template
-├── .gitignore            # Git ignore rules
-├── README.md             # This documentation
-├── templates/
-│   └── index.html        # Web interface
-├── keys/
-│   ├── private.key       # Your RSA private key (generated)
-│   └── private.key.example # Example key format
-└── jwks_template.json    # JWKS template for registration
+Mock-Epic-Data-Test-v0/
+├── fhir_api.py              # FastAPI mock server
+├── requirements.txt         # Python dependencies
+├── README.md               # This file
+├── README_API.md           # Complete API documentation
+├── Sythetic_Data/          # Synthetic FHIR data files
+│   ├── patients.json
+│   ├── appointments.json
+│   ├── conditionss.json
+│   ├── encounterr.json
+│   ├── observation.json
+│   └── ... (all resources)
+├── Schema/                 # Schema definitions
+├── test_api.py             # Test script
+└── ... (other files)
 ```
 
-## 🔒 Security Considerations
+## 🔒 Security & Safety
 
-- **Private Key Security**: Never commit private keys to version control
-- **Token Storage**: In production, use Redis/database instead of in-memory storage
-- **Key Rotation**: Regularly rotate your RSA keys
-- **Environment Variables**: Use secure secret management in production
-- **HTTPS**: Always use HTTPS in production environments
-- **Error Handling**: Implement proper error logging and monitoring
+### Data Safety
+- ✅ All data is **synthetic and fictional**
+- ✅ No real patient information
+- ✅ HIPAA-safe test data
+- ✅ Cannot be linked to real individuals
+
+### Usage Warnings
+- ⚠️ **This is a MOCK server** - not for production
+- ⚠️ **No authentication** - for local testing only
+- ⚠️ **Do not expose to public internet** without proper security
+- ⚠️ **For GooClaim R&D only** - not for other organizations
+
+### For Production Use
+If you need real Epic integration:
+1. Register at [Epic on FHIR](https://fhir.epic.com/)
+2. Complete Epic's app registration
+3. Implement OAuth2 authentication
+4. Use Epic's sandbox for testing
+5. Follow Epic's security guidelines
 
 ## 🚨 Troubleshooting
 
-### Common Issues
+### Server won't start
+- Check if port 8000 is already in use
+- Verify dependencies: `pip install -r requirements.txt`
+- Check Python version: `python --version` (needs 3.10+)
 
-1. **"Private key file not found"**
-   - Run `python generate_key.py` to create a key
-   - Verify `PRIVATE_KEY_PATH` in `.env`
+### No data returned
+- Verify `Sythetic_Data/` folder exists
+- Check that JSON files are present
+- See server logs for errors
 
-2. **"Token request failed"**
-   - Check your `EPIC_CLIENT_ID` in `.env`
-   - Verify your app is registered with Epic
-   - Ensure JWKS is properly configured in Epic
+### Test failures
+- Make sure server is running: `http://localhost:8000/health`
+- Wait 2-3 seconds after starting server
+- Check test script output for specific errors
 
-3. **"Access token expired"**
-   - Call `/auth/token` to refresh
-   - Check JWT expiry settings
+### Connection errors
+- Verify server is running
+- Check firewall settings
+- Try `127.0.0.1:8000` instead of `localhost:8000`
 
-4. **"The FHIR ID provided was not found"**
-   - Patient IDs in Epic sandbox change frequently
-   - Use `/fhir/patient/epic-test-patients` to find current working IDs
-   - Try `/fhir/patients/browse` to discover available patients
-   - Use patient search by name instead of hardcoded IDs
+## 📝 Documentation
 
-5. **FHIR API errors**
-   - Verify your Epic app has required scopes
-   - Check patient ID format
-   - Ensure production URLs are correct
+- [README_API.md](README_API.md) - Complete API documentation with Epic scopes
+- [EPIC_COMPLIANCE_CHECK.md](EPIC_COMPLIANCE_CHECK.md) - Epic compliance verification
+- [EPIC_FINAL_VERIFICATION.md](EPIC_FINAL_VERIFICATION.md) - Final verification report
+- [TEST_INSTRUCTIONS.md](TEST_INSTRUCTIONS.md) - Detailed testing guide
 
-### Development Tips
+## 🔗 References
 
-- Use Epic's Sandbox environment for testing
-- Monitor the web interface for real-time API responses
-- Check `/health` endpoint for configuration verification
-- Use `/config/info` to debug environment settings
+- [Epic on FHIR](https://fhir.epic.com/) - Epic's official FHIR documentation
+- [FHIR R4 Specification](https://www.hl7.org/fhir/R4/) - HL7 FHIR standard
 
-## 📝 Epic FHIR Documentation
+## ⚖️ Legal & Compliance
 
-- [Epic FHIR Documentation](https://fhir.epic.com/)
-- [OAuth2 Implementation Guide](https://fhir.epic.com/Documentation?docId=oauth2)
-- [FHIR R4 Specification](https://www.hl7.org/fhir/R4/)
+### Disclaimer
+- This is a **mock/test server** for development purposes only
+- **NOT affiliated with Epic Systems Corporation**
+- **NOT for production use**
+- **GooClaim R&D internal use only**
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+### For Real Epic Integration
+If you require real Epic FHIR integration:
+- Register your application properly
+- Follow Epic's terms of service
+- Comply with HIPAA and healthcare regulations
+- Use Epic's official sandbox for testing
+- **Do NOT use this mock server**
 
 ## 📄 License
 
-This project is provided as-is for educational and development purposes. Please ensure compliance with Epic's terms of service and applicable healthcare regulations when using in production.
+This project is for **GooClaim R&D purposes only**. See LICENSE file for details.
 
 ---
 
-**⚠️ Important Security Notice**: This application handles sensitive healthcare data. Ensure proper security measures, compliance with HIPAA and other regulations, and Epic's terms of service when deploying to production environments.
+## 🎯 Quick Start Summary
+
+1. **Install**: `pip install -r requirements.txt`
+2. **Run**: `python fhir_api.py`
+3. **Test**: Visit `http://localhost:8000/docs`
+4. **Verify**: `curl http://localhost:8000/health`
+
+**Remember**: This is a MOCK server with synthetic data - for GooClaim R&D testing only!
+
+---
+
+**⚠️ Important**: This mock server is for internal GooClaim R&D purposes only. For production Epic integration, please set up your own implementation following Epic's official documentation and compliance requirements.
